@@ -1,2 +1,2 @@
 filename: "{{.Name}}-{{.Version}}-{{.OS}}-{{.Arch}}.tar.gz"
-alias: kk
+binary: kk
