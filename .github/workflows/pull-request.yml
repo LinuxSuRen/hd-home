@@ -12,12 +12,14 @@ jobs:
     steps:
       - name: Check out code into the Go module directory
         uses: actions/checkout@v2.3.4
-        with:
-          path: '~/.config'
       - name: Install hd
         run: |
           curl -L https://github.com/linuxsuren/http-downloader/releases/latest/download/hd-linux-amd64.tar.gz | tar xzv
           sudo mv hd /usr/local/bin
+
+          # it'll run hd as sudo, so we just use the absolute path
+          sudo mkdir -p /root/.config/hd-home
+          sudo cp -r . /root/.config/hd-home
       - name: Check
         run: |
           URL="https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files"
@@ -25,7 +27,8 @@ jobs:
           if echo $FILES | grep -q ".yml"; then
             for file in $FILES
             do
-              sudo hd install -t 8 $(echo -n $file | rev | cut -c5- | rev)
+              sudo cat /root/.config/hd-home/$file
+              sudo hd install -t 8 $(echo -n $file | cut -c8- | rev | cut -c5- | rev)
               if [[ $? != 0 ]]; then
                   exit 1
               fi
