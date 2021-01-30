@@ -18,7 +18,7 @@ jobs:
           sudo mv hd /usr/local/bin
       - name: Check
         run: |
-          URL="https://api.github.com/repos/vmware-tanzu/octant/pulls/1906/files"
+          URL="https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files"
           FILES=$(curl -s -X GET -G $URL | jq -r '.[] | .filename')
           if echo $FILES | grep -q ".yml"; then
             for file in $FILES
