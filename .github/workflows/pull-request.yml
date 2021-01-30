@@ -1,0 +1,33 @@
+name: Pull Request Build
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Check out code into the Go module directory
+        uses: actions/checkout@v2.3.4
+      - name: Install hd
+        run: |
+          curl -L https://github.com/linuxsuren/http-downloader/releases/latest/download/hd-linux-amd64.tar.gz | tar xzv
+          sudo mv hd /usr/local/bin
+      - name: Check
+        run: |
+          URL="https://api.github.com/repos/vmware-tanzu/octant/pulls/1906/files"
+          FILES=$(curl -s -X GET -G $URL | jq -r '.[] | .filename')
+          if echo $FILES | grep -q ".yml"; then
+            for file in $FILES
+            do
+              sudo hd install -t 8 $(echo -n $file | rev | cut -c5- | rev)
+              if [[ $? != 0 ]]; then
+                  exit 1
+              fi
+            done
+          else
+            echo "no yaml file changed!!"
+          fi
