@@ -1,0 +1,3 @@
+filename: "{{.Name}}_{{.OS}}_{{.Arch}}.tar.gz"
+replacements:
+  amd64: x86_64
