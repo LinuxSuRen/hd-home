@@ -27,10 +27,12 @@ jobs:
           if echo $FILES | grep -q ".yml"; then
             for file in $FILES
             do
-              sudo cat /root/.config/hd-home/$file
-              sudo hd install --fetch=false -t 8 $(echo -n $file | cut -c8- | rev | cut -c5- | rev)
-              if [[ $? != 0 ]]; then
-                  exit 1
+              if [[ $file =~ ^config.* ]]; then
+                sudo cat /root/.config/hd-home/$file
+                sudo hd install --fetch=false -t 8 $(echo -n $file | cut -c8- | rev | cut -c5- | rev)
+                if [[ $? != 0 ]]; then
+                    exit 1
+                fi
               fi
             done
           else
