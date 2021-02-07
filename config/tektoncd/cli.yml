@@ -1,0 +1,5 @@
+filename: "tkn_{{.Version}}_{{.OS}}_{{.Arch}}.tar.gz"
+binary: tkn
+replacements:
+  amd64: x86_64
+
