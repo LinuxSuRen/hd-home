@@ -24,17 +24,13 @@ jobs:
         run: |
           URL="https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files"
           FILES=$(curl -s -X GET -G $URL | jq -r '.[] | .filename')
-          if echo $FILES | grep -q ".yml"; then
-            for file in $FILES
-            do
-              if [[ $file =~ ^config.* ]]; then
-                sudo cat /root/.config/hd-home/$file
-                sudo hd install --fetch=false -t 8 $(echo -n $file | cut -c8- | rev | cut -c5- | rev)
-                if [[ $? != 0 ]]; then
-                    exit 1
-                fi
+          for file in $FILES
+          do
+            if [[ $file =~ ^config.* ]] && [[ $file =~ .*\.yml$ ]] ; then
+              sudo cat /root/.config/hd-home/$file
+              sudo hd install --fetch=false -t 8 $(echo -n $file | cut -c8- | rev | cut -c5- | rev)
+              if [[ $? != 0 ]]; then
+                  exit 1
               fi
-            done
-          else
-            echo "no yaml file changed!!"
-          fi
+            fi
+          done
