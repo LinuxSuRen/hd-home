@@ -1,0 +1,8 @@
+filename: "krew.tar.gz"
+binary: "krew-{{.OS}}_{{.Arch}}"
+installation:
+  cmd: "./krew-{{.OS}}_{{.Arch}}"
+  args:
+    - install
+    - krew
+
