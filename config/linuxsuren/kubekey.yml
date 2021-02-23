@@ -1,2 +1,3 @@
 filename: "{{.Name}}-{{.Version}}-{{.OS}}-{{.Arch}}.tar.gz"
-binary: kk
+binary: kubekey
+targetBinary: kk
