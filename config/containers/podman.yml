@@ -1,0 +1,4 @@
+filename: podman-remote-static.tar.gz
+binary: podman-remote-static
+targetBinary: podman
+
