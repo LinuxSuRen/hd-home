@@ -1,0 +1,4 @@
+filename: "{{.Name}}-{{.VersionNum}}-{{.OS}}-{{.Arch}}.tar.gz"
+binary: jaeger-all-in-one
+targetBinary: jaeger
+
