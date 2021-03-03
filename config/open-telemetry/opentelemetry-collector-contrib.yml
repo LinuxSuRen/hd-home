@@ -1,0 +1,4 @@
+filename: "otelcontribcol_{{.OS}}_{{.Arch}}"
+binary: otelcontribcol
+tar: false
+
