@@ -1,3 +1,4 @@
 filename: k3s
 tar: false
-
+supportOS:
+  - linux
