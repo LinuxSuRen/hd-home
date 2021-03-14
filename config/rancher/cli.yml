@@ -1,0 +1,2 @@
+filename: "rancher-{{.OS}}-{{.Arch}}-{{.Version}}.tar.gz"
+binary: rancher
