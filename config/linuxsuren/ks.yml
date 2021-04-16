@@ -1,3 +1,2 @@
 filename: "{{.Name}}-{{.OS}}-{{.Arch}}.tar.gz"
 binary: ks
-
