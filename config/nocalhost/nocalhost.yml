@@ -1,0 +1,3 @@
+filename: "nhctl-{{.OS}}-{{.Arch}}"
+tar: false
+targetBinary: nhctl
