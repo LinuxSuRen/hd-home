@@ -1,0 +1,2 @@
+filename: "source-to-image-{{.Version}}-a5a77147-{{.OS}}-{{.Arch}}.tar.gz"
+binary: s2i
