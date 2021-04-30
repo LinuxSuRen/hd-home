@@ -1,0 +1,3 @@
+filename: "fluxctl_{{.OS}}_{{.Arch}}"
+binary: flux
+tar: false
