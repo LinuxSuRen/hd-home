@@ -1,0 +1,2 @@
+filename: "hd-{{.OS}}-{{.Arch}}.tar.gz"
+binary: hd
