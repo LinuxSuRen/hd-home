@@ -16,6 +16,7 @@ jobs:
         run: |
           curl -L https://github.com/linuxsuren/http-downloader/releases/latest/download/hd-linux-amd64.tar.gz | tar xzv
           sudo mv hd /usr/local/bin
+          hd version
 
           # it'll run hd as sudo, so we just use the absolute path
           sudo mkdir -p /root/.config/hd-home
