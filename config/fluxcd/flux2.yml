@@ -1,0 +1,2 @@
+filename: "flux_{{.VersionNum}}_{{.OS}}_{{.Arch}}.tar.gz"
+binary: flux
