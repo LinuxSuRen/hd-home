@@ -1,1 +1,3 @@
 filename: "{{.Name}}-{{.OS}}-{{.Arch}}.tar.gz"
+binary: {{.Name}}-{{.OS}}-{{.Arch}}
+targetBinary: minikube
