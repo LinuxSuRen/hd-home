@@ -1,0 +1,2 @@
+filename: "{{.Name}}_{{.Version}}_{{.OS}}_{{.Arch}}.tar.gz"
+binary: kustomize
