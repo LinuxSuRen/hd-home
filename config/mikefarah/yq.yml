@@ -1,2 +1,3 @@
 filename: "{{.Name}}_{{.OS}}_{{.Arch}}.tar.gz"
-binary: yq
+binary: {{.Name}}_{{.OS}}_{{.Arch}}
+targetBinary: yq
