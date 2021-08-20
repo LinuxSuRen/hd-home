@@ -1,0 +1,1 @@
+filename: "{{.Name}}-{{.VersionNumber}}-{{.OS}}-{{.Arch}}.tar.gz"
