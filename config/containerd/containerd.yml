@@ -1,2 +1,7 @@
 filename: "{{.Name}}-{{.VersionNum}}-{{.OS}}-{{.Arch}}.tar.gz"
-postInstall: "curl -o /etc/systemd/system/containerd.service https://raw.githubusercontent.com/containerd/cri/master/contrib/systemd-units/containerd.service"
+postInstall:
+  cmd: curl
+  args:
+   - "-o"
+   - /etc/systemd/system/containerd.service
+   - https://raw.githubusercontent.com/containerd/cri/master/contrib/systemd-units/containerd.service
