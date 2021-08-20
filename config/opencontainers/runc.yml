@@ -1,0 +1,4 @@
+filename: "{{.Name}}.{{.Arch}}"
+tar: false
+supportOS:
+  - linux
