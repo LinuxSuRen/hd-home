@@ -1,4 +1,5 @@
 filename: "{{.Name}}-{{.VersionNum}}-{{.OS}}-{{.Arch}}.tar.gz"
+binary: containerd
 postInstall:
   cmd: curl
   args:
