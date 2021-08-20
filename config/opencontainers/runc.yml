@@ -1,0 +1,5 @@
+filename: "{{.Name}}.{{.Arch}}"
+tar: false
+binary: runc
+supportOS:
+  - linux
