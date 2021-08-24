@@ -1,8 +1,4 @@
 filename: "{{.Name}}-{{.VersionNum}}-{{.OS}}-{{.Arch}}.tar.gz"
 binary: containerd
-postInstall:
-  cmd: curl
-  args:
-   - "-o"
-   - /etc/systemd/system/containerd.service
-   - https://raw.githubusercontent.com/containerd/cri/master/contrib/systemd-units/containerd.service
+additionBinaries:
+- containerd-shim-runc-v2
