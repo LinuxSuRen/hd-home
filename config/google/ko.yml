@@ -1,0 +1,6 @@
+filename: "{{.Name}}_{{.VersionNum}}_{{.OS}}_{{.Arch}}.tar.gz"
+replacements:
+  linux: Linux
+  darwin: Darwin
+  windows: Windows
+  amd64: i386
