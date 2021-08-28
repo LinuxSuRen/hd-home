@@ -3,4 +3,4 @@ replacements:
   linux: Linux
   darwin: Darwin
   windows: Windows
-  amd64: i386
+  amd64: x86_64
