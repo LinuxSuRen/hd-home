@@ -45,7 +45,7 @@ url: "https://get.helm.sh/{{.Name}}-{{.Version}}-{{.OS}}-{{.Arch}}.tar.gz"
 
 | Name | Description | Example |
 |---|---|---|
-| `fromSource` | Indicate if this tool supports to install via `go get github.com/xxx/xxx` | [ks](config/kubesphere-sigs/ks.yml) |
+| `fromSource` | Indicate if this tool supports to install via `go install github.com/xxx/xxx` | [ks](config/kubesphere-sigs/ks.yml) |
 | `tar` | Indicate if the release asset is a tarball | [kind](config/kubernetes-sigs/kind.yml) |
 | `replacements` | A map of replacements for the variant of os or arch | [ko](config/google/ko.yml) |
 | `additionBinaries` | You can add additional binary files if there are multiple files | [containerd](config/containerd/containerd.yml) |
