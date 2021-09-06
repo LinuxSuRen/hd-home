@@ -1,0 +1,2 @@
+filename: "{{.Name}}_{{.VersionNum}}_{{.OS}}_{{.Arch}}.tar.gz"
+binary: cr
