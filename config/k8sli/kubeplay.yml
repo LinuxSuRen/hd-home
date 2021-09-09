@@ -1,0 +1,3 @@
+filename: "{{.Name}}-{{.Version}}-{{.OS}}-{{.Arch}}.tar.gz"
+replacements:
+  linux: centos-7
