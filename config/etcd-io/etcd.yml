@@ -1,1 +1,1 @@
-filename: "{{.Name}}-{{.Version}}-{{.OS}}-{{.Arch}}.tgz"
+filename: "{{.Name}}-{{.Version}}-{{.OS}}-{{.Arch}}.tar.gz"
