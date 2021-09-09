@@ -48,7 +48,7 @@ jobs:
             if [[ $file =~ ^config.* ]] && [[ $file =~ .*\.yml$ ]] ; then
               fromSource=$(sudo cat /root/.config/hd-home/$file | grep fromSource)
               if [[ "$fromSource" == "fromSource: true" ]]; then
-                cd ~ && sudo GOPATH="/home/runner/go" hd install --accept-preRelease=true --fetch=false --from-source -t 8 $(echo -n $file | cut -c8- | rev | cut -c5- | rev)
+                hd install --accept-preRelease=true --fetch=false --from-source -t 8 $(echo -n $file | cut -c8- | rev | cut -c5- | rev)
                 if [[ $? != 0 ]]; then
                     exit 1
                 fi
