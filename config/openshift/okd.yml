@@ -1,0 +1,4 @@
+filename: "openshift-client-{{.OS}}-{{.VersionNum}}.tar.gz"
+binary: oc
+additionBinaries:
+- openshift-install
