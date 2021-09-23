@@ -1,0 +1,9 @@
+filename: "{{.Name}}-{{.OS}}-{{.Arch}}"
+binary: dapper
+tar: false
+replacements:
+  darwin: Darwin
+  linux: Linux
+  windows: Windows
+  amd64: x86_64
+

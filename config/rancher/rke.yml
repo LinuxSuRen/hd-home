@@ -1,0 +1,3 @@
+filename: "{{.Name}}_{{.OS}}-{{.Arch}}"
+binary: rke
+tar: false
