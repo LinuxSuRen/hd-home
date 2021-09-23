@@ -1,4 +1,2 @@
-url: "https://github.com/kubernetes-sigs/kustomize/releases/download/{{ .Version }}/{{ .Name }}_{{ .OS }}_{{ .Arch }}.tar.gz"
-#filename: "{{ .Name }}_{{ .OS }}_{{ .Arch }}.tar.gz"
+url: "https://github.com/kubernetes-sigs/kustomize/releases/download/{{ .Name }}%2F{{ .Version }}/{{ .Name }}_{{ .OS }}_{{ .Arch }}.tar.gz"
 binary: kustomize
-tar: true
