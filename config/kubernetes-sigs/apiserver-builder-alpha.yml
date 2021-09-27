@@ -1,0 +1,2 @@
+filename: "{{.Name}}-{{.Version}}-{{.OS}}-{{.Arch}}.tar.gz"
+binary: apiserver-boot
