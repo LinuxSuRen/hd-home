@@ -19,6 +19,7 @@ Below is an example of it:
 ```
 filename: "{{.Name}}-{{.OS}}-{{.Arch}}"
 binary: kk         # please provide a binary file name if the release filename is not the final one
+targetBinary: kk   # a desired target binary file name
 tar: false         # if this is a tar file
 replacements:      # the replacement of os, arch
   amd64: 64bit
