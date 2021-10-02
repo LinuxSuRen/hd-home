@@ -3,3 +3,4 @@ binary: hd
 formatOverrides:
   windows: zip
   linux: tar.gz
+
