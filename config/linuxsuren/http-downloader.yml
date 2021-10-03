@@ -1,2 +1,6 @@
-filename: "hd-{{.OS}}-{{.Arch}}.tar.gz"
+filename: "hd-{{.OS}}-{{.Arch}}"
 binary: hd
+formatOverrides:
+  windows: zip
+  linux: tar.gz
+
