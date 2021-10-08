@@ -5,4 +5,3 @@ tar: false         # if this is a tar file
 replacements:      # the replacement of os, arch
   linux: Linux
   windows: Windows
-  amd64: x86_64
