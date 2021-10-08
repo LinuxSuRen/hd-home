@@ -41,3 +41,14 @@ url: "https://get.helm.sh/{{.Name}}-{{.Version}}-{{.OS}}-{{.Arch}}.tar.gz"
 | `{{.Arch}}` | It align with `runtime.GOARCH` |
 | `{{.Version}}` | The version. For example: `v1.0.1` |
 | `{{.VersionNum}}` | The version without the prefix `v`. For example: `1.0.1` |
+
+## Fields
+
+| Name | Description | Example |
+|---|---|---|
+| `fromSource` | Indicate if this tool supports to install via `go install github.com/xxx/xxx` | [ks](config/kubesphere-sigs/ks.yml) |
+| `tar` | Indicate if the release asset is a tarball | [kind](config/kubernetes-sigs/kind.yml) |
+| `replacements` | A map of replacements for the variant of os or arch | [ko](config/google/ko.yml) |
+| `additionBinaries` | You can add additional binary files if there are multiple files | [containerd](config/containerd/containerd.yml) |
+| `targetBinary` | Give a new binary file name if you don't use the origin one | [podman](config/containers/podman.yml) |
+| `binary` | The binary file name in the tarball | [hd](config/linuxsuren/http-downloader.yml) |

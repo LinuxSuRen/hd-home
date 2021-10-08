@@ -10,6 +10,10 @@ jobs:
     name: Build
     runs-on: ubuntu-20.04
     steps:
+      - name: Set up Go 1.17
+        uses: actions/setup-go@v2.1.3
+        with:
+          go-version: 1.17
       - name: Check out code into the Go module directory
         uses: actions/checkout@v2.3.4
       - name: Install hd
@@ -21,7 +25,7 @@ jobs:
           # it'll run hd as sudo, so we just use the absolute path
           sudo mkdir -p /root/.config/hd-home
           sudo cp -r . /root/.config/hd-home
-      - name: Check
+      - name: Check basic installation
         run: |
           URL="https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files"
           FILES=$(curl -s -X GET -G $URL | jq -r '.[] | .filename')
@@ -32,6 +36,22 @@ jobs:
               sudo hd install --accept-preRelease=true --fetch=false -t 8 $(echo -n $file | cut -c8- | rev | cut -c5- | rev)
               if [[ $? != 0 ]]; then
                   exit 1
+              fi
+            fi
+          done
+      - name: Check install from source
+        run: |
+          URL="https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files"
+          FILES=$(curl -s -X GET -G $URL | jq -r '.[] | .filename')
+          for file in $FILES
+          do
+            if [[ $file =~ ^config.* ]] && [[ $file =~ .*\.yml$ ]] ; then
+              fromSource=$(sudo cat /root/.config/hd-home/$file | grep fromSource)
+              if [[ "$fromSource" == "fromSource: true" ]]; then
+                hd install --accept-preRelease=true --fetch=false --from-source -t 8 $(echo -n $file | cut -c8- | rev | cut -c5- | rev)
+                if [[ $? != 0 ]]; then
+                    exit 1
+                fi
               fi
             fi
           done
