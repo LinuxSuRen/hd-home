@@ -2,7 +2,7 @@ filename: "{{.Name}}-{{.OS}}-{{.Arch}}"
 binary: grmon         # please provide a binary file name if the release filename is not the final one
 targetBinary: grmon   # a desired target binary file name
 tar: false         # if this is a tar file
-FromSource: True
+fromSource: True
 replacements:      # the replacement of os, arch
   linux: Linux
   windows: Windows
