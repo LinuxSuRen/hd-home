@@ -1,0 +1,8 @@
+filename: "{{.Name}}_{{.VersionNum}}_{{.OS}}_{{.Arch}}.tar.gz"
+binary: youtube-dl         # please provide a binary file name if the release filename is not the final one
+targetBinary: youtube-dl   # a desired target binary file name
+tar: true         # if this is a tar file
+replacements:      # the replacement of os, arch
+  linux: Linux
+  windows: Windows
+  amd64: x86_64
