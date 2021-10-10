@@ -1,0 +1,7 @@
+filename: "{{.Name}}_{{.VersionNum}}_{{.OS}}_{{.Arch}}.tar.gz"
+tar: false        
+replacements:
+  darwin: darwin
+  linux: linux
+  windows: windows
+  amd64: amd64
