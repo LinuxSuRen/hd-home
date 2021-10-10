@@ -1,4 +1,4 @@
-filename: "{{.Name}}_{{.OS}}_{{.Arch}}.tar.gz"
+filename: "{{.Name}}_{{.VersionNum}}_{{.OS}}_{{.Arch}}.tar.gz"
 tar: false        
 replacements:
   darwin: darwin
