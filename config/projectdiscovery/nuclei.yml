@@ -1,0 +1,6 @@
+filename: "{{.Name}}_{{.VersionNum}}_{{.OS}}_{{.Arch}}.zip"
+replacements:
+  darwin: macOS
+  windows: windows
+  linux: linux
+  amd64: 64bit
