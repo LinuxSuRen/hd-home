@@ -1,0 +1,7 @@
+filename: "{{.Name}}-{{.OS}}-{{.Arch}}"
+binary: annie         # please provide a binary file name if the release filename is not the final one
+targetBinary: annie   # a desired target binary file name
+tar: false         # if this is a tar file
+replacements:      # the replacement of os, arch
+  linux: Linux
+  windows: Windows
