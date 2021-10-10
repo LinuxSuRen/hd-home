@@ -1,0 +1,5 @@
+filename: "{{.Name}}_{{.VersionNum}}_{{.OS}}_{{.Arch}}.tar.gz"
+replacements:
+  darwin: macOS
+  linux: Linux
+  amd64: 64bit
