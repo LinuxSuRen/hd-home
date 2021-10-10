@@ -3,4 +3,4 @@ replacements:
   darwin: macOS
   windows: windows
   linux: linux
-  amd64: 64bit
+  amd64: amd64
