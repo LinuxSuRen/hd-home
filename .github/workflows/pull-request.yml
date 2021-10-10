@@ -39,20 +39,20 @@ jobs:
               fi
             fi
           done
-      - name: Check install from source
-        if: ${{ false }}
-        run: |
-          URL="https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files"
-          FILES=$(curl -s -X GET -G $URL | jq -r '.[] | .filename')
-          for file in $FILES
-          do
-            if [[ $file =~ ^config.* ]] && [[ $file =~ .*\.yml$ ]] ; then
-              fromSource=$(sudo cat /root/.config/hd-home/$file | grep fromSource)
-              if [[ "$fromSource" == "fromSource: true" ]]; then
-                hd install --accept-preRelease=true --fetch=false --from-source -t 8 $(echo -n $file | cut -c8- | rev | cut -c5- | rev)
-                if [[ $? != 0 ]]; then
-                    exit 1
-                fi
-              fi
-            fi
-          done
+      # - name: Check install from source
+      #   if: ${{ false }}
+      #   run: |
+      #     URL="https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files"
+      #     FILES=$(curl -s -X GET -G $URL | jq -r '.[] | .filename')
+      #     for file in $FILES
+      #     do
+      #       if [[ $file =~ ^config.* ]] && [[ $file =~ .*\.yml$ ]] ; then
+      #         fromSource=$(sudo cat /root/.config/hd-home/$file | grep fromSource)
+      #         if [[ "$fromSource" == "fromSource: true" ]]; then
+      #           hd install --accept-preRelease=true --fetch=false --from-source -t 8 $(echo -n $file | cut -c8- | rev | cut -c5- | rev)
+      #           if [[ $? != 0 ]]; then
+      #               exit 1
+      #           fi
+      #         fi
+      #       fi
+      #     done

@@ -1,0 +1,6 @@
+filename: "{{.Name}}-{{.OS}}"
+tar: false
+replacements:
+  linux: linux64
+  macos: osx-amd64
+  windows: win64
