@@ -1,5 +1,5 @@
 filename: "{{.Name}}_{{.OS}}_{{.Arch}}"
-tar: false        
+tar: true        
 replacements:
   darwin: darwin
   linux: linux
