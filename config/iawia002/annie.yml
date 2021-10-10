@@ -1,7 +1,8 @@
-filename: "{{.Name}}-{{.OS}}-{{.Arch}}"
+filename: "{{.Name}}_{{.VersionNum}}_{{.OS}}_{{.Arch}}.tar.gz"
 binary: annie         # please provide a binary file name if the release filename is not the final one
 targetBinary: annie   # a desired target binary file name
-tar: false         # if this is a tar file
+tar: true         # if this is a tar file
 replacements:      # the replacement of os, arch
   linux: Linux
   windows: Windows
+  amd64: x86_64
