@@ -1,2 +1,2 @@
-filename: "{{.Name}}-{{.OS}}-{{.Arch}}-{{.VersionNum}}"
+filename: "{{.Name}}-{{.VersionNum}}-{{.OS}}-{{.Arch}}"
 tar: false
