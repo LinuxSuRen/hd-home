@@ -1,1 +1,2 @@
 filename: "{{.Name}}-{{.OS}}-{{.Arch}}-{{.VersionNum}}.tgz"
+
