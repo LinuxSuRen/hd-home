@@ -1,3 +1,4 @@
 # Reference: https://spinnaker.io/docs/setup/other_config/spin/
 url: https://storage.googleapis.com/spinnaker-artifacts/spin/{{.VersionNum}}/{{.OS}}/{{.Arch}}/{{.Name}}
 tar: false
+latestVersion: https://storage.googleapis.com/spinnaker-artifacts/spin/latest
