@@ -52,3 +52,4 @@ url: "https://get.helm.sh/{{.Name}}-{{.Version}}-{{.OS}}-{{.Arch}}.tar.gz"
 | `additionBinaries` | You can add additional binary files if there are multiple files | [containerd](config/containerd/containerd.yml) |
 | `targetBinary` | Give a new binary file name if you don't use the origin one | [podman](config/containers/podman.yml) |
 | `binary` | The binary file name in the tarball | [hd](config/linuxsuren/http-downloader.yml) |
+| `latestVersion` | Provide a URL for getting the latest version | [spin](config/spinnaker/spin.yml) |
