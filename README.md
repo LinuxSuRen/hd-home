@@ -20,7 +20,7 @@ Below is an example of it:
 filename: "{{.Name}}-{{.OS}}-{{.Arch}}"
 binary: kk         # please provide a binary file name if the release filename is not the final one
 targetBinary: kk   # a desired target binary file name
-tar: false         # if this is a tar file
+tar: true          # if this is a tar file
 replacements:      # the replacement of os, arch
   amd64: 64bit
   darwin: macos
@@ -52,3 +52,4 @@ url: "https://get.helm.sh/{{.Name}}-{{.Version}}-{{.OS}}-{{.Arch}}.tar.gz"
 | `additionBinaries` | You can add additional binary files if there are multiple files | [containerd](config/containerd/containerd.yml) |
 | `targetBinary` | Give a new binary file name if you don't use the origin one | [podman](config/containers/podman.yml) |
 | `binary` | The binary file name in the tarball | [hd](config/linuxsuren/http-downloader.yml) |
+| `latestVersion` | Provide a URL for getting the latest version | [spin](config/spinnaker/spin.yml) |
