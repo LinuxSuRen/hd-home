@@ -1,5 +1,4 @@
-filename: "{{.Name}}_{{.OS}}_{{.Arch}}"
-tar: false        
+filename: "{{.Name}}_{{.OS}}_{{.Arch}}.tar.gz""
 replacements:
   linux: linux
   windows: windows
