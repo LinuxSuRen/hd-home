@@ -1,0 +1,7 @@
+filename: "brig-{{.OS}}-{{.Arch}}"
+tar: false
+replacements:
+  darwin: darwin
+  linux: linux
+  windows: windows
+  amd64: amd64
