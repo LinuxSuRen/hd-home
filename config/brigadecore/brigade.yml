@@ -1,4 +1,4 @@
-filename: "{{brig}}-{{.OS}}-{{.Arch}}"
+filename: "brig-{{.OS}}-{{.Arch}}"
 tar: false
 replacements:
   darwin: darwin
