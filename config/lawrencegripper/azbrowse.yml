@@ -1,0 +1,5 @@
+filename: "{{.Name}}_{{.OS}}_{{.Arch}}.tar.gz"
+replacements:
+  linux: linux
+  windows: windows
+  amd64: amd64
