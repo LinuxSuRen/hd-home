@@ -1,6 +1,7 @@
-filename: "{{.Name}}_{{.OS}}_{{.Arch}}.tar.gz"
+filename: "{{brig}}-{{.OS}}-{{.Arch}}"
+tar: false
 replacements:
-  darwin: Darwin
-  linux: Linux
-  windows: Windows
-  amd64: x86_64
+  darwin: darwin
+  linux: linux
+  windows: windows
+  amd64: amd64
