@@ -1,1 +1,3 @@
 filename: "{{.Name}}-{{.Version}}-{{.OS}}-{{.Arch}}.tar.gz"
+additionBinaries:
+  - "etcdctl"
