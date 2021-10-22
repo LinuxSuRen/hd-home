@@ -1,0 +1,2 @@
+filename: "restic_{{.VersionNum}}_{{.OS}}_{{.Arch}}.bz2"
+binary: restic
