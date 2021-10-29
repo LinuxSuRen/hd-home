@@ -1,0 +1,6 @@
+filename: "cmctl-{{.OS}}-{{.Arch}}"
+formatOverrides:
+  windows: zip
+  linux: tar.gz
+binary: cmctl         # please provide a binary file name if the release filename is not the final one
+targetBinary: cmctl   # a desired target binary file name
