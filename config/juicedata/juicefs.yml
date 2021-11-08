@@ -1,0 +1,4 @@
+filename: "{{.Name}}-{{.VersionNum}}-{{.OS}}-{{.Arch}}"
+formatOverrides:
+  windows: zip
+  linux: tar.gz
