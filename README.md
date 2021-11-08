@@ -22,6 +22,9 @@ filename: "{{.Name}}-{{.OS}}-{{.Arch}}"
 binary: kk         # please provide a binary file name if the release filename is not the final one
 targetBinary: kk   # a desired target binary file name
 tar: true          # if this is a tar file
+formatOverrides:   # set the file extension for different platforms
+  windows: zip
+  linux: tar.gz
 replacements:      # the replacement of os, arch
   amd64: 64bit
   darwin: macos
