@@ -1,0 +1,9 @@
+filename: "{{.Name}}-{{.OS}}-{{.Arch}}"
+tar: false          # if this is a tar file
+formatOverrides:   # set the file extension for different platforms
+  windows: .exe
+  linux: "
+replacements:      # the replacement of os, arch
+  amd64: x86_64
+  darwin: Darwin
+  linux: Linux
