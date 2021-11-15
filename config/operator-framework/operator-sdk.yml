@@ -1,0 +1,2 @@
+filename: "{{.Name}}_{{.OS}}_{{.Arch}}"
+tar: false          # if this is a tar file
