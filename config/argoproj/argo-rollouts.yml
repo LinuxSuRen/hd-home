@@ -1,0 +1,3 @@
+filename: "kubectl-argo-rollouts-{{.OS}}-{{.Arch}}"
+targetBinary: kubectl-argo-rollouts
+tar: false
