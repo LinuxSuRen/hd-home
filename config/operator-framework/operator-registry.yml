@@ -1,0 +1,3 @@
+filename: "{{.OS}}-{{.Arch}}-opm"
+targetBinary: opm   # a desired target binary file name
+tar: false          # if this is a tar file
