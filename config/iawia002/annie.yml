@@ -6,3 +6,4 @@ replacements:      # the replacement of os, arch
   linux: Linux
   windows: Windows
   amd64: 64-bit
+  darwin: macOS
