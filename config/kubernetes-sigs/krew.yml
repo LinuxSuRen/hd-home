@@ -1,8 +1,10 @@
-filename: "krew.tar.gz"
+filename: "{{.Name}}-{{.OS}}_{{.Arch}}"
 binary: "krew-{{.OS}}_{{.Arch}}"
+formatOverrides:   # set the file extension for different platforms
+  windows: zip
+  linux: tar.gz
 installation:
   cmd: "./krew-{{.OS}}_{{.Arch}}"
   args:
     - install
     - krew
-
