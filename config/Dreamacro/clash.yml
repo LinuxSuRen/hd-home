@@ -1,4 +1,3 @@
-clash-linux-amd64-v1.8.0.gz
 filename: "{{.Name}}-{{.OS}}-{{.Arch}}-{{.Version}}"
 formatOverrides:   # set the file extension for different platforms
   windows: zip
