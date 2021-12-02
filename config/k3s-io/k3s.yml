@@ -1,4 +1,6 @@
 filename: k3s
+categories:
+- k8s
 tar: false
 supportOS:
   - linux

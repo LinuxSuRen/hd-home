@@ -1,5 +1,7 @@
 filename: "gh_{{.VersionNum}}_{{.OS}}_{{.Arch}}.tar.gz"
 binary: gh
+categories:
+- git
 replacements:
   darwin: macOS
 

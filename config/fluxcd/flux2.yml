@@ -1,2 +1,4 @@
 filename: "flux_{{.VersionNum}}_{{.OS}}_{{.Arch}}.tar.gz"
+categories:
+- cd
 binary: flux

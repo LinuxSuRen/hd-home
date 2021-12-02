@@ -1,2 +1,4 @@
 url: "https://dl.min.io/server/{{.Name}}/release/{{.OS}}-{{.Arch}}/{{.Name}}"
 tar: false
+categories:
+- storage
