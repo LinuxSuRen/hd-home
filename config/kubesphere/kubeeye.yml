@@ -1,4 +1,4 @@
 filename: "{{.Name}}-{{.VersionNum}}-{{.OS}}-{{.Arch}}.tar.gz"
-binary: ke
+binary: kubeeye
 categories:
 - k8s
