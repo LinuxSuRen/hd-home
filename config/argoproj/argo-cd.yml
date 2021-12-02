@@ -1,3 +1,5 @@
 filename: "argocd-{{.OS}}-{{.Arch}}"
 targetBinary: argocd
+categories:
+- cd
 tar: false

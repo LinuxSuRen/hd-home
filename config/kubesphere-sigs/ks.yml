@@ -1,3 +1,5 @@
 filename: "{{.Name}}-{{.OS}}-{{.Arch}}.tar.gz"
 binary: ks
 fromSource: true
+categories:
+- k8s

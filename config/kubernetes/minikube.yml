@@ -1,3 +1,5 @@
 filename: "{{.Name}}-{{.OS}}-{{.Arch}}.tar.gz"
+categories:
+- k8s
 binary: "{{.Name}}-{{.OS}}-{{.Arch}}"
 targetBinary: minikube
