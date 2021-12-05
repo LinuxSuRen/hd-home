@@ -1,3 +1,5 @@
 filename: "{{.Name}}_{{.OS}}_{{.Arch}}.tar.gz"
+categories:
+- build
 replacements:
   amd64: x86_64
