@@ -1,9 +1,10 @@
-filename: "{{.Name}}-{{VersionNum}}}-{{.OS}}-{{.Arch}}"
+filename: "istioctl-{{.VersionNum}}-{{.OS}}-{{.Arch}}"
+binary: istioctl
+targetBinary: istioctl
 tar: true          # if this is a tar file
 formatOverrides:   # set the file extension for different platforms
   windows: zip
   linux: tar.gz
 replacements:      # the replacement of os, arch
-  amd64: 64bit
   darwin: osx
   windows: win
