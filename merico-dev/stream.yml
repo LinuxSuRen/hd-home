@@ -1,0 +1,2 @@
+filename: "dtm-{{.OS}}-{{.Arch}}"
+tar: false          # if this is a tar file
