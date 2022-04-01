@@ -1,2 +1,3 @@
 filename: "dtm-{{.OS}}-{{.Arch}}"
+targetBinary: dtm   # a desired target binary file name
 tar: false          # if this is a tar file
