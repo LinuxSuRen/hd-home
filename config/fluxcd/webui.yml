@@ -1,0 +1,7 @@
+filename: "flux-webui_{{.VersionNum}}_{{.OS}}_{{.Arch}}"
+binary: flux-webui         # please provide a binary file name if the release filename is not the final one
+targetBinary: flux-webui   # a desired target binary file name
+tar: true          # if this is a tar file
+formatOverrides:   # set the file extension for different platforms
+  windows: zip
+  linux: tar.gz
