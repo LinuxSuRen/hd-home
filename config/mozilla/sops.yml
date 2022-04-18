@@ -1,0 +1,4 @@
+filename: "{{.Name}}-{{.Version}}.{{.OS}}"
+tar: false          # if this is a tar file
+categories:
+- security
