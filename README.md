@@ -28,6 +28,14 @@ formatOverrides:   # set the file extension for different platforms
 replacements:      # the replacement of os, arch
   amd64: 64bit
   darwin: macos
+categories:
+- storage
+- ci
+- cd
+- k8s
+- security
+- container
+- git
 ```
 
 Even you can provide an external resource instead of GitHub release:
