@@ -33,7 +33,7 @@ jobs:
           do
             if [[ $file =~ ^config.* ]] && [[ $file =~ .*\.yml$ ]] ; then
               sudo cat /root/.config/hd-home/$file
-              sudo hd install --accept-preRelease=true --fetch=false -t 8 $(echo -n $file | cut -c8- | rev | cut -c5- | rev)
+              sudo hd install --accept-preRelease=true --force --fetch=false -t 8 $(echo -n $file | cut -c8- | rev | cut -c5- | rev)
               if [[ $? != 0 ]]; then
                   exit 1
               fi

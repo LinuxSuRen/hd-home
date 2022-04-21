@@ -1,0 +1,2 @@
+url: "https://releases.hashicorp.com/{{.Name}}/{{.VersionNum}}/{{.Name}}_{{.VersionNum}}_{{.OS}}_{{.Arch}}.zip"
+tar: true          # if this is a tar file
