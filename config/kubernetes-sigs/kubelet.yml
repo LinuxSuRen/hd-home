@@ -1,0 +1,3 @@
+url: https://dl.k8s.io/release/{{.Version}}/bin/{{.OS}}/{{.Arch}}/{{.Name}}
+version: https://dl.k8s.io/release/stable.txt
+tar: false
