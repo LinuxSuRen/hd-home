@@ -1,0 +1,6 @@
+filename: "{{.Name}}_{{.VersionNum}}_{{.OS}}_{{.Arch}}.tar.gz"
+replacements:      # the replacement of os, arch
+  amd64: x86_64
+  linux: Linux
+  darwin: Darwin
+  windows: Windows
