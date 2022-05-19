@@ -1,0 +1,9 @@
+filename: "hd-{{.OS}}-{{.Arch}}"
+binary: label
+formatOverrides:
+  windows: zip
+  linux: tar.gz
+postInstalls:
+  - cmd: label
+    args:
+      - completion
