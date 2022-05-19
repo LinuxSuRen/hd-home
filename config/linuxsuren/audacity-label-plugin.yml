@@ -1,4 +1,4 @@
-filename: "hd-{{.OS}}-{{.Arch}}"
+filename: "label-{{.OS}}-{{.Arch}}"
 binary: label
 formatOverrides:
   windows: zip
