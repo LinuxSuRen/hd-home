@@ -1,2 +1,4 @@
 filename: "crictl-{{.Version}}-{{.OS}}-{{.Arch}}.tar.gz"
 binary: crictl
+categories:
+- container
