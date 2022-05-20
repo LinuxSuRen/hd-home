@@ -1,4 +1,4 @@
-filename: "cni-{{.Name}}-{{.OS}}-{{.Arch}}"
+filename: "cni-{{.Name}}-{{.OS}}-{{.Arch}}-{{.Version}}"
 binary: macvlan         # please provide a binary file name if the release filename is not the final one
 targetBinary: macvlan   # a desired target binary file name
 tar: true          # if this is a tar file
