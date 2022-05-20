@@ -2,3 +2,21 @@ filename: "{{.Name}}-{{.VersionNum}}-{{.OS}}-{{.Arch}}.tar.gz"
 binary: containerd
 additionBinaries:
 - containerd-shim-runc-v2
+postInstalls:
+- cmd: mkdir
+  args:
+  - -p
+  - /usr/local/lib/systemd/system
+- cmd: curl
+  args:
+  - https://raw.githubusercontent.com/containerd/containerd/main/containerd.service
+  - -o
+  - /usr/local/lib/systemd/system/containerd.service
+- cmd: systemctl
+  args:
+  - daemon-reload
+- cmd: systemctl
+  args:
+  - enable
+  - --now
+  - containerd
