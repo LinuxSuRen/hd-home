@@ -20,3 +20,5 @@ postInstalls:
   - enable
   - --now
   - containerd
+categories:
+- container
