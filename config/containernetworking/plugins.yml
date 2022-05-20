@@ -1,0 +1,28 @@
+filename: "cni-{{.Name}}-{{.OS}}-{{.Arch}}"
+binary: macvlan         # please provide a binary file name if the release filename is not the final one
+targetBinary: macvlan   # a desired target binary file name
+tar: true          # if this is a tar file
+formatOverrides:   # set the file extension for different platforms
+  windows: zip
+  linux: tgz
+replacements:      # the replacement of os, arch
+  amd64: 64bit
+  darwin: macos
+additionBinaries:
+- static
+- vlan
+- portmap
+- host-local
+- vrf
+- bridge
+- tuning
+- firewall
+- host-device
+- sbr
+- loopback
+- dhcp
+- ptp
+- ipvlan
+- bandwidth
+categories:
+- k8s
