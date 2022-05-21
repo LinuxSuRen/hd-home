@@ -1,4 +1,13 @@
 filename: "crictl-{{.Version}}-{{.OS}}-{{.Arch}}.tar.gz"
 binary: crictl
+defaultConfigFiles:
+- os: linux
+  path: /etc/crictl.yaml
+  content: |
+    runtime-endpoint: unix:///run/containerd/containerd.sock
+    image-endpoint: unix:///run/containerd/containerd.sock
+    timeout: 2
+    debug: false
+    pull-image-on-create: false
 categories:
 - container
