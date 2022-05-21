@@ -1,5 +1,35 @@
 url: https://dl.k8s.io/release/{{.Version}}/bin/{{.OS}}/{{.Arch}}/{{.Name}}
 version: https://dl.k8s.io/release/stable.txt
 tar: false
+defaultConfigFiles:
+- os: linux
+  path: /etc/systemd/system/kubelet.service
+  content: |
+    [Unit]
+    Description=kubelet: The Kubernetes Node Agent
+    Documentation=https://kubernetes.io/docs/home/
+    Wants=network-online.target
+    After=network-online.target
+
+    [Service]
+    ExecStart=/usr/bin/kubelet
+    Restart=always
+    StartLimitInterval=0
+    RestartSec=10
+
+    [Install]
+    WantedBy=multi-user.target
+postInstalls:
+- cmd: systemctl
+  args:
+  - daemon-reload
+- cmd: systemctl
+  args:
+  - enable
+  - kubelet
+- cmd: systemctl
+  args:
+  - start
+  - kubelet
 categories:
 - k8s
