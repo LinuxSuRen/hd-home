@@ -27,3 +27,39 @@ packages:
       args:
         - '-c'
         - 'curl -L https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/xUbuntu_20.04/Release.key | sudo apt-key add -'
+- name: kubeadm
+  packageManager: apt-get
+  preInstall:
+  - cmd:
+      cmd: apt-get
+      args: 
+      - update
+  - cmd:
+      cmd: apt-get
+      args: 
+      - install
+      - '-y'
+      - apt-transport-https
+      - ca-certificates
+      - curl
+  - cmd:
+      cmd: bash
+      args:
+        - '-c'
+        - 'curl -fsSLo /usr/share/keyrings/kubernetes-archive-keyring.gpg https://packages.cloud.google.com/apt/doc/apt-key.gpg'
+  - cmd:
+      cmd: bash
+      args:
+        - '-c'
+        - 'echo "deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list'
+  - cmd:
+      cmd: apt-get
+      args: 
+      - update
+  - cmd:
+      cmd: apt-get
+      args: 
+      - install
+      - '-y'
+      - kubelet
+      - kubectl
