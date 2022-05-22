@@ -63,6 +63,10 @@ packages:
       - '-y'
       - kubelet
       - kubectl
+  - cmd:
+      cmd: modprobe
+      args: 
+      - br_netfilter
 - name: vim
   packageManager: brew
 - name: bash-completion
