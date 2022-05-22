@@ -1,0 +1,29 @@
+packages:
+- name: podman
+  packageManager: apt-get
+  preInstall:
+  - issuePrefix: 'Ubuntu 18.04'
+    cmd:
+      cmd: apt-get
+      args: 
+      - install
+      - software-properties-common
+      - '-y'
+  - issuePrefix: 'Ubuntu 18.04'
+    cmd:
+      cmd: add-apt-repository
+      args: 
+      - ppa:projectatomic/ppa
+      - '-y'
+  - issuePrefix: 'Ubuntu 20.04'
+    cmd:
+      cmd: bash
+      args:
+        - '-c'
+        - 'echo "deb https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/xUbuntu_20.04/ /" | sudo tee /etc/apt/sources.list.d/devel:kubic:libcontainers:stable.list'
+  - issuePrefix: 'Ubuntu 20.04'
+    cmd:
+      cmd: bash
+      args:
+        - '-c'
+        - 'curl -L https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/xUbuntu_20.04/Release.key | sudo apt-key add -'
