@@ -67,6 +67,11 @@ packages:
       cmd: modprobe
       args: 
       - br_netfilter
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - echo "1" > /proc/sys/net/ipv4/ip_forward
 - name: vim
   packageManager: brew
 - name: bash-completion
