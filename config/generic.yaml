@@ -63,3 +63,11 @@ packages:
       - '-y'
       - kubelet
       - kubectl
+- name: vim
+  packageManager: brew
+- name: bash-completion
+  packageManager: brew
+- name: ffmpeg
+  packageManager: brew
+- name: asciinema
+  packageManager: brew
