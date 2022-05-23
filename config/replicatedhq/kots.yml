@@ -1,4 +1,3 @@
-kots_linux_amd64.tar.gz
 filename: "{{.Name}}_{{.OS}}_{{.Arch}}"
 targetBinary: kubectl-kots   # a desired target binary file name
 tar: true          # if this is a tar file
