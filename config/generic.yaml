@@ -1,4 +1,18 @@
 packages:
+- name: gitpod
+  preInstall:
+  - issuePrefix: 'Ubuntu 18.04'
+    cmd:
+      cmd: bash
+      args: 
+      - '-c'
+      - 'curl https://kots.io/install | bash'
+  install:
+    cmd: kubectl
+    args:
+    - kots
+    - install
+    - gitpod
 - name: podman
   packageManager: apt-get
   preInstall:
