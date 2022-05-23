@@ -74,9 +74,19 @@ packages:
       - echo "1" > /proc/sys/net/ipv4/ip_forward
 - name: vim
   packageManager: brew
+- name: vim
+  packageManager: apk
+- name: vim
+  packageManager: apt-get
+- name: vim
+  packageManager: yum
 - name: bash-completion
   packageManager: brew
 - name: ffmpeg
   packageManager: brew
 - name: asciinema
   packageManager: brew
+- name: curl
+  packageManager: apk
+- name: wget
+  packageManager: apk
