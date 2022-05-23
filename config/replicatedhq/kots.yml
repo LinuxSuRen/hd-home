@@ -1,0 +1,6 @@
+filename: "{{.Name}}_{{.OS}}_{{.Arch}}"
+targetBinary: kubectl-kots   # a desired target binary file name
+tar: true          # if this is a tar file
+formatOverrides:   # set the file extension for different platforms
+  windows: zip
+  linux: tar.gz
