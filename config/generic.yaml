@@ -1,4 +1,10 @@
 packages:
+- name: kcli
+  install:
+    cmd: bash
+    args:
+    - '-c'
+    - 'curl -s https://raw.githubusercontent.com/karmab/kcli/master/install.sh | bash'
 - name: gitpod
   preInstall:
   - issuePrefix: 'Ubuntu 18.04'
