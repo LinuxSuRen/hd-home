@@ -5,9 +5,21 @@
 
 [hd](https://github.com/LinuxSuRen/http-downloader) is a HTTP download tool.
 
+Install hd via the following command:
+```shell
+curl https://linuxsuren.github.io/tools/install.sh|sh
+```
+
 It can download/install from GitHub release assets. For example:
 
-`hd get jenkins-zh/jenkins-cli/jcli -t 6`
+```shell
+hd get jcli
+```
+
+Install a tool from other package management:
+```shell
+hd install podman
+```
 
 Consider the naming of asset files are not all the same, we collect the projects here.
 
