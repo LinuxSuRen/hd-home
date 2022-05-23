@@ -66,8 +66,20 @@ packages:
   - cmd:
       cmd: modprobe
       args: 
+      - overlay
+  - cmd:
+      cmd: modprobe
+      args: 
       - br_netfilter
   - cmd:
+      cmd: ufw
+      args: 
+      - disable
+  - cmd:
+      cmd: swapoff
+      args: 
+      - '-a'
+- cmd:
       cmd: bash
       args:
       - '-c'
