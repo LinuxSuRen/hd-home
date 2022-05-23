@@ -18,6 +18,8 @@ packages:
     - kots
     - install
     - gitpod
+    - '-n'
+    - gitpod
 - name: podman
   packageManager: apt-get
   preInstall:
