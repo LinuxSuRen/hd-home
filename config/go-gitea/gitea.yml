@@ -2,3 +2,5 @@ filename: "{{.Name}}-{{.VersionNum}}-{{.OS}}-{{.Arch}}"
 tar: false
 replacements:      # the replacement of os, arch
   darwin: darwin-10.6
+categories:
+- git
