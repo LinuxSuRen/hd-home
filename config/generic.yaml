@@ -7,8 +7,7 @@ packages:
     - 'curl -s https://raw.githubusercontent.com/karmab/kcli/master/install.sh | bash'
 - name: gitpod
   preInstall:
-  - issuePrefix: 'Ubuntu 18.04'
-    cmd:
+  - cmd:
       cmd: bash
       args: 
       - '-c'
