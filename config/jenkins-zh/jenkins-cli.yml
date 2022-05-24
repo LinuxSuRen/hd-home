@@ -1,1 +1,6 @@
 name: jcli
+postInstalls:
+- cmd: hd
+  args:
+  - install
+  - vim
