@@ -112,3 +112,5 @@ packages:
   packageManager: apk
 - name: wget
   packageManager: apk
+- name: openvpn
+  packageManager: apt-get
