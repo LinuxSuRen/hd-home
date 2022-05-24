@@ -114,3 +114,8 @@ packages:
   packageManager: apk
 - name: openvpn
   packageManager: apt-get
+- name: go
+  packageManager: snap
+  install:
+    args:
+    - '--classic'
