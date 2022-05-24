@@ -14,6 +14,7 @@ packages:
       - 'curl https://kots.io/install | bash'
   install:
     cmd: kubectl
+    systemCall: true
     args:
     - kots
     - install
