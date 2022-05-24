@@ -119,3 +119,5 @@ packages:
   install:
     args:
     - '--classic'
+- name: ngrok
+  packageManager: snap
