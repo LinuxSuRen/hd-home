@@ -135,3 +135,5 @@ packages:
     - '--classic'
 - name: ngrok
   packageManager: snap
+- name: http-server
+  packageManager: npm
