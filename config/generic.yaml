@@ -142,6 +142,8 @@ packages:
   packageManager: apk
 - name: openvpn
   packageManager: apt-get
+- name: npm
+  packageManager: apt-get
 - name: go
   packageManager: snap
   install:
