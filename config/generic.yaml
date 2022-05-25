@@ -5,6 +5,13 @@ packages:
     args:
     - '-c'
     - 'curl -s https://raw.githubusercontent.com/karmab/kcli/master/install.sh | bash'
+- name: cert-manager
+  install:
+    cmd: kubectl
+    args:
+    - apply
+    - '-f'
+    - https://github.com/cert-manager/cert-manager/releases/download/v1.8.0/cert-manager.yaml
 - name: openebs
   install:
     cmd: kubectl
