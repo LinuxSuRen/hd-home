@@ -5,6 +5,13 @@ packages:
     args:
     - '-c'
     - 'curl -s https://raw.githubusercontent.com/karmab/kcli/master/install.sh | bash'
+- name: openebs
+  install:
+    cmd: kubectl
+    args:
+    - apply 
+    - '-f'
+    - 'https://openebs.github.io/charts/openebs-operator.yaml'
 - name: gitpod
   preInstall:
   - cmd:
