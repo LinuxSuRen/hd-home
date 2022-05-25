@@ -137,3 +137,5 @@ packages:
   packageManager: snap
 - name: http-server
   packageManager: npm
+- name: make
+  packageManager: apt-get
