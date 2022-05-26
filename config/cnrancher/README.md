@@ -1,0 +1,3 @@
+| Name                                                | Latest | Download                                                                                |
+|-----------------------------------------------------|---|-----------------------------------------------------------------------------------------|
+| [autok3s](https://github.com/cnrancher/autok3s) | [![GitHub release](https://img.shields.io/github/release/cnrancher/autok3s.svg?label=release)](https://github.com/containerd/containerd/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/cnrancher/autok3s/total) |
