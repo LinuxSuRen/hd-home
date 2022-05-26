@@ -155,3 +155,5 @@ packages:
   packageManager: npm
 - name: make
   packageManager: apt-get
+- name: socat
+  packageManager: apt-get
