@@ -1,0 +1,7 @@
+filename: "{{.Name}}_{{.OS}}_{{.Arch}}"
+targetBinary: autok3s
+tar: false
+categories:
+  - rancher
+  - k8s
+  - k3s
