@@ -1,0 +1,6 @@
+filename: "virtctl-{{.Version}}-{{.OS}}-{{.Arch}}"
+targetBinary: virtctl
+tar: false
+categories:
+- vm
+- k8s
