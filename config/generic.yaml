@@ -5,6 +5,12 @@ packages:
     args:
     - '-c'
     - 'curl -s https://raw.githubusercontent.com/karmab/kcli/master/install.sh | bash'
+- name: nvm
+  install:
+    cmd: bash
+    args:
+    - '-c'
+    - 'curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash'
 - name: cert-manager
   install:
     cmd: kubectl
