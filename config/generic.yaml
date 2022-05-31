@@ -153,6 +153,8 @@ packages:
   packageManager: snap
 - name: http-server
   packageManager: npm
+- name: snyk
+  packageManager: npm
 - name: make
   packageManager: apt-get
 - name: socat
