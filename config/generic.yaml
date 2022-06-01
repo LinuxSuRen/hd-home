@@ -44,13 +44,13 @@ packages:
   - cmd:
       cmd: kubectl
       args:
-      - create
+      - apply
       - '-f'
       - 'https://github.com/kubesphere/ks-installer/releases/download/v3.3.0-rc.1/kubesphere-installer.yaml'
   install:
     cmd: kubectl
     args:
-    - create
+    - apply
     - '-f'
     - https://github.com/kubesphere/ks-installer/releases/download/v3.3.0-rc.1/cluster-configuration.yaml
 - name: gitpod
