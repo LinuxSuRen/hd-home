@@ -16,3 +16,10 @@ jobs:
       env:
         GIT_DEPLOY_KEY: ${{ secrets.GIT_DEPLOY_KEY }}
         TARGET_GIT: "git@gitee.com:linuxsuren/hd-home.git"
+    - name: Update readme
+      uses: linuxsuren/yaml-readme@master
+      with:
+        pattern: ${{ secrets.GH_TOKEN }}
+        username: linuxsuren
+        org: linuxsuren
+        repo: hd-home
