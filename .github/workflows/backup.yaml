@@ -18,8 +18,10 @@ jobs:
         TARGET_GIT: "git@gitee.com:linuxsuren/hd-home.git"
     - name: Update readme
       uses: linuxsuren/yaml-readme@master
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
       with:
-        pattern: ${{ secrets.GH_TOKEN }}
+        pattern: 'config/*/*.yml'
         username: linuxsuren
         org: linuxsuren
         repo: hd-home
