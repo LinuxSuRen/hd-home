@@ -1,0 +1,5 @@
+filename: "{{.Name}}_{{.OS}}_{{.Arch}}"
+targetBinary: kubebuilder
+tar: false
+categories:
+- k8s
