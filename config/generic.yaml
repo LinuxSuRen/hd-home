@@ -1,4 +1,10 @@
 packages:
+- name: names
+  install:
+    cmd: bash
+    args:
+    - '-c'
+    - 'curl -sSf https://fnichol.github.io/names/install.sh | sh'
 - name: kcli
   install:
     cmd: bash
