@@ -27,7 +27,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 105
+The total number of tools is: 104
 | Name | Latest | Download |
 |---|---|---|
 | [envsubst](https://github.com/a8m/envsubst) | [![GitHub release](https://img.shields.io/github/release/a8m/envsubst.svg?label=release)](https://github.com/a8m/envsubst/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/a8m/envsubst/total) |
@@ -53,7 +53,6 @@ The total number of tools is: 105
 | [stream](https://github.com/devstream-io/stream) | [![GitHub release](https://img.shields.io/github/release/devstream-io/stream.svg?label=release)](https://github.com/devstream-io/stream/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/devstream-io/stream/total) |
 | [dolt](https://github.com/dolthub/dolt) | [![GitHub release](https://img.shields.io/github/release/dolthub/dolt.svg?label=release)](https://github.com/dolthub/dolt/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/dolthub/dolt/total) |
 | [etcd](https://github.com/etcd-io/etcd) | [![GitHub release](https://img.shields.io/github/release/etcd-io/etcd.svg?label=release)](https://github.com/etcd-io/etcd/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/etcd-io/etcd/total) |
-| [gofish](https://github.com/fishworks/gofish) | [![GitHub release](https://img.shields.io/github/release/fishworks/gofish.svg?label=release)](https://github.com/fishworks/gofish/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/fishworks/gofish/total) |
 | [flux](https://github.com/fluxcd/flux) | [![GitHub release](https://img.shields.io/github/release/fluxcd/flux.svg?label=release)](https://github.com/fluxcd/flux/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/fluxcd/flux/total) |
 | [flux2](https://github.com/fluxcd/flux2) | [![GitHub release](https://img.shields.io/github/release/fluxcd/flux2.svg?label=release)](https://github.com/fluxcd/flux2/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/fluxcd/flux2/total) |
 | [webui](https://github.com/fluxcd/webui) | [![GitHub release](https://img.shields.io/github/release/fluxcd/webui.svg?label=release)](https://github.com/fluxcd/webui/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/fluxcd/webui/total) |
