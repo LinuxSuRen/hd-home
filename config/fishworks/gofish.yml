@@ -1,1 +1,2 @@
 url: https://gofi.sh/releases/{{.Name}}-{{.Version}}-{{.OS}}-{{.Arch}}.tar.gz
+ignore: true
