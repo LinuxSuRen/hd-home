@@ -25,7 +25,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 104
+The total number of tools is: 105
 | Name | Latest | Download |
 |---|---|---|
 | [envsubst](https://github.com/a8m/envsubst) | [![GitHub release](https://img.shields.io/github/release/a8m/envsubst.svg?label=release)](https://github.com/a8m/envsubst/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/a8m/envsubst/total) |
@@ -130,6 +130,7 @@ The total number of tools is: 104
 | [upx](https://github.com/upx/upx) | [![GitHub release](https://img.shields.io/github/release/upx/upx.svg?label=release)](https://github.com/upx/upx/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/upx/upx/total) |
 | [octant](https://github.com/vmware-tanzu/octant) | [![GitHub release](https://img.shields.io/github/release/vmware-tanzu/octant.svg?label=release)](https://github.com/vmware-tanzu/octant/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/vmware-tanzu/octant/total) |
 | [velero](https://github.com/vmware-tanzu/velero) | [![GitHub release](https://img.shields.io/github/release/vmware-tanzu/velero.svg?label=release)](https://github.com/vmware-tanzu/velero/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/vmware-tanzu/velero/total) |
+| [pacproxy](https://github.com/williambailey/pacproxy) | [![GitHub release](https://img.shields.io/github/release/williambailey/pacproxy.svg?label=release)](https://github.com/williambailey/pacproxy/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/williambailey/pacproxy/total) |
 | [youtube-dl](https://github.com/ytdl-org/youtube-dl) | [![GitHub release](https://img.shields.io/github/release/ytdl-org/youtube-dl.svg?label=release)](https://github.com/ytdl-org/youtube-dl/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/ytdl-org/youtube-dl/total) |
 | [docker-debug](https://github.com/zeromake/docker-debug) | [![GitHub release](https://img.shields.io/github/release/zeromake/docker-debug.svg?label=release)](https://github.com/zeromake/docker-debug/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/zeromake/docker-debug/total) |
 
