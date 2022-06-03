@@ -30,3 +30,4 @@ jobs:
         username: linuxsuren
         org: linuxsuren
         repo: hd-home
+        sortby: filename
