@@ -27,7 +27,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 102
+The total number of tools is: 103
 | Name | Latest | Download | Edit |
 |---|---|---|---|
 | [act](https://github.com/nektos/act) | [![GitHub release](https://img.shields.io/github/release/nektos/act.svg?label=release)](https://github.com/nektos/act/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/nektos/act/total) | [Edit](config/nektos/act.yml) |
@@ -111,6 +111,7 @@ The total number of tools is: 102
 | [pacproxy](https://github.com/williambailey/pacproxy) | [![GitHub release](https://img.shields.io/github/release/williambailey/pacproxy.svg?label=release)](https://github.com/williambailey/pacproxy/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/williambailey/pacproxy/total) | [Edit](config/williambailey/pacproxy.yml) |
 | [plugins](https://github.com/containernetworking/plugins) | [![GitHub release](https://img.shields.io/github/release/containernetworking/plugins.svg?label=release)](https://github.com/containernetworking/plugins/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/containernetworking/plugins/total) | [Edit](config/containernetworking/plugins.yml) |
 | [popeye](https://github.com/derailed/popeye) | [![GitHub release](https://img.shields.io/github/release/derailed/popeye.svg?label=release)](https://github.com/derailed/popeye/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/derailed/popeye/total) | [Edit](config/derailed/popeye.yml) |
+| [pulumi](https://github.com/pulumi/pulumi) | [![GitHub release](https://img.shields.io/github/release/pulumi/pulumi.svg?label=release)](https://github.com/pulumi/pulumi/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/pulumi/pulumi/total) | [Edit](config/pulumi/pulumi.yml) |
 | [restic](https://github.com/restic/restic) | [![GitHub release](https://img.shields.io/github/release/restic/restic.svg?label=release)](https://github.com/restic/restic/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/restic/restic/total) | [Edit](config/restic/restic.yml) |
 | [rke](https://github.com/rancher/rke) | [![GitHub release](https://img.shields.io/github/release/rancher/rke.svg?label=release)](https://github.com/rancher/rke/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/rancher/rke/total) | [Edit](config/rancher/rke.yml) |
 | [rke2](https://github.com/rancher/rke2) | [![GitHub release](https://img.shields.io/github/release/rancher/rke2.svg?label=release)](https://github.com/rancher/rke2/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/rancher/rke2/total) | [Edit](config/rancher/rke2.yml) |
