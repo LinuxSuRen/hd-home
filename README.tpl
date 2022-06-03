@@ -29,7 +29,7 @@ The total number of tools is: {{len .}}
 | Name | Latest | Download | Edit |
 |---|---|---|---|
 {{- range $val := .}}
-| [{{$val.filename}}](https://github.com/{{$val.parentname}}/{{$val.filename}}) | [![GitHub release](https://img.shields.io/github/release/{{$val.parentname}}/{{$val.filename}}.svg?label=release)](https://github.com/{{$val.parentname}}/{{$val.filename}}/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/{{$val.parentname}}/{{$val.filename}}/total) | [Edit]({{$val.fullpath}})] |
+| [{{$val.filename}}](https://github.com/{{$val.parentname}}/{{$val.filename}}) | [![GitHub release](https://img.shields.io/github/release/{{$val.parentname}}/{{$val.filename}}.svg?label=release)](https://github.com/{{$val.parentname}}/{{$val.filename}}/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/{{$val.parentname}}/{{$val.filename}}/total) | [Edit]({{$val.fullpath}}) |
 {{- end}}
 
 ## Contribution
