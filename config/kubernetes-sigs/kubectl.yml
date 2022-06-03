@@ -3,3 +3,4 @@ version: https://dl.k8s.io/release/stable.txt
 tar: false
 categories:
 - k8s
+ignore: true
