@@ -27,7 +27,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 106
+The total number of tools is: 107
 | Name | Latest | Download | Edit |
 |---|---|---|---|
 | [act](https://github.com/nektos/act) | [![GitHub release](https://img.shields.io/github/release/nektos/act.svg?label=release)](https://github.com/nektos/act/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/nektos/act/total) | [Edit](config/nektos/act.yml) |
@@ -49,6 +49,7 @@ The total number of tools is: 106
 | [cli](https://github.com/tektoncd/cli) | [![GitHub release](https://img.shields.io/github/release/tektoncd/cli.svg?label=release)](https://github.com/tektoncd/cli/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/tektoncd/cli/total) | [Edit](config/tektoncd/cli.yml) |
 | [console](https://github.com/minio/console) | [![GitHub release](https://img.shields.io/github/release/minio/console.svg?label=release)](https://github.com/minio/console/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/minio/console/total) | [Edit](config/minio/console.yml) |
 | [containerd](https://github.com/containerd/containerd) | [![GitHub release](https://img.shields.io/github/release/containerd/containerd.svg?label=release)](https://github.com/containerd/containerd/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/containerd/containerd/total) | [Edit](config/containerd/containerd.yml) |
+| [cosign](https://github.com/sigstore/cosign) | [![GitHub release](https://img.shields.io/github/release/sigstore/cosign.svg?label=release)](https://github.com/sigstore/cosign/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/sigstore/cosign/total) | [Edit](config/sigstore/cosign.yml) |
 | [cri-tools](https://github.com/kubernetes-sigs/cri-tools) | [![GitHub release](https://img.shields.io/github/release/kubernetes-sigs/cri-tools.svg?label=release)](https://github.com/kubernetes-sigs/cri-tools/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/kubernetes-sigs/cri-tools/total) | [Edit](config/kubernetes-sigs/cri-tools.yml) |
 | [ctop](https://github.com/bcicen/ctop) | [![GitHub release](https://img.shields.io/github/release/bcicen/ctop.svg?label=release)](https://github.com/bcicen/ctop/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/bcicen/ctop/total) | [Edit](config/bcicen/ctop.yml) |
 | [dagger](https://github.com/dagger/dagger) | [![GitHub release](https://img.shields.io/github/release/dagger/dagger.svg?label=release)](https://github.com/dagger/dagger/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/dagger/dagger/total) | [Edit](config/dagger/dagger.yml) |
