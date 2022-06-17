@@ -12,6 +12,12 @@ packages:
     args:
     - '-c'
     - 'curl -sSf https://fnichol.github.io/names/install.sh | sh'
+- name: kustomize
+  install:
+    cmd: bash
+    args:
+    - '-c'
+    - 'curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh'
 - name: kcli
   install:
     cmd: bash
