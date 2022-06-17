@@ -1,2 +1,0 @@
-url: "https://github.com/kubernetes-sigs/kustomize/releases/download/{{ .Version }}/{{ .Name }}_v{{ .VersionNum }}_{{ .OS }}_{{ .Arch }}.tar.gz"
-binary: kustomize
