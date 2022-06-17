@@ -17,7 +17,7 @@ packages:
     cmd: bash
     args:
     - '-c'
-    - 'curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh"'
+    - 'curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh" | bash'
 - name: kcli
   install:
     cmd: bash
