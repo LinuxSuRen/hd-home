@@ -27,7 +27,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 108
+The total number of tools is: 107
 | Name | Latest | Download | Edit |
 |---|---|---|---|
 | [act](https://github.com/nektos/act) | [![GitHub release](https://img.shields.io/github/release/nektos/act.svg?label=release)](https://github.com/nektos/act/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/nektos/act/total) | [Edit](config/nektos/act.yml) |
@@ -98,7 +98,6 @@ The total number of tools is: 108
 | [kubekey](https://github.com/kubesphere/kubekey) | [![GitHub release](https://img.shields.io/github/release/kubesphere/kubekey.svg?label=release)](https://github.com/kubesphere/kubekey/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/kubesphere/kubekey/total) | [Edit](config/kubesphere/kubekey.yml) |
 | [kubekey](https://github.com/linuxsuren/kubekey) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/kubekey.svg?label=release)](https://github.com/linuxsuren/kubekey/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/kubekey/total) | [Edit](config/linuxsuren/kubekey.yml) |
 | [kubevirt](https://github.com/kubevirt/kubevirt) | [![GitHub release](https://img.shields.io/github/release/kubevirt/kubevirt.svg?label=release)](https://github.com/kubevirt/kubevirt/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/kubevirt/kubevirt/total) | [Edit](config/kubevirt/kubevirt.yml) |
-| [kustomize](https://github.com/kubernetes-sigs/kustomize) | [![GitHub release](https://img.shields.io/github/release/kubernetes-sigs/kustomize.svg?label=release)](https://github.com/kubernetes-sigs/kustomize/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/kubernetes-sigs/kustomize/total) | [Edit](config/kubernetes-sigs/kustomize.yml) |
 | [kyverno](https://github.com/kyverno/kyverno) | [![GitHub release](https://img.shields.io/github/release/kyverno/kyverno.svg?label=release)](https://github.com/kyverno/kyverno/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/kyverno/kyverno/total) | [Edit](config/kyverno/kyverno.yml) |
 | [lazydocker](https://github.com/jesseduffield/lazydocker) | [![GitHub release](https://img.shields.io/github/release/jesseduffield/lazydocker.svg?label=release)](https://github.com/jesseduffield/lazydocker/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/jesseduffield/lazydocker/total) | [Edit](config/jesseduffield/lazydocker.yml) |
 | [loft](https://github.com/loft-sh/loft) | [![GitHub release](https://img.shields.io/github/release/loft-sh/loft.svg?label=release)](https://github.com/loft-sh/loft/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/loft-sh/loft/total) | [Edit](config/loft-sh/loft.yml) |
