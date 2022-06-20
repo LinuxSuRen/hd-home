@@ -27,7 +27,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 109
+The total number of tools is: 110
 | Name | Latest | Download | Edit |
 |---|---|---|---|
 | [act](https://github.com/nektos/act) | [![GitHub release](https://img.shields.io/github/release/nektos/act.svg?label=release)](https://github.com/nektos/act/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/nektos/act/total) | [Edit](config/nektos/act.yml) |
@@ -37,6 +37,7 @@ The total number of tools is: 109
 | [argo-cd](https://github.com/argoproj/argo-cd) | [![GitHub release](https://img.shields.io/github/release/argoproj/argo-cd.svg?label=release)](https://github.com/argoproj/argo-cd/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/argoproj/argo-cd/total) | [Edit](config/argoproj/argo-cd.yml) |
 | [argo-rollouts](https://github.com/argoproj/argo-rollouts) | [![GitHub release](https://img.shields.io/github/release/argoproj/argo-rollouts.svg?label=release)](https://github.com/argoproj/argo-rollouts/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/argoproj/argo-rollouts/total) | [Edit](config/argoproj/argo-rollouts.yml) |
 | [argocd-autopilot](https://github.com/argoproj-labs/argocd-autopilot) | [![GitHub release](https://img.shields.io/github/release/argoproj-labs/argocd-autopilot.svg?label=release)](https://github.com/argoproj-labs/argocd-autopilot/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/argoproj-labs/argocd-autopilot/total) | [Edit](config/argoproj-labs/argocd-autopilot.yml) |
+| [argocd-image-updater](https://github.com/argoproj-labs/argocd-image-updater) | [![GitHub release](https://img.shields.io/github/release/argoproj-labs/argocd-image-updater.svg?label=release)](https://github.com/argoproj-labs/argocd-image-updater/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/argoproj-labs/argocd-image-updater/total) | [Edit](config/argoproj-labs/argocd-image-updater.yml) |
 | [argocd-vault-plugin](https://github.com/argoproj-labs/argocd-vault-plugin) | [![GitHub release](https://img.shields.io/github/release/argoproj-labs/argocd-vault-plugin.svg?label=release)](https://github.com/argoproj-labs/argocd-vault-plugin/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/argoproj-labs/argocd-vault-plugin/total) | [Edit](config/argoproj-labs/argocd-vault-plugin.yml) |
 | [audacity-label-plugin](https://github.com/linuxsuren/audacity-label-plugin) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/audacity-label-plugin.svg?label=release)](https://github.com/linuxsuren/audacity-label-plugin/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/audacity-label-plugin/total) | [Edit](config/linuxsuren/audacity-label-plugin.yml) |
 | [autok3s](https://github.com/cnrancher/autok3s) | [![GitHub release](https://img.shields.io/github/release/cnrancher/autok3s.svg?label=release)](https://github.com/cnrancher/autok3s/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/cnrancher/autok3s/total) | [Edit](config/cnrancher/autok3s.yml) |
