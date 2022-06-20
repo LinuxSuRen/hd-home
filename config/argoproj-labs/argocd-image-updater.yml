@@ -1,3 +1,3 @@
-filename: "{{.Name}}-{{.OS}}-{{.Arch}}"
+filename: "{{.Name}}-{{.OS}}_{{.Arch}}"
 targetBinary: argocd-image-updater
 tar: false
