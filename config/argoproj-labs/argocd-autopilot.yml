@@ -1,0 +1,6 @@
+filename: "{{.Name}}-{{.OS}}-{{.Arch}}"
+binary: argocd-autopilot-linux-amd64
+targetBinary: argocd-autopilot
+formatOverrides:   # set the file extension for different platforms
+  windows: zip
+  linux: tar.gz
