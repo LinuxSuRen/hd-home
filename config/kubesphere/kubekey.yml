@@ -1,2 +1,11 @@
 filename: "{{.Name}}-{{.Version}}-{{.OS}}-{{.Arch}}.tar.gz"
 binary: kk
+postInstalls:
+  - cmd: hd
+    args:
+      - i
+      - conntrack
+  - cmd: hd
+    args:
+      - i
+      - socat
