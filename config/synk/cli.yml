@@ -1,0 +1,9 @@
+filename: "snyk-{{.OS}}"
+binary: snyk         # please provide a binary file name if the release filename is not the final one
+targetBinary: snyk   # a desired target binary file name
+tar: false          # if this is a tar file
+replacements:      # the replacement of os, arch
+  darwin: macos
+  windows: win
+categories:
+- security
