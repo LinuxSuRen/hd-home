@@ -27,7 +27,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 112
+The total number of tools is: 113
 | Name | Latest | Download | Edit |
 |---|---|---|---|
 | [act](https://github.com/nektos/act) | [![GitHub release](https://img.shields.io/github/release/nektos/act.svg?label=release)](https://github.com/nektos/act/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/nektos/act/total) | [Edit](config/nektos/act.yml) |
@@ -72,6 +72,7 @@ The total number of tools is: 112
 | [golangci-lint](https://github.com/golangci/golangci-lint) | [![GitHub release](https://img.shields.io/github/release/golangci/golangci-lint.svg?label=release)](https://github.com/golangci/golangci-lint/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/golangci/golangci-lint/total) | [Edit](config/golangci/golangci-lint.yml) |
 | [goplay](https://github.com/linuxsuren/goplay) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/goplay.svg?label=release)](https://github.com/linuxsuren/goplay/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/goplay/total) | [Edit](config/linuxsuren/goplay.yml) |
 | [goreleaser](https://github.com/goreleaser/goreleaser) | [![GitHub release](https://img.shields.io/github/release/goreleaser/goreleaser.svg?label=release)](https://github.com/goreleaser/goreleaser/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/goreleaser/goreleaser/total) | [Edit](config/goreleaser/goreleaser.yml) |
+| [gosec](https://github.com/securego/gosec) | [![GitHub release](https://img.shields.io/github/release/securego/gosec.svg?label=release)](https://github.com/securego/gosec/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/securego/gosec/total) | [Edit](config/securego/gosec.yml) |
 | [grmon](https://github.com/bcicen/grmon) | [![GitHub release](https://img.shields.io/github/release/bcicen/grmon.svg?label=release)](https://github.com/bcicen/grmon/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/bcicen/grmon/total) | [Edit](config/bcicen/grmon.yml) |
 | [helm](https://github.com/helm/helm) | [![GitHub release](https://img.shields.io/github/release/helm/helm.svg?label=release)](https://github.com/helm/helm/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/helm/helm/total) | [Edit](config/helm/helm.yml) |
 | [http-downloader](https://github.com/linuxsuren/http-downloader) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/http-downloader.svg?label=release)](https://github.com/linuxsuren/http-downloader/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/http-downloader/total) | [Edit](config/linuxsuren/http-downloader.yml) |
