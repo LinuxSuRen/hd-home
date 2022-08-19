@@ -214,3 +214,16 @@ packages:
   packageManager: apt-get
 - name: socat
   packageManager: apt-get
+- name: ifconfig
+  packageManager: apt-get
+  preInstall:
+  - cmd:
+      cmd: apt-get
+      args: 
+      - update
+  - cmd:
+      cmd: apt-get
+      args: 
+      - install
+      - net-tools
+      - '-y'
