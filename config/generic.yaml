@@ -220,3 +220,5 @@ packages:
     args:
     - '-c'
     - 'apt install -y net-tools'
+- name: avahi-daemon
+  packageManager: apt-get
