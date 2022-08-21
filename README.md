@@ -27,7 +27,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 113
+The total number of tools is: 114
 | Name | Latest | Download | Edit |
 |---|---|---|---|
 | [act](https://github.com/nektos/act) | [![GitHub release](https://img.shields.io/github/release/nektos/act.svg?label=release)](https://github.com/nektos/act/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/nektos/act/total) | [Edit](config/nektos/act.yml) |
@@ -107,6 +107,7 @@ The total number of tools is: 113
 | [lazydocker](https://github.com/jesseduffield/lazydocker) | [![GitHub release](https://img.shields.io/github/release/jesseduffield/lazydocker.svg?label=release)](https://github.com/jesseduffield/lazydocker/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/jesseduffield/lazydocker/total) | [Edit](config/jesseduffield/lazydocker.yml) |
 | [loft](https://github.com/loft-sh/loft) | [![GitHub release](https://img.shields.io/github/release/loft-sh/loft.svg?label=release)](https://github.com/loft-sh/loft/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/loft-sh/loft/total) | [Edit](config/loft-sh/loft.yml) |
 | [mani](https://github.com/alajmo/mani) | [![GitHub release](https://img.shields.io/github/release/alajmo/mani.svg?label=release)](https://github.com/alajmo/mani/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/alajmo/mani/total) | [Edit](config/alajmo/mani.yml) |
+| [marp-cli](https://github.com/marp-team/marp-cli) | [![GitHub release](https://img.shields.io/github/release/marp-team/marp-cli.svg?label=release)](https://github.com/marp-team/marp-cli/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/marp-team/marp-cli/total) | [Edit](config/marp-team/marp-cli.yml) |
 | [mc](https://github.com/minio/mc) | [![GitHub release](https://img.shields.io/github/release/minio/mc.svg?label=release)](https://github.com/minio/mc/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/minio/mc/total) | [Edit](config/minio/mc.yml) |
 | [minikube](https://github.com/kubernetes/minikube) | [![GitHub release](https://img.shields.io/github/release/kubernetes/minikube.svg?label=release)](https://github.com/kubernetes/minikube/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/kubernetes/minikube/total) | [Edit](config/kubernetes/minikube.yml) |
 | [minio](https://github.com/minio/minio) | [![GitHub release](https://img.shields.io/github/release/minio/minio.svg?label=release)](https://github.com/minio/minio/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/minio/minio/total) | [Edit](config/minio/minio.yml) |
