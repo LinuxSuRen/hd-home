@@ -27,7 +27,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 115
+The total number of tools is: 116
 | Name | Latest | Download | Edit |
 |---|---|---|---|
 | [act](https://github.com/nektos/act) | [![GitHub release](https://img.shields.io/github/release/nektos/act.svg?label=release)](https://github.com/nektos/act/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/nektos/act/total) | [Edit](config/nektos/act.yml) |
@@ -143,6 +143,7 @@ The total number of tools is: 115
 | [webui](https://github.com/fluxcd/webui) | [![GitHub release](https://img.shields.io/github/release/fluxcd/webui.svg?label=release)](https://github.com/fluxcd/webui/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/fluxcd/webui/total) | [Edit](config/fluxcd/webui.yml) |
 | [wuzz](https://github.com/asciimoo/wuzz) | [![GitHub release](https://img.shields.io/github/release/asciimoo/wuzz.svg?label=release)](https://github.com/asciimoo/wuzz/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/asciimoo/wuzz/total) | [Edit](config/asciimoo/wuzz.yml) |
 | [yaml-readme](https://github.com/linuxsuren/yaml-readme) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/yaml-readme.svg?label=release)](https://github.com/linuxsuren/yaml-readme/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/yaml-readme/total) | [Edit](config/linuxsuren/yaml-readme.yml) |
+| [yamlfmt](https://github.com/google/yamlfmt) | [![GitHub release](https://img.shields.io/github/release/google/yamlfmt.svg?label=release)](https://github.com/google/yamlfmt/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/google/yamlfmt/total) | [Edit](config/google/yamlfmt.yml) |
 | [youtube-dl](https://github.com/ytdl-org/youtube-dl) | [![GitHub release](https://img.shields.io/github/release/ytdl-org/youtube-dl.svg?label=release)](https://github.com/ytdl-org/youtube-dl/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/ytdl-org/youtube-dl/total) | [Edit](config/ytdl-org/youtube-dl.yml) |
 | [yq](https://github.com/mikefarah/yq) | [![GitHub release](https://img.shields.io/github/release/mikefarah/yq.svg?label=release)](https://github.com/mikefarah/yq/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/mikefarah/yq/total) | [Edit](config/mikefarah/yq.yml) |
 
