@@ -27,7 +27,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 118
+The total number of tools is: 119
 | Name | Latest | Download | Edit |
 |---|---|---|---|
 | [act](https://github.com/nektos/act) | [![GitHub release](https://img.shields.io/github/release/nektos/act.svg?label=release)](https://github.com/nektos/act/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/nektos/act/total) | [Edit](config/nektos/act.yml) |
@@ -137,6 +137,7 @@ The total number of tools is: 118
 | [stream](https://github.com/devstream-io/stream) | [![GitHub release](https://img.shields.io/github/release/devstream-io/stream.svg?label=release)](https://github.com/devstream-io/stream/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/devstream-io/stream/total) | [Edit](config/devstream-io/stream.yml) |
 | [task](https://github.com/go-task/task) | [![GitHub release](https://img.shields.io/github/release/go-task/task.svg?label=release)](https://github.com/go-task/task/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/go-task/task/total) | [Edit](config/go-task/task.yml) |
 | [terraform](https://github.com/hashicorp/terraform) | [![GitHub release](https://img.shields.io/github/release/hashicorp/terraform.svg?label=release)](https://github.com/hashicorp/terraform/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/hashicorp/terraform/total) | [Edit](config/hashicorp/terraform.yml) |
+| [transfer](https://github.com/Mikubill/transfer) | [![GitHub release](https://img.shields.io/github/release/Mikubill/transfer.svg?label=release)](https://github.com/Mikubill/transfer/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/Mikubill/transfer/total) | [Edit](config/Mikubill/transfer.yml) |
 | [transfer](https://github.com/linuxsuren/transfer) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/transfer.svg?label=release)](https://github.com/linuxsuren/transfer/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/transfer/total) | [Edit](config/linuxsuren/transfer.yml) |
 | [trivy](https://github.com/aquasecurity/trivy) | [![GitHub release](https://img.shields.io/github/release/aquasecurity/trivy.svg?label=release)](https://github.com/aquasecurity/trivy/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/aquasecurity/trivy/total) | [Edit](config/aquasecurity/trivy.yml) |
 | [uploader](https://github.com/codecov/uploader) | [![GitHub release](https://img.shields.io/github/release/codecov/uploader.svg?label=release)](https://github.com/codecov/uploader/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/codecov/uploader/total) | [Edit](config/codecov/uploader.yml) |
