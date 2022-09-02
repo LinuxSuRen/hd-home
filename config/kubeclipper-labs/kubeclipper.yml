@@ -1,6 +1,6 @@
 filename: "kc-{{.OS}}-{{.Arch}}"
-binary: kc         # please provide a binary file name if the release filename is not the final one
-targetBinary: kc   # a desired target binary file name
+binary: kcctl         # please provide a binary file name if the release filename is not the final one
+targetBinary: kcctl   # a desired target binary file name
 tar: true          # if this is a tar file
 formatOverrides:   # set the file extension for different platforms
   windows: zip
