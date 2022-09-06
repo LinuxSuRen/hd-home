@@ -1,4 +1,4 @@
-filename: "{{.Name}}-{{.OS}}-{{.Arch}}"
+filename: "{{.Name}}-{{.Arch}}-{{.OS}}"
 tar: true          # if this is a tar file
 formatOverrides:   # set the file extension for different platforms
   windows: zip
