@@ -27,7 +27,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 121
+The total number of tools is: 122
 | Name | Latest | Download | Edit |
 |---|---|---|---|
 | [act](https://github.com/nektos/act) | [![GitHub release](https://img.shields.io/github/release/nektos/act.svg?label=release)](https://github.com/nektos/act/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/nektos/act/total) | [Edit](config/nektos/act.yml) |
@@ -132,6 +132,7 @@ The total number of tools is: 121
 | [runc](https://github.com/opencontainers/runc) | [![GitHub release](https://img.shields.io/github/release/opencontainers/runc.svg?label=release)](https://github.com/opencontainers/runc/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/opencontainers/runc/total) | [Edit](config/opencontainers/runc.yml) |
 | [sealed-secrets](https://github.com/bitnami-labs/sealed-secrets) | [![GitHub release](https://img.shields.io/github/release/bitnami-labs/sealed-secrets.svg?label=release)](https://github.com/bitnami-labs/sealed-secrets/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/bitnami-labs/sealed-secrets/total) | [Edit](config/bitnami-labs/sealed-secrets.yml) |
 | [sealer](https://github.com/sealerio/sealer) | [![GitHub release](https://img.shields.io/github/release/sealerio/sealer.svg?label=release)](https://github.com/sealerio/sealer/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/sealerio/sealer/total) | [Edit](config/sealerio/sealer.yml) |
+| [sealos](https://github.com/labring/sealos) | [![GitHub release](https://img.shields.io/github/release/labring/sealos.svg?label=release)](https://github.com/labring/sealos/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/labring/sealos/total) | [Edit](config/labring/sealos.yml) |
 | [sops](https://github.com/mozilla/sops) | [![GitHub release](https://img.shields.io/github/release/mozilla/sops.svg?label=release)](https://github.com/mozilla/sops/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/mozilla/sops/total) | [Edit](config/mozilla/sops.yml) |
 | [source-to-image](https://github.com/openshift/source-to-image) | [![GitHub release](https://img.shields.io/github/release/openshift/source-to-image.svg?label=release)](https://github.com/openshift/source-to-image/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/openshift/source-to-image/total) | [Edit](config/openshift/source-to-image.yml) |
 | [spin](https://github.com/spinnaker/spin) | [![GitHub release](https://img.shields.io/github/release/spinnaker/spin.svg?label=release)](https://github.com/spinnaker/spin/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/spinnaker/spin/total) | [Edit](config/spinnaker/spin.yml) |
