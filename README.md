@@ -27,7 +27,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 123
+The total number of tools is: 124
 | Name | Latest | Download | Edit |
 |---|---|---|---|
 | [act](https://github.com/nektos/act) | [![GitHub release](https://img.shields.io/github/release/nektos/act.svg?label=release)](https://github.com/nektos/act/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/nektos/act/total) | [Edit](config/nektos/act.yml) |
@@ -44,6 +44,7 @@ The total number of tools is: 123
 | [autok3s](https://github.com/cnrancher/autok3s) | [![GitHub release](https://img.shields.io/github/release/cnrancher/autok3s.svg?label=release)](https://github.com/cnrancher/autok3s/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/cnrancher/autok3s/total) | [Edit](config/cnrancher/autok3s.yml) |
 | [azbrowse](https://github.com/lawrencegripper/azbrowse) | [![GitHub release](https://img.shields.io/github/release/lawrencegripper/azbrowse.svg?label=release)](https://github.com/lawrencegripper/azbrowse/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/lawrencegripper/azbrowse/total) | [Edit](config/lawrencegripper/azbrowse.yml) |
 | [brigade](https://github.com/brigadecore/brigade) | [![GitHub release](https://img.shields.io/github/release/brigadecore/brigade.svg?label=release)](https://github.com/brigadecore/brigade/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/brigadecore/brigade/total) | [Edit](config/brigadecore/brigade.yml) |
+| [buildkit](https://github.com/moby/buildkit) | [![GitHub release](https://img.shields.io/github/release/moby/buildkit.svg?label=release)](https://github.com/moby/buildkit/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/moby/buildkit/total) | [Edit](config/moby/buildkit.yml) |
 | [cert-manager](https://github.com/jetstack/cert-manager) | [![GitHub release](https://img.shields.io/github/release/jetstack/cert-manager.svg?label=release)](https://github.com/jetstack/cert-manager/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/jetstack/cert-manager/total) | [Edit](config/jetstack/cert-manager.yml) |
 | [cgit](https://github.com/linuxsuren/cgit) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/cgit.svg?label=release)](https://github.com/linuxsuren/cgit/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/cgit/total) | [Edit](config/linuxsuren/cgit.yml) |
 | [chart-releaser](https://github.com/helm/chart-releaser) | [![GitHub release](https://img.shields.io/github/release/helm/chart-releaser.svg?label=release)](https://github.com/helm/chart-releaser/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/helm/chart-releaser/total) | [Edit](config/helm/chart-releaser.yml) |
