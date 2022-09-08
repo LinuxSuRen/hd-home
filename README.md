@@ -27,7 +27,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 122
+The total number of tools is: 123
 | Name | Latest | Download | Edit |
 |---|---|---|---|
 | [act](https://github.com/nektos/act) | [![GitHub release](https://img.shields.io/github/release/nektos/act.svg?label=release)](https://github.com/nektos/act/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/nektos/act/total) | [Edit](config/nektos/act.yml) |
@@ -36,6 +36,7 @@ The total number of tools is: 122
 | [apiserver-builder-alpha](https://github.com/kubernetes-sigs/apiserver-builder-alpha) | [![GitHub release](https://img.shields.io/github/release/kubernetes-sigs/apiserver-builder-alpha.svg?label=release)](https://github.com/kubernetes-sigs/apiserver-builder-alpha/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/kubernetes-sigs/apiserver-builder-alpha/total) | [Edit](config/kubernetes-sigs/apiserver-builder-alpha.yml) |
 | [argo-cd](https://github.com/argoproj/argo-cd) | [![GitHub release](https://img.shields.io/github/release/argoproj/argo-cd.svg?label=release)](https://github.com/argoproj/argo-cd/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/argoproj/argo-cd/total) | [Edit](config/argoproj/argo-cd.yml) |
 | [argo-rollouts](https://github.com/argoproj/argo-rollouts) | [![GitHub release](https://img.shields.io/github/release/argoproj/argo-rollouts.svg?label=release)](https://github.com/argoproj/argo-rollouts/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/argoproj/argo-rollouts/total) | [Edit](config/argoproj/argo-rollouts.yml) |
+| [argo-workflows](https://github.com/argoproj/argo-workflows) | [![GitHub release](https://img.shields.io/github/release/argoproj/argo-workflows.svg?label=release)](https://github.com/argoproj/argo-workflows/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/argoproj/argo-workflows/total) | [Edit](config/argoproj/argo-workflows.yml) |
 | [argocd-autopilot](https://github.com/argoproj-labs/argocd-autopilot) | [![GitHub release](https://img.shields.io/github/release/argoproj-labs/argocd-autopilot.svg?label=release)](https://github.com/argoproj-labs/argocd-autopilot/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/argoproj-labs/argocd-autopilot/total) | [Edit](config/argoproj-labs/argocd-autopilot.yml) |
 | [argocd-image-updater](https://github.com/argoproj-labs/argocd-image-updater) | [![GitHub release](https://img.shields.io/github/release/argoproj-labs/argocd-image-updater.svg?label=release)](https://github.com/argoproj-labs/argocd-image-updater/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/argoproj-labs/argocd-image-updater/total) | [Edit](config/argoproj-labs/argocd-image-updater.yml) |
 | [argocd-vault-plugin](https://github.com/argoproj-labs/argocd-vault-plugin) | [![GitHub release](https://img.shields.io/github/release/argoproj-labs/argocd-vault-plugin.svg?label=release)](https://github.com/argoproj-labs/argocd-vault-plugin/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/argoproj-labs/argocd-vault-plugin/total) | [Edit](config/argoproj-labs/argocd-vault-plugin.yml) |
