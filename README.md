@@ -27,7 +27,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 125
+The total number of tools is: 126
 | Name | Latest | Download | Edit |
 |---|---|---|---|
 | [act](https://github.com/nektos/act) | [![GitHub release](https://img.shields.io/github/release/nektos/act.svg?label=release)](https://github.com/nektos/act/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/nektos/act/total) | [Edit](config/nektos/act.yml) |
@@ -81,6 +81,7 @@ The total number of tools is: 125
 | [hub](https://github.com/github/hub) | [![GitHub release](https://img.shields.io/github/release/github/hub.svg?label=release)](https://github.com/github/hub/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/github/hub/total) | [Edit](config/github/hub.yml) |
 | [hugo](https://github.com/gohugoio/hugo) | [![GitHub release](https://img.shields.io/github/release/gohugoio/hugo.svg?label=release)](https://github.com/gohugoio/hugo/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/gohugoio/hugo/total) | [Edit](config/gohugoio/hugo.yml) |
 | [illa](https://github.com/illa-family/illa) | [![GitHub release](https://img.shields.io/github/release/illa-family/illa.svg?label=release)](https://github.com/illa-family/illa/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/illa-family/illa/total) | [Edit](config/illa-family/illa.yml) |
+| [img](https://github.com/genuinetools/img) | [![GitHub release](https://img.shields.io/github/release/genuinetools/img.svg?label=release)](https://github.com/genuinetools/img/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/genuinetools/img/total) | [Edit](config/genuinetools/img.yml) |
 | [istio](https://github.com/istio/istio) | [![GitHub release](https://img.shields.io/github/release/istio/istio.svg?label=release)](https://github.com/istio/istio/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/istio/istio/total) | [Edit](config/istio/istio.yml) |
 | [jaeger](https://github.com/jaegertracing/jaeger) | [![GitHub release](https://img.shields.io/github/release/jaegertracing/jaeger.svg?label=release)](https://github.com/jaegertracing/jaeger/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/jaegertracing/jaeger/total) | [Edit](config/jaegertracing/jaeger.yml) |
 | [jenkins-cli](https://github.com/jenkins-zh/jenkins-cli) | [![GitHub release](https://img.shields.io/github/release/jenkins-zh/jenkins-cli.svg?label=release)](https://github.com/jenkins-zh/jenkins-cli/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/jenkins-zh/jenkins-cli/total) | [Edit](config/jenkins-zh/jenkins-cli.yml) |
