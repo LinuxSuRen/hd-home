@@ -27,7 +27,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 126
+The total number of tools is: 127
 | Name | Latest | Download | Edit |
 |---|---|---|---|
 | [act](https://github.com/nektos/act) | [![GitHub release](https://img.shields.io/github/release/nektos/act.svg?label=release)](https://github.com/nektos/act/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/nektos/act/total) | [Edit](config/nektos/act.yml) |
@@ -142,6 +142,7 @@ The total number of tools is: 126
 | [starboard](https://github.com/aquasecurity/starboard) | [![GitHub release](https://img.shields.io/github/release/aquasecurity/starboard.svg?label=release)](https://github.com/aquasecurity/starboard/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/aquasecurity/starboard/total) | [Edit](config/aquasecurity/starboard.yml) |
 | [stream](https://github.com/devstream-io/stream) | [![GitHub release](https://img.shields.io/github/release/devstream-io/stream.svg?label=release)](https://github.com/devstream-io/stream/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/devstream-io/stream/total) | [Edit](config/devstream-io/stream.yml) |
 | [task](https://github.com/go-task/task) | [![GitHub release](https://img.shields.io/github/release/go-task/task.svg?label=release)](https://github.com/go-task/task/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/go-task/task/total) | [Edit](config/go-task/task.yml) |
+| [tcli](https://github.com/linuxsuren/tcli) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/tcli.svg?label=release)](https://github.com/linuxsuren/tcli/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/tcli/total) | [Edit](config/linuxsuren/tcli.yml) |
 | [terraform](https://github.com/hashicorp/terraform) | [![GitHub release](https://img.shields.io/github/release/hashicorp/terraform.svg?label=release)](https://github.com/hashicorp/terraform/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/hashicorp/terraform/total) | [Edit](config/hashicorp/terraform.yml) |
 | [tiup](https://github.com/pingcap/tiup) | [![GitHub release](https://img.shields.io/github/release/pingcap/tiup.svg?label=release)](https://github.com/pingcap/tiup/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/pingcap/tiup/total) | [Edit](config/pingcap/tiup.yml) |
 | [transfer](https://github.com/Mikubill/transfer) | [![GitHub release](https://img.shields.io/github/release/Mikubill/transfer.svg?label=release)](https://github.com/Mikubill/transfer/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/Mikubill/transfer/total) | [Edit](config/Mikubill/transfer.yml) |
