@@ -225,12 +225,12 @@ packages:
 - name: bazel
   packageManager: apt-get
   preInstall:
-  - cmd: bash
+  - cmd:
       cmd: bash
       args:
         - '-c'
         - 'apt install apt-transport-https curl gnupg -y'
-  - cmd: bash
+  - cmd:
       cmd: bash
       args:
         - '-c'
