@@ -1,0 +1,6 @@
+filename: "buildifier-{{.OS}}-{{.Arch}}"
+binary: buildifier         # please provide a binary file name if the release filename is not the final one
+targetBinary: buildifier   # a desired target binary file name
+tar: false          # if this is a tar file
+categories:
+- build
