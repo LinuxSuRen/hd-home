@@ -1,0 +1,4 @@
+filename: "{{.Name}}-{{.OS}}-{{.Arch}}"
+binary: kubie         # please provide a binary file name if the release filename is not the final one
+targetBinary: kubie   # a desired target binary file name
+tar: false          # if this is a tar file
