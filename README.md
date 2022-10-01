@@ -27,7 +27,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 131
+The total number of tools is: 132
 | Name | Latest | Download | Edit |
 |---|---|---|---|
 | [act](https://github.com/nektos/act) | [![GitHub release](https://img.shields.io/github/release/nektos/act.svg?label=release)](https://github.com/nektos/act/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/nektos/act/total) | [Edit](config/nektos/act.yml) |
@@ -52,6 +52,7 @@ The total number of tools is: 131
 | [cli](https://github.com/cli/cli) | [![GitHub release](https://img.shields.io/github/release/cli/cli.svg?label=release)](https://github.com/cli/cli/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/cli/cli/total) | [Edit](config/cli/cli.yml) |
 | [cli](https://github.com/gotify/cli) | [![GitHub release](https://img.shields.io/github/release/gotify/cli.svg?label=release)](https://github.com/gotify/cli/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/gotify/cli/total) | [Edit](config/gotify/cli.yml) |
 | [cli](https://github.com/rancher/cli) | [![GitHub release](https://img.shields.io/github/release/rancher/cli.svg?label=release)](https://github.com/rancher/cli/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/rancher/cli/total) | [Edit](config/rancher/cli.yml) |
+| [cli](https://github.com/semaphoreci/cli) | [![GitHub release](https://img.shields.io/github/release/semaphoreci/cli.svg?label=release)](https://github.com/semaphoreci/cli/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/semaphoreci/cli/total) | [Edit](config/semaphoreci/cli.yml) |
 | [cli](https://github.com/snyk/cli) | [![GitHub release](https://img.shields.io/github/release/snyk/cli.svg?label=release)](https://github.com/snyk/cli/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/snyk/cli/total) | [Edit](config/snyk/cli.yml) |
 | [cli](https://github.com/tektoncd/cli) | [![GitHub release](https://img.shields.io/github/release/tektoncd/cli.svg?label=release)](https://github.com/tektoncd/cli/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/tektoncd/cli/total) | [Edit](config/tektoncd/cli.yml) |
 | [console](https://github.com/minio/console) | [![GitHub release](https://img.shields.io/github/release/minio/console.svg?label=release)](https://github.com/minio/console/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/minio/console/total) | [Edit](config/minio/console.yml) |
