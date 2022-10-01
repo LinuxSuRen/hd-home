@@ -1,7 +1,4 @@
 filename: "tk-{{.OS}}-{{.Arch}}"
 binary: tk         # please provide a binary file name if the release filename is not the final one
 targetBinary: tk   # a desired target binary file name
-tar: true          # if this is a tar file
-formatOverrides:   # set the file extension for different platforms
-  windows: zip
-  linux: tar.gz
+tar: false
