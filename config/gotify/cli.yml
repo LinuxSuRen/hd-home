@@ -1,0 +1,4 @@
+filename: "gotify-cli-{{.OS}}-{{.Arch}}"
+binary: gotify         # please provide a binary file name if the release filename is not the final one
+targetBinary: gotify   # a desired target binary file name
+tar: false          # if this is a tar file
