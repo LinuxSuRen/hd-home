@@ -1,4 +1,4 @@
-filename: "sem-{{.OS}}-{{.Arch}}"
+filename: "sem_{{.OS}}_{{.Arch}}"
 binary: sem         # please provide a binary file name if the release filename is not the final one
 targetBinary: sem   # a desired target binary file name
 tar: true          # if this is a tar file
