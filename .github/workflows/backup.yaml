@@ -16,6 +16,7 @@ jobs:
       env:
         GIT_DEPLOY_KEY: ${{ secrets.GIT_DEPLOY_KEY }}
         TARGET_GIT: "git@gitee.com:linuxsuren/hd-home.git"
+        BRANCH: master
 
   UpdateReadme:
     runs-on: ubuntu-latest
