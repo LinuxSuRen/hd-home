@@ -12,6 +12,12 @@ packages:
     args:
     - '-c'
     - 'curl -sSf https://fnichol.github.io/names/install.sh | sh'
+- name: ngrok
+  install:
+    cmd: bash
+    args:
+    - '-c'
+    - 'curl https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz | tar xzv ngrok'
 - name: kustomize
   install:
     cmd: bash
