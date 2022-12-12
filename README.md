@@ -27,7 +27,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 133
+The total number of tools is: 134
 | Name | Latest | Download | Edit |
 |---|---|---|---|
 | [act](https://github.com/nektos/act) | [![GitHub release](https://img.shields.io/github/release/nektos/act.svg?label=release)](https://github.com/nektos/act/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/nektos/act/total) | [Edit](config/nektos/act.yml) |
@@ -72,6 +72,7 @@ The total number of tools is: 133
 | [flux2](https://github.com/fluxcd/flux2) | [![GitHub release](https://img.shields.io/github/release/fluxcd/flux2.svg?label=release)](https://github.com/fluxcd/flux2/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/fluxcd/flux2/total) | [Edit](config/fluxcd/flux2.yml) |
 | [gdrive](https://github.com/prasmussen/gdrive) | [![GitHub release](https://img.shields.io/github/release/prasmussen/gdrive.svg?label=release)](https://github.com/prasmussen/gdrive/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/prasmussen/gdrive/total) | [Edit](config/prasmussen/gdrive.yml) |
 | [git-open](https://github.com/hellojukay/git-open) | [![GitHub release](https://img.shields.io/github/release/hellojukay/git-open.svg?label=release)](https://github.com/hellojukay/git-open/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/hellojukay/git-open/total) | [Edit](config/hellojukay/git-open.yml) |
+| [github-action-workflow](https://github.com/linuxsuren/github-action-workflow) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/github-action-workflow.svg?label=release)](https://github.com/linuxsuren/github-action-workflow/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/github-action-workflow/total) | [Edit](config/linuxsuren/github-action-workflow.yml) |
 | [go-containerregistry](https://github.com/google/go-containerregistry) | [![GitHub release](https://img.shields.io/github/release/google/go-containerregistry.svg?label=release)](https://github.com/google/go-containerregistry/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/google/go-containerregistry/total) | [Edit](config/google/go-containerregistry.yml) |
 | [goget](https://github.com/linuxsuren/goget) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/goget.svg?label=release)](https://github.com/linuxsuren/goget/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/goget/total) | [Edit](config/linuxsuren/goget.yml) |
 | [golangci-lint](https://github.com/golangci/golangci-lint) | [![GitHub release](https://img.shields.io/github/release/golangci/golangci-lint.svg?label=release)](https://github.com/golangci/golangci-lint/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/golangci/golangci-lint/total) | [Edit](config/golangci/golangci-lint.yml) |
