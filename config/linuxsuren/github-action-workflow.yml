@@ -1,5 +1,5 @@
 filename: "{{.Name}}-{{.OS}}-{{.Arch}}"
-binary: gaw         # please provide a binary file name if the release filename is not the final one
+binary: github-action-workflow         # please provide a binary file name if the release filename is not the final one
 targetBinary: gaw   # a desired target binary file name
 tar: true          # if this is a tar file
 formatOverrides:   # set the file extension for different platforms
