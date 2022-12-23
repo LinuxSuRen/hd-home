@@ -220,6 +220,8 @@ packages:
   packageManager: apt-get
 - name: socat
   packageManager: apt-get
+- name: protobuf-compiler
+  packageManager: apt-get
 - name: ifconfig
   install:
     cmd: bash
