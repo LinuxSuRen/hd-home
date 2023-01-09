@@ -27,7 +27,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 134
+The total number of tools is: 135
 | Name | Latest | Download | Edit |
 |---|---|---|---|
 | [act](https://github.com/nektos/act) | [![GitHub release](https://img.shields.io/github/release/nektos/act.svg?label=release)](https://github.com/nektos/act/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/nektos/act/total) | [Edit](config/nektos/act.yml) |
@@ -108,6 +108,7 @@ The total number of tools is: 134
 | [kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) | [![GitHub release](https://img.shields.io/github/release/kubernetes-sigs/kubebuilder.svg?label=release)](https://github.com/kubernetes-sigs/kubebuilder/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/kubernetes-sigs/kubebuilder/total) | [Edit](config/kubernetes-sigs/kubebuilder.yml) |
 | [kubeclipper](https://github.com/kubeclipper-labs/kubeclipper) | [![GitHub release](https://img.shields.io/github/release/kubeclipper-labs/kubeclipper.svg?label=release)](https://github.com/kubeclipper-labs/kubeclipper/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/kubeclipper-labs/kubeclipper/total) | [Edit](config/kubeclipper-labs/kubeclipper.yml) |
 | [kubecm](https://github.com/sunny0826/kubecm) | [![GitHub release](https://img.shields.io/github/release/sunny0826/kubecm.svg?label=release)](https://github.com/sunny0826/kubecm/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/sunny0826/kubecm/total) | [Edit](config/sunny0826/kubecm.yml) |
+| [kubeconform](https://github.com/yannh/kubeconform) | [![GitHub release](https://img.shields.io/github/release/yannh/kubeconform.svg?label=release)](https://github.com/yannh/kubeconform/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/yannh/kubeconform/total) | [Edit](config/yannh/kubeconform.yml) |
 | [kubeeye](https://github.com/kubesphere/kubeeye) | [![GitHub release](https://img.shields.io/github/release/kubesphere/kubeeye.svg?label=release)](https://github.com/kubesphere/kubeeye/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/kubesphere/kubeeye/total) | [Edit](config/kubesphere/kubeeye.yml) |
 | [kubekey](https://github.com/kubesphere/kubekey) | [![GitHub release](https://img.shields.io/github/release/kubesphere/kubekey.svg?label=release)](https://github.com/kubesphere/kubekey/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/kubesphere/kubekey/total) | [Edit](config/kubesphere/kubekey.yml) |
 | [kubekey](https://github.com/linuxsuren/kubekey) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/kubekey.svg?label=release)](https://github.com/linuxsuren/kubekey/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/kubekey/total) | [Edit](config/linuxsuren/kubekey.yml) |
