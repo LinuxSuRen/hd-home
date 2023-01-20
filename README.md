@@ -27,7 +27,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 135
+The total number of tools is: 136
 | Name | Latest | Download | Edit |
 |---|---|---|---|
 | [act](https://github.com/nektos/act) | [![GitHub release](https://img.shields.io/github/release/nektos/act.svg?label=release)](https://github.com/nektos/act/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/nektos/act/total) | [Edit](config/nektos/act.yml) |
@@ -75,6 +75,7 @@ The total number of tools is: 135
 | [github-action-workflow](https://github.com/linuxsuren/github-action-workflow) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/github-action-workflow.svg?label=release)](https://github.com/linuxsuren/github-action-workflow/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/github-action-workflow/total) | [Edit](config/linuxsuren/github-action-workflow.yml) |
 | [go-containerregistry](https://github.com/google/go-containerregistry) | [![GitHub release](https://img.shields.io/github/release/google/go-containerregistry.svg?label=release)](https://github.com/google/go-containerregistry/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/google/go-containerregistry/total) | [Edit](config/google/go-containerregistry.yml) |
 | [goget](https://github.com/linuxsuren/goget) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/goget.svg?label=release)](https://github.com/linuxsuren/goget/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/goget/total) | [Edit](config/linuxsuren/goget.yml) |
+| [gogit](https://github.com/linuxsuren/gogit) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/gogit.svg?label=release)](https://github.com/linuxsuren/gogit/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/gogit/total) | [Edit](config/linuxsuren/gogit.yml) |
 | [golangci-lint](https://github.com/golangci/golangci-lint) | [![GitHub release](https://img.shields.io/github/release/golangci/golangci-lint.svg?label=release)](https://github.com/golangci/golangci-lint/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/golangci/golangci-lint/total) | [Edit](config/golangci/golangci-lint.yml) |
 | [goplay](https://github.com/linuxsuren/goplay) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/goplay.svg?label=release)](https://github.com/linuxsuren/goplay/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/goplay/total) | [Edit](config/linuxsuren/goplay.yml) |
 | [goreleaser](https://github.com/goreleaser/goreleaser) | [![GitHub release](https://img.shields.io/github/release/goreleaser/goreleaser.svg?label=release)](https://github.com/goreleaser/goreleaser/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/goreleaser/goreleaser/total) | [Edit](config/goreleaser/goreleaser.yml) |
