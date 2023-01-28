@@ -94,6 +94,12 @@ packages:
     - gitpod
     - '-n'
     - gitpod
+- name: kvm
+  install:
+    cmd: bash
+    args:
+    - '-c'
+    - 'apt install -y qemu-system-x86'
 - name: podman
   packageManager: apt-get
   preInstall:
