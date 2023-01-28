@@ -99,7 +99,7 @@ packages:
     cmd: bash
     args:
     - '-c'
-    - 'apt install -y qemu-system-x86'
+    - 'apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils qemu-system-x86 -y'
 - name: podman
   packageManager: apt-get
   preInstall:
