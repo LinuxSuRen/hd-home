@@ -193,6 +193,8 @@ packages:
   packageManager: apt-get
 - name: vim
   packageManager: yum
+- name: virt-manager
+  packageManager: apt-get
 - name: gcc
   packageManager: apt-get
 - name: bash-completion
