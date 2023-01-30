@@ -110,7 +110,7 @@ packages:
   packageManager: yum
   preInstall:
   - cmd:
-      cmd: apt-get
+      cmd: yum
       args: 
       - install
       - libvirt
