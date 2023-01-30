@@ -314,3 +314,7 @@ packages:
   packageManager: apt-get
 - name: rpi-imager
   packageManager: apt-get
+- name: dnsmasq
+  packageManager: apt-get
+- name: dnsmasq
+  packageManager: yum
