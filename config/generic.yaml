@@ -277,3 +277,9 @@ packages:
           curl -s -L https://nvidia.github.io/libnvidia-container/{{.OS_ID}}{{.OS_VERSION_ID}}/libnvidia-container.list | sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' | sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
 - name: screenfetch
   packageManager: brew
+- name: freerdp
+  packageManager: brew
+- name: freerdp2-x11
+  packageManager: apt-get
+- name: rpi-imager
+  packageManager: apt-get
