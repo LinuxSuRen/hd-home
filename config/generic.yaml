@@ -301,6 +301,11 @@ packages:
       args:
         - '-c'
         - 'curl -s -L https://nvidia.github.io/libnvidia-container/{{.OS_ID}}{{.OS_VERSION_ID}}/libnvidia-container.repo | sudo tee /etc/yum.repos.d/nvidia-container-toolkit.repo'
+  - cmd:
+      cmd: yum
+      args:
+        - 'glibc'
+        - '-y'
 - name: screenfetch
   packageManager: brew
 - name: freerdp
