@@ -94,12 +94,30 @@ packages:
     - gitpod
     - '-n'
     - gitpod
-- name: kvm
-  install:
-    cmd: bash
-    args:
-    - '-c'
-    - 'sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils qemu-system-x86 -y'
+- name: qemu-kvm
+  packageManager: apt-get
+  preInstall:
+  - cmd:
+      cmd: apt-get
+      args: 
+      - install
+      - libvirt-daemon-system
+      - libvirt-clients
+      - bridge-utils
+      - qemu-system-x86
+      - '-y'
+- name: qemu-kvm
+  packageManager: yum
+  preInstall:
+  - cmd:
+      cmd: apt-get
+      args: 
+      - install
+      - libvirt
+      - libvirt-python
+      - libguestfs-tools
+      - virt-install
+      - '-y'
 - name: podman
   packageManager: apt-get
   preInstall:
