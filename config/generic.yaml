@@ -293,6 +293,14 @@ packages:
         - '-c'
         - |
           curl -s -L https://nvidia.github.io/libnvidia-container/{{.OS_ID}}{{.OS_VERSION_ID}}/libnvidia-container.list | sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' | sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
+- name: nvidia-docker2
+  packageManager: yum
+  preInstall:
+  - cmd:
+      cmd: bash
+      args:
+        - '-c'
+        - 'curl -s -L https://nvidia.github.io/libnvidia-container/{{.OS_ID}}{{.OS_VERSION_ID}}/libnvidia-container.repo | sudo tee /etc/yum.repos.d/nvidia-container-toolkit.repo'
 - name: screenfetch
   packageManager: brew
 - name: freerdp
