@@ -41,7 +41,8 @@ defaultConfigFiles:
     After=network.target
 
     [Service]
-    ExecStartPre=/sbin/modprobe overlay
+    # WSL2 does not have modprobe
+    # ExecStartPre=/sbin/modprobe overlay
     ExecStart=/usr/local/bin/containerd
     Restart=always
     RestartSec=5
@@ -58,6 +59,10 @@ defaultConfigFiles:
     [Install]
     WantedBy=multi-user.target
 postInstalls:
+- cmd: systemctl
+  args:
+  - unmask
+  - containerd
 - cmd: systemctl
   args:
   - daemon-reload
