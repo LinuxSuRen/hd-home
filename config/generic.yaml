@@ -318,3 +318,81 @@ packages:
   packageManager: apt-get
 - name: dnsmasq
   packageManager: yum
+- name: k8s
+  preInstall:
+  - cmd:
+      cmd: bash
+      args: 
+      - '-c'
+      - 'echo 1 > /proc/sys/net/ipv4/ip_forward'
+  - cmd:
+      cmd: bash
+      args: 
+      - '-c'
+      - 'hd i conntrack'
+  - cmd:
+      cmd: bash
+      args: 
+      - '-c'
+      - 'hd i socat'
+  - cmd:
+      cmd: bash
+      args: 
+      - '-c'
+      - 'hd get https://dl.k8s.io/release/v1.23.0/bin/linux/amd64/kubeadm -o /usr/local/bin/kubeadm'
+  - cmd:
+      cmd: bash
+      args: 
+      - '-c'
+      - 'chmod u+x /usr/local/bin/kubeadm'
+  - cmd:
+      cmd: bash
+      args: 
+      - '-c'
+      - 'hd get https://dl.k8s.io/release/v1.23.0/bin/linux/amd64/kubelet -o /usr/local/bin/kubelet'
+  - cmd:
+      cmd: bash
+      args: 
+      - '-c'
+      - 'chmod u+x /usr/local/bin/kubelet'
+  - cmd:
+      cmd: bash
+      args: 
+      - '-c'
+      - 'curl -sSL "https://raw.githubusercontent.com/kubernetes/release/v0.4.0/cmd/kubepkg/templates/latest/deb/kubelet/lib/systemd/system/kubelet.service" | sed "s:/usr/bin:/usr/local/bin:g" | sudo tee /etc/systemd/system/kubelet.service'
+  - cmd:
+      cmd: bash
+      args: 
+      - '-c'
+      - 'mkdir -p /etc/systemd/system/kubelet.service.d'
+  - cmd:
+      cmd: bash
+      args: 
+      - '-c'
+      - 'curl -sSL "https://raw.githubusercontent.com/kubernetes/release/v0.4.0/cmd/kubepkg/templates/latest/deb/kubeadm/10-kubeadm.conf" | sed "s:/usr/bin:/usr/local/bin:g" | sudo tee /etc/systemd/system/kubelet.service.d/10-kubeadm.conf'
+  - cmd:
+      cmd: bash
+      args: 
+      - '-c'
+      - 'hd i containernetworking/plugins'
+  - cmd:
+      cmd: bash
+      args: 
+      - '-c'
+      - 'hd i opencontainers/runc'
+  - cmd:
+      cmd: bash
+      args: 
+      - '-c'
+      - 'modprobe br_netfilter'
+  - cmd:
+      cmd: bash
+      args: 
+      - '-c'
+      - 'swapoff -a'
+  install:
+  - cmd:
+      cmd: bash
+      args: 
+      - '-c'
+      - 'systemctl enable --now kubelet'

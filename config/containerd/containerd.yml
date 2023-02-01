@@ -6,6 +6,8 @@ defaultConfigFiles:
 - os: linux
   path: /etc/containerd/config.toml
   content: |
+    version = 2
+
     [plugins]
       [plugins."io.containerd.grpc.v1.cri"]
         sandbox_image = "kubesphere/pause:3.2"
