@@ -400,7 +400,12 @@ packages:
       args: 
       - '-c'
       - 'swapoff -a'
-  install:
+  - cmd:
+      cmd: bash
+      args: 
+      - '-c'
+      - 'systemctl stop firewalld'
+install:
     cmd: bash
     args: 
     - '-c'
