@@ -316,6 +316,8 @@ packages:
   packageManager: apt-get
 - name: dnsmasq
   packageManager: apt-get
+- name: cloud-init
+  packageManager: apt-get
 - name: dnsmasq
   packageManager: yum
 - name: k8s
