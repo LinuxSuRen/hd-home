@@ -391,8 +391,7 @@ packages:
       - '-c'
       - 'swapoff -a'
   install:
-  - cmd:
-      cmd: bash
-      args: 
-      - '-c'
-      - 'systemctl enable --now kubelet'
+    cmd: bash
+    args: 
+    - '-c'
+    - 'systemctl enable --now kubelet'
