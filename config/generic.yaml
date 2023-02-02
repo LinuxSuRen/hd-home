@@ -384,6 +384,16 @@ packages:
       cmd: bash
       args: 
       - '-c'
+      - 'hd i containerd'
+  - cmd:
+      cmd: bash
+      args: 
+      - '-c'
+      - 'hd i crictl'
+  - cmd:
+      cmd: bash
+      args: 
+      - '-c'
       - 'modprobe br_netfilter'
   - cmd:
       cmd: bash
