@@ -422,7 +422,25 @@ packages:
       - '-c'
       - 'touch /etc/apt/apt.conf.d/99verify-peer.conf'
   install:
-      cmd: bash
-      args: 
-      - '-c'
-      - 'echo >>/etc/apt/apt.conf.d/99verify-peer.conf "Acquire { https::Verify-Peer false }"'
+    cmd: bash
+    args: 
+    - '-c'
+    - 'echo >>/etc/apt/apt.conf.d/99verify-peer.conf "Acquire { https::Verify-Peer false }"'
+- name: debian-source-aliyun
+  preInstall:
+  - cmd:
+      writeTo:
+        file: /etc/apt/sources.list
+        content: |
+          deb https://mirrors.aliyun.com/debian/ stretch main non-free contrib
+          deb-src https://mirrors.aliyun.com/debian/ stretch main non-free contrib
+          deb https://mirrors.aliyun.com/debian-security stretch/updates main
+          deb-src https://mirrors.aliyun.com/debian-security stretch/updates main
+          deb https://mirrors.aliyun.com/debian/ stretch-updates main non-free contrib
+          deb-src https://mirrors.aliyun.com/debian/ stretch-updates main non-free contrib
+          #deb https://mirrors.aliyun.com/debian/ stretch-backports main non-free contrib
+          #deb-src https://mirrors.aliyun.com/debian/ stretch-backports main non-free contrib
+  install:
+    cmd: echo
+    args:
+    - done
