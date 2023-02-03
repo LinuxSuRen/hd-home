@@ -429,18 +429,50 @@ packages:
 - name: debian-source-aliyun
   preInstall:
   - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'apt install -y apt-transport-https ca-certificates'
+  - cmd:
       writeTo:
         file: /etc/apt/sources.list
         content: |
           deb https://mirrors.aliyun.com/debian/ stretch main non-free contrib
-          deb-src https://mirrors.aliyun.com/debian/ stretch main non-free contrib
+          #deb-src https://mirrors.aliyun.com/debian/ stretch main non-free contrib
           deb https://mirrors.aliyun.com/debian-security stretch/updates main
-          deb-src https://mirrors.aliyun.com/debian-security stretch/updates main
+          #deb-src https://mirrors.aliyun.com/debian-security stretch/updates main
           deb https://mirrors.aliyun.com/debian/ stretch-updates main non-free contrib
-          deb-src https://mirrors.aliyun.com/debian/ stretch-updates main non-free contrib
+          #deb-src https://mirrors.aliyun.com/debian/ stretch-updates main non-free contrib
           #deb https://mirrors.aliyun.com/debian/ stretch-backports main non-free contrib
           #deb-src https://mirrors.aliyun.com/debian/ stretch-backports main non-free contrib
   install:
-    cmd: echo
+    cmd: bash
     args:
-    - done
+    - '-c'
+    - 'apt update -y'
+- name: debian-source-tuna
+  preInstall:
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'apt install -y apt-transport-https ca-certificates'
+  - cmd:
+      writeTo:
+        file: /etc/apt/sources.list
+        content: |
+          deb https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch main contrib non-free
+          # deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch main contrib non-free
+          deb https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-updates main contrib non-free
+          # deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-updates main contrib non-free
+
+          deb https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-backports main contrib non-free
+          # deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-backports main contrib non-free
+
+          deb https://mirrors.tuna.tsinghua.edu.cn/debian-security stretch/updates main contrib non-free
+          # deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security stretch/updates main contrib non-free
+  install:
+    cmd: bash
+    args:
+    - '-c'
+    - 'apt update -y'
