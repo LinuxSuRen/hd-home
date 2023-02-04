@@ -409,10 +409,10 @@ packages:
       - '-c'
       - 'systemctl stop firewalld'
   install:
-      cmd: bash
-      args: 
-      - '-c'
-      - 'systemctl enable --now kubelet'
+    cmd: bash
+    args: 
+    - '-c'
+    - 'systemctl enable --now kubelet'
 - name: qemu-user-static
   packageManager: apt-get
 - name: apt-insecure
@@ -487,22 +487,100 @@ packages:
   - cmd:
       writeTo:
         file: /etc/apt/sources.list
-        when: "OS_VERSION_CODENAME=='jammy'"
+        when: "OS_VERSION_CODENAME=='bionic'" # 18.04
+        content: |
+          deb https://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
+          # deb-src https://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
+          deb https://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+          # deb-src https://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+          deb https://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
+          # deb-src https://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
+          # deb https://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
+          # deb-src https://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
+          deb https://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
+          # deb-src https://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
+  - cmd:
+      writeTo:
+        file: /etc/apt/sources.list
+        when: "OS_VERSION_CODENAME=='focal'" # 20.04
+        content: |
+          deb https://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
+          # deb-src https://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
+          deb https://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
+          # deb-src https://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
+          deb https://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
+          # deb-src https://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
+          deb https://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
+          # deb-src https://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
+          deb https://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
+          # deb-src https://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
+  - cmd:
+      writeTo:
+        file: /etc/apt/sources.list
+        when: "OS_VERSION_CODENAME=='hirsute'" # 21.04
+        content: |
+          deb http://mirrors.aliyun.com/ubuntu hirsute main restricted
+          deb http://mirrors.aliyun.com/ubuntu hirsute-updates main restricted
+          deb http://mirrors.aliyun.com/ubuntu hirsute universe
+          deb http://mirrors.aliyun.com/ubuntu hirsute-updates universe
+          deb http://mirrors.aliyun.com/ubuntu hirsute multiverse
+          deb http://mirrors.aliyun.com/ubuntu hirsute-updates multiverse
+          deb http://mirrors.aliyun.com/ubuntu hirsute-backports main restricted universe multiverse
+          deb http://mirrors.aliyun.com/ubuntu hirsute-security main restricted
+          deb http://cn.archive.ubuntu.com/ubuntu hirsute-security universe
+          deb http://cn.archive.ubuntu.com/ubuntu hirsute-security multiverse
+  - cmd:
+      writeTo:
+        file: /etc/apt/sources.list
+        when: "OS_VERSION_CODENAME=='jammy'" # 22.04
         content: |
           deb http://mirrors.aliyun.com/ubuntu/ jammy main restricted universe multiverse
           deb-src http://mirrors.aliyun.com/ubuntu/ jammy main restricted universe multiverse
-
           deb http://mirrors.aliyun.com/ubuntu/ jammy-security main restricted universe multiverse
           deb-src http://mirrors.aliyun.com/ubuntu/ jammy-security main restricted universe multiverse
-
           deb http://mirrors.aliyun.com/ubuntu/ jammy-updates main restricted universe multiverse
           deb-src http://mirrors.aliyun.com/ubuntu/ jammy-updates main restricted universe multiverse
-
           deb http://mirrors.aliyun.com/ubuntu/ jammy-proposed main restricted universe multiverse
           deb-src http://mirrors.aliyun.com/ubuntu/ jammy-proposed main restricted universe multiverse
-
           deb http://mirrors.aliyun.com/ubuntu/ jammy-backports main restricted universe multiverse
           deb-src http://mirrors.aliyun.com/ubuntu/ jammy-backports main restricted universe multiverse
+  install:
+    cmd: bash
+    args:
+    - '-c'
+    - 'apt update -y'
+- name: ubuntu-source-default
+  preInstall:
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'apt install -y apt-transport-https ca-certificates'
+  - cmd:
+      writeTo:
+        file: /etc/apt/sources.list
+        when: "OS_VERSION_CODENAME=='jammy'" # 22.04
+        content: |
+          deb http://cn.archive.ubuntu.com/ubuntu jammy main restricted
+          # deb-src http://cn.archive.ubuntu.com/ubuntu jammy main restricted
+          deb http://cn.archive.ubuntu.com/ubuntu jammy-updates main restricted
+          # deb-src http://cn.archive.ubuntu.com/ubuntu jammy-updates main restricted
+          deb http://cn.archive.ubuntu.com/ubuntu jammy universe
+          # deb-src http://cn.archive.ubuntu.com/ubuntu jammy universe
+          deb http://cn.archive.ubuntu.com/ubuntu jammy-updates universe
+          # deb-src http://cn.archive.ubuntu.com/ubuntu jammy-updates universe
+          deb http://cn.archive.ubuntu.com/ubuntu jammy multiverse
+          # deb-src http://cn.archive.ubuntu.com/ubuntu jammy multiverse
+          deb http://cn.archive.ubuntu.com/ubuntu jammy-updates multiverse
+          # deb-src http://cn.archive.ubuntu.com/ubuntu jammy-updates multiverse
+          deb http://cn.archive.ubuntu.com/ubuntu jammy-backports main restricted universe multiverse
+          # deb-src http://cn.archive.ubuntu.com/ubuntu jammy-backports main restricted universe multiverse
+          deb http://cn.archive.ubuntu.com/ubuntu jammy-security main restricted
+          # deb-src http://cn.archive.ubuntu.com/ubuntu jammy-security main restricted
+          deb http://cn.archive.ubuntu.com/ubuntu jammy-security universe
+          # deb-src http://cn.archive.ubuntu.com/ubuntu jammy-security universe
+          deb http://cn.archive.ubuntu.com/ubuntu jammy-security multiverse
+          # deb-src http://cn.archive.ubuntu.com/ubuntu jammy-security multiverse
   install:
     cmd: bash
     args:
