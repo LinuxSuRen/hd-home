@@ -321,6 +321,7 @@ packages:
 - name: dnsmasq
   packageManager: yum
 - name: k8s
+  # the offical download address is https://dl.k8s.io
   preInstall:
   - cmd:
       cmd: bash
@@ -341,7 +342,7 @@ packages:
       cmd: bash
       args: 
       - '-c'
-      - 'hd get https://dl.k8s.io/release/v1.23.0/bin/linux/amd64/kubeadm -o /usr/local/bin/kubeadm'
+      - 'hd get https://kubernetes-release.pek3b.qingstor.com/release/v1.23.0/bin/linux/amd64/kubeadm -o /usr/local/bin/kubeadm'
   - cmd:
       cmd: bash
       args: 
@@ -351,7 +352,7 @@ packages:
       cmd: bash
       args: 
       - '-c'
-      - 'hd get https://dl.k8s.io/release/v1.23.0/bin/linux/amd64/kubelet -o /usr/local/bin/kubelet'
+      - 'hd get https://kubernetes-release.pek3b.qingstor.com/release/v1.23.0/bin/linux/amd64/kubelet -o /usr/local/bin/kubelet'
   - cmd:
       cmd: bash
       args: 
