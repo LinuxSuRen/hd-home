@@ -2,6 +2,7 @@ filename: "{{.Name}}-{{.VersionNum}}-{{.OS}}-{{.Arch}}.tar.gz"
 binary: containerd
 additionBinaries:
 - containerd-shim-runc-v2
+- ctr
 defaultConfigFiles:
 - os: linux
   path: /etc/containerd/config.toml
