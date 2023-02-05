@@ -387,7 +387,7 @@ packages:
       cmd: bash
       args: 
       - '-c'
-      - 'hd i containerd'
+      - 'hd i containerd/containerd@1.6.16'
   - cmd:
       cmd: bash
       args: 

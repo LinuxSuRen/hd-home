@@ -75,3 +75,4 @@ postInstalls:
   - containerd
 categories:
 - container
+versionCmd: '--version'
