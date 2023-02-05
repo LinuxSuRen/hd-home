@@ -435,7 +435,7 @@ packages:
     cmd: bash
     args: 
     - '-c'
-    - 'echo kubeadm init --image-repository registry.cn-hangzhou.aliyuncs.com/google_containers'
+    - 'echo kubeadm init --image-repository registry.cn-hangzhou.aliyuncs.com/google_containers --kubernetes-version=v1.23.0'
 - name: qemu-user-static
   packageManager: apt-get
 - name: apt-insecure
