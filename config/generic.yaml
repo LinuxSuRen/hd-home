@@ -408,11 +408,16 @@ packages:
       args: 
       - '-c'
       - 'systemctl stop firewalld'
+  - cmd:
+      cmd: bash
+      args: 
+      - '-c'
+      - 'systemctl enable --now kubelet'
   install:
     cmd: bash
     args: 
     - '-c'
-    - 'systemctl enable --now kubelet'
+    - 'echo kubeadm init --image-repository registry.cn-hangzhou.aliyuncs.com/google_containers'
 - name: qemu-user-static
   packageManager: apt-get
 - name: apt-insecure
