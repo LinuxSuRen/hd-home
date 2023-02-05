@@ -397,6 +397,11 @@ packages:
       cmd: bash
       args: 
       - '-c'
+      - 'modprobe overlay'
+  - cmd:
+      cmd: bash
+      args: 
+      - '-c'
       - 'modprobe br_netfilter'
   - cmd:
       cmd: bash
@@ -404,10 +409,23 @@ packages:
       - '-c'
       - 'swapoff -a'
   - cmd:
+      writeTo:
+        file: /etc/modules-load.d/containerd.conf
+        content: |
+          overlay
+          br_netfilter
+  - cmd:
+      writeTo:
+        file: /etc/sysctl.d/kubernetes.conf
+        content: |
+          net.bridge.bridge-nf-call-ip6tables = 1
+          net.bridge.bridge-nf-call-iptables = 1
+          net.ipv4.ip_forward = 1
+  - cmd:
       cmd: bash
       args: 
       - '-c'
-      - 'systemctl stop firewalld'
+      - 'sysctl --system'
   - cmd:
       cmd: bash
       args: 
