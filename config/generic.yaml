@@ -609,3 +609,14 @@ packages:
     args:
     - '-c'
     - 'apt update -y'
+- name: disable-selinux
+  install:
+    cmd: bash
+    args:
+    - '-c'
+    - 'setenforce 0'
+  postInstalls:
+  - cmd:
+      cmd: vim
+      args:
+        - '/etc/selinux/config'
