@@ -460,6 +460,7 @@ packages:
   - cmd:
       writeTo:
         file: /etc/apt/sources.list
+        when: "OS_VERSION_CODENAME=='stretch'" # 9
         content: |
           deb https://mirrors.aliyun.com/debian/ stretch main non-free contrib
           #deb-src https://mirrors.aliyun.com/debian/ stretch main non-free contrib
@@ -469,6 +470,32 @@ packages:
           #deb-src https://mirrors.aliyun.com/debian/ stretch-updates main non-free contrib
           #deb https://mirrors.aliyun.com/debian/ stretch-backports main non-free contrib
           #deb-src https://mirrors.aliyun.com/debian/ stretch-backports main non-free contrib
+  - cmd:
+      writeTo:
+        file: /etc/apt/sources.list
+        when: "OS_VERSION_CODENAME=='buster'" # 10
+        content: |
+          deb https://mirrors.aliyun.com/debian/ buster main non-free contrib
+          # deb-src https://mirrors.aliyun.com/debian/ buster main non-free contrib
+          deb https://mirrors.aliyun.com/debian-security buster/updates main
+          # deb-src https://mirrors.aliyun.com/debian-security buster/updates main
+          deb https://mirrors.aliyun.com/debian/ buster-updates main non-free contrib
+          # deb-src https://mirrors.aliyun.com/debian/ buster-updates main non-free contrib
+          deb https://mirrors.aliyun.com/debian/ buster-backports main non-free contrib
+          # deb-src https://mirrors.aliyun.com/debian/ buster-backports main non-free contrib
+  - cmd:
+      writeTo:
+        file: /etc/apt/sources.list
+        when: "OS_VERSION_CODENAME=='bullseye'" # 11
+        content: |
+          deb https://mirrors.aliyun.com/debian/ bullseye main non-free contrib
+          # deb-src https://mirrors.aliyun.com/debian/ bullseye main non-free contrib
+          deb https://mirrors.aliyun.com/debian-security/ bullseye-security main
+          # deb-src https://mirrors.aliyun.com/debian-security/ bullseye-security main
+          deb https://mirrors.aliyun.com/debian/ bullseye-updates main non-free contrib
+          # deb-src https://mirrors.aliyun.com/debian/ bullseye-updates main non-free contrib
+          deb https://mirrors.aliyun.com/debian/ bullseye-backports main non-free contrib
+          # deb-src https://mirrors.aliyun.com/debian/ bullseye-backports main non-free contrib
   install:
     cmd: bash
     args:
@@ -484,6 +511,7 @@ packages:
   - cmd:
       writeTo:
         file: /etc/apt/sources.list
+        when: "OS_VERSION_CODENAME=='stretch'" # 9
         content: |
           deb https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch main contrib non-free
           # deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch main contrib non-free
