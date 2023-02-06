@@ -617,6 +617,7 @@ packages:
     - 'setenforce 0'
   preInstall:
   - cmd:
-      cmd: vim
+      cmd: bash
       args:
-        - '/etc/selinux/config'
+        - '-c'
+        - 'echo Please edit the config as well. /etc/selinux/config'
