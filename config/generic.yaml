@@ -649,3 +649,15 @@ packages:
       args:
         - '-c'
         - 'echo Please edit the config as well. /etc/selinux/config'
+- name: max-user-ns
+  install:
+    cmd: bash
+    args:
+    - '-c'
+    - 'sysctl user.max_user_namespaces=31477'
+  preInstall:
+  - cmd:
+      cmd: bash
+      args:
+        - '-c'
+        - 'echo "user.max_user_namespaces = 31477" > /etc/sysctl.d/99-usernamespaces.conf'
