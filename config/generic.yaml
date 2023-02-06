@@ -615,7 +615,7 @@ packages:
     args:
     - '-c'
     - 'setenforce 0'
-  postInstalls:
+  preInstall:
   - cmd:
       cmd: vim
       args:
