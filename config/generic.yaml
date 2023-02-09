@@ -337,7 +337,7 @@ packages:
     cmd: bash
     args: 
     - '-c'
-    - 'kubectl create -f tigera-operator.yaml && kubectl create -f tigera-operator.yaml'
+    - 'kubectl create -f tigera-operator.yaml && kubectl create -f custom-resources.yaml'
 - name: k8s
   # the offical download address is https://dl.k8s.io
   preInstall:
