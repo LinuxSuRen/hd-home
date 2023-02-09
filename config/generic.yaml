@@ -320,6 +320,33 @@ packages:
   packageManager: apt-get
 - name: dnsmasq
   packageManager: yum
+- name: kubevirt
+  preInstall:
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'hd get https://ghproxy.com/https://github.com/kubevirt/kubevirt/releases/download/v0.58.0/kubevirt-operator.yaml'
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'hd get https://ghproxy.com/https://github.com/kubevirt/kubevirt/releases/download/v0.58.0/kubevirt-cr.yaml'
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'hd get https://ghproxy.com/https://github.com/kubevirt/containerized-data-importer/releases/download/v1.48.1/cdi-operator.yaml'
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'hd get https://ghproxy.com/https://github.com/kubevirt/containerized-data-importer/releases/download/v1.48.1/cdi-cr.yaml'
+  install:
+    cmd: bash
+    args: 
+    - '-c'
+    - 'kubectl create -f kubevirt-operator.yaml && kubectl create -f kubevirt-cr.yaml && kubectl create -f cdi-operator.yaml && cdi-cr.yaml'
 - name: cni-calico
   # https://docs.tigera.io/calico/3.25/getting-started/kubernetes/quickstart
   preInstall:
