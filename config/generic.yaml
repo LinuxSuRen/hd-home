@@ -320,6 +320,24 @@ packages:
   packageManager: apt-get
 - name: dnsmasq
   packageManager: yum
+- name: cni-calico
+  # https://docs.tigera.io/calico/3.25/getting-started/kubernetes/quickstart
+  preInstall:
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'hd get https://raw.githubusercontent.com/projectcalico/calico/v3.25.0/manifests/tigera-operator.yaml'
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'hd get https://raw.githubusercontent.com/projectcalico/calico/v3.25.0/manifests/custom-resources.yaml'
+  install:
+    cmd: bash
+    args: 
+    - '-c'
+    - 'kubectl create -f tigera-operator.yaml && kubectl create -f tigera-operator.yaml'
 - name: k8s
   # the offical download address is https://dl.k8s.io
   preInstall:
@@ -435,7 +453,7 @@ packages:
     cmd: bash
     args: 
     - '-c'
-    - 'echo kubeadm init --image-repository registry.cn-hangzhou.aliyuncs.com/google_containers --kubernetes-version=v1.23.0'
+    - 'echo kubeadm init --image-repository registry.cn-hangzhou.aliyuncs.com/google_containers --kubernetes-version=v1.23.0 --pod-network-cidr=192.168.0.0/16'
 - name: qemu-user-static
   packageManager: apt-get
 - name: apt-insecure
