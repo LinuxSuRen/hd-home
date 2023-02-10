@@ -609,23 +609,36 @@ packages:
           deb http://mirrors.aliyun.com/ubuntu hirsute-updates multiverse
           deb http://mirrors.aliyun.com/ubuntu hirsute-backports main restricted universe multiverse
           deb http://mirrors.aliyun.com/ubuntu hirsute-security main restricted
-          deb http://cn.archive.ubuntu.com/ubuntu hirsute-security universe
-          deb http://cn.archive.ubuntu.com/ubuntu hirsute-security multiverse
   - cmd:
       writeTo:
         file: /etc/apt/sources.list
         when: "OS_VERSION_CODENAME=='jammy'" # 22.04
         content: |
           deb http://mirrors.aliyun.com/ubuntu/ jammy main restricted universe multiverse
-          deb-src http://mirrors.aliyun.com/ubuntu/ jammy main restricted universe multiverse
+          # deb-src http://mirrors.aliyun.com/ubuntu/ jammy main restricted universe multiverse
           deb http://mirrors.aliyun.com/ubuntu/ jammy-security main restricted universe multiverse
-          deb-src http://mirrors.aliyun.com/ubuntu/ jammy-security main restricted universe multiverse
+          # deb-src http://mirrors.aliyun.com/ubuntu/ jammy-security main restricted universe multiverse
           deb http://mirrors.aliyun.com/ubuntu/ jammy-updates main restricted universe multiverse
-          deb-src http://mirrors.aliyun.com/ubuntu/ jammy-updates main restricted universe multiverse
+          # deb-src http://mirrors.aliyun.com/ubuntu/ jammy-updates main restricted universe multiverse
           deb http://mirrors.aliyun.com/ubuntu/ jammy-proposed main restricted universe multiverse
-          deb-src http://mirrors.aliyun.com/ubuntu/ jammy-proposed main restricted universe multiverse
+          # deb-src http://mirrors.aliyun.com/ubuntu/ jammy-proposed main restricted universe multiverse
           deb http://mirrors.aliyun.com/ubuntu/ jammy-backports main restricted universe multiverse
-          deb-src http://mirrors.aliyun.com/ubuntu/ jammy-backports main restricted universe multiverse
+          # deb-src http://mirrors.aliyun.com/ubuntu/ jammy-backports main restricted universe multiverse
+  - cmd:
+      writeTo:
+        file: /etc/apt/sources.list
+        when: "OS_VERSION_CODENAME=='kinetic'" # 22.10
+        content: |
+          deb http://mirrors.aliyun.com/ubuntu/ kinetic main restricted universe multiverse
+          # deb-src http://mirrors.aliyun.com/ubuntu/ kinetic main restricted universe multiverse
+          deb http://mirrors.aliyun.com/ubuntu/ kinetic-security main restricted universe multiverse
+          # deb-src http://mirrors.aliyun.com/ubuntu/ kinetic-security main restricted universe multiverse
+          deb http://mirrors.aliyun.com/ubuntu/ kinetic-updates main restricted universe multiverse
+          # deb-src http://mirrors.aliyun.com/ubuntu/ kinetic-updates main restricted universe multiverse
+          deb http://mirrors.aliyun.com/ubuntu/ kinetic-proposed main restricted universe multiverse
+          # deb-src http://mirrors.aliyun.com/ubuntu/ kinetic-proposed main restricted universe multiverse
+          deb http://mirrors.aliyun.com/ubuntu/ kinetic-backports main restricted universe multiverse
+          # deb-src http://mirrors.aliyun.com/ubuntu/ kinetic-backports main restricted universe multiverse
   install:
     cmd: bash
     args:
