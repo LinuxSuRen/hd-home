@@ -351,6 +351,18 @@ packages:
     args: 
     - '-c'
     - 'kubectl create -f tigera-operator.yaml && kubectl create -f custom-resources.yaml'
+- name: cert-manager
+  preInstall:
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'hd get https://github.com/jetstack/cert-manager/releases/download/v1.7.1/cert-manager.yaml'
+  install:
+    cmd: bash
+    args: 
+    - '-c'
+    - 'kubectl create -f cert-manager.yaml'
 - name: k8s
   # the offical download address is https://dl.k8s.io
   preInstall:
