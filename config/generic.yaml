@@ -717,3 +717,7 @@ packages:
       args:
         - '-c'
         - 'echo "user.max_user_namespaces = 31477" > /etc/sysctl.d/99-usernamespaces.conf'
+- name: lvm2
+  packageManager: apt-get
+- name: lvm2
+  packageManager: yum
