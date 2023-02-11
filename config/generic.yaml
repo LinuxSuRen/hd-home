@@ -355,7 +355,7 @@ packages:
     cmd: bash
     args: 
     - '-c'
-    - 'kubectl create -f cert-manager.yaml'
+    - 'kubectl apply -f cert-manager.yaml'
 - name: k8s
   # the offical download address is https://dl.k8s.io
   preInstall:
