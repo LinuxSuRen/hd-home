@@ -36,13 +36,6 @@ packages:
     args:
     - '-c'
     - 'curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash'
-- name: cert-manager
-  install:
-    cmd: kubectl
-    args:
-    - apply
-    - '-f'
-    - https://github.com/cert-manager/cert-manager/releases/download/v1.8.0/cert-manager.yaml
 - name: openebs
   install:
     cmd: kubectl
@@ -721,3 +714,51 @@ packages:
   packageManager: apt-get
 - name: lvm2
   packageManager: yum
+- name: rook
+  preInstall:
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'hd i cert-manager'
+  preInstall:
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'hd i lvm2'
+  preInstall:
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'hd get https://github.com/rook/rook/raw/v1.10.11/deploy/examples/crds.yaml'
+  preInstall:
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'hd get https://github.com/rook/rook/raw/v1.10.11/deploy/examples/common.yaml'
+  preInstall:
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'hd get https://github.com/rook/rook/raw/v1.10.11/deploy/examples/operator.yaml'
+  preInstall:
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'hd get https://github.com/rook/rook/raw/v1.10.11/deploy/examples/cluster.yaml'
+  preInstall:
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'kubectl create -f crds.yaml -f common.yaml -f operator.yaml'
+  install:
+    cmd: bash
+    args: 
+    - '-c'
+    - 'kubectl create -f cluster.yaml'
