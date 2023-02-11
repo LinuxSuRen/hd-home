@@ -756,3 +756,61 @@ packages:
     args: 
     - '-c'
     - 'kubectl create -f cluster.yaml'
+- name: ctr-k8s-mirror
+  preInstall:
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'ctr -n k8s.io image pull registry.cn-hangzhou.aliyuncs.com/google_containers/csi-node-driver-registrar:v2.7.0'
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'ctr -n k8s.io image tag --force registry.cn-hangzhou.aliyuncs.com/google_containers/csi-node-driver-registrar:v2.7.0 registry.k8s.io/sig-storage/csi-node-driv
+er-registrar:v2.7.0'
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'ctr -n k8s.io image pull registry.cn-hangzhou.aliyuncs.com/google_containers/csi-attacher:v4.1.0'
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'ctr -n k8s.io image tag --force registry.cn-hangzhou.aliyuncs.com/google_containers/csi-attacher:v4.1.0 registry.k8s.io/sig-storage/csi-attacher:v4.1.0'
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'ctr -n k8s.io image pull registry.cn-hangzhou.aliyuncs.com/google_containers/csi-resizer:v1.7.0'
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'ctr -n k8s.io image tag --force registry.cn-hangzhou.aliyuncs.com/google_containers/csi-resizer:v1.7.0 registry.k8s.io/sig-storage/csi-resizer:v1.7.0'
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'ctr -n k8s.io image pull registry.cn-hangzhou.aliyuncs.com/google_containers/csi-provisioner:v3.4.0'
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'ctr -n k8s.io image tag --force registry.cn-hangzhou.aliyuncs.com/google_containers/csi-provisioner:v3.4.0 registry.k8s.io/sig-storage/csi-provisioner:v3.4.0'
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'ctr -n k8s.io image pull registry.cn-hangzhou.aliyuncs.com/google_containers/csi-snapshotter:v6.2.1'
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'ctr -n k8s.io image tag --force registry.cn-hangzhou.aliyuncs.com/google_containers/csi-snapshotter:v6.2.1 registry.k8s.io/sig-storage/csi-snapshotter:v6.2.1'
+  install:
+    cmd: bash
+    args: 
+    - '-c'
+    - 'echo done'
