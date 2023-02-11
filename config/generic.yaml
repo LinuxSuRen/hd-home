@@ -721,37 +721,31 @@ packages:
       args:
       - '-c'
       - 'hd i cert-manager'
-  preInstall:
   - cmd:
       cmd: bash
       args:
       - '-c'
       - 'hd i lvm2'
-  preInstall:
   - cmd:
       cmd: bash
       args:
       - '-c'
       - 'hd get https://github.com/rook/rook/raw/v1.10.11/deploy/examples/crds.yaml'
-  preInstall:
   - cmd:
       cmd: bash
       args:
       - '-c'
       - 'hd get https://github.com/rook/rook/raw/v1.10.11/deploy/examples/common.yaml'
-  preInstall:
   - cmd:
       cmd: bash
       args:
       - '-c'
       - 'hd get https://github.com/rook/rook/raw/v1.10.11/deploy/examples/operator.yaml'
-  preInstall:
   - cmd:
       cmd: bash
       args:
       - '-c'
       - 'hd get https://github.com/rook/rook/raw/v1.10.11/deploy/examples/cluster.yaml'
-  preInstall:
   - cmd:
       cmd: bash
       args:
