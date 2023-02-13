@@ -344,6 +344,29 @@ packages:
     args: 
     - '-c'
     - 'kubectl create -f tigera-operator.yaml && kubectl create -f custom-resources.yaml'
+- name: lvm-localpv
+  preInstall:
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'hd get https://openebs.github.io/charts/lvm-operator.yaml'
+      writeTo:
+        file: /tmp/lvm-localpv-sc.yaml
+        content: |
+          apiVersion: storage.k8s.io/v1
+          kind: StorageClass
+          metadata:
+            name: openebs-lvmpv
+          parameters:
+            storage: "lvm"
+            volgroup: "lvmvg"
+          provisioner: local.csi.openebs.io
+  install:
+    cmd: bash
+    args: 
+    - '-c'
+    - 'kubectl apply -f lvm-operator.yaml && kubectl apply -f /tmp/lvm-localpv-sc.yaml'
 - name: cert-manager
   preInstall:
   - cmd:
