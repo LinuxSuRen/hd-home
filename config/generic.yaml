@@ -802,8 +802,7 @@ packages:
       cmd: bash
       args:
       - '-c'
-      - 'ctr -n k8s.io image tag --force registry.cn-hangzhou.aliyuncs.com/google_containers/csi-node-driver-registrar:v2.7.0 registry.k8s.io/sig-storage/csi-node-driv
-er-registrar:v2.7.0'
+      - 'ctr -n k8s.io image tag --force registry.cn-hangzhou.aliyuncs.com/google_containers/csi-node-driver-registrar:v2.7.0 registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.7.0'
   - cmd:
       cmd: bash
       args:
@@ -849,3 +848,15 @@ er-registrar:v2.7.0'
     args: 
     - '-c'
     - 'echo done'
+- name: ssh-root-enable
+  preInstall:
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'sed -i "/PermitRootLogin/s/^.*$/PermitRootLogin yes/g" /etc/ssh/sshd_config'
+  install:
+    cmd: bash
+    args: 
+    - '-c'
+    - 'systemctl restart sshd.service'
