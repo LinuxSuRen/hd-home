@@ -1,3 +1,6 @@
 filename: "mde-{{.OS}}-{{.Arch}}"
 binary: mde
 targetBinary: mde
+formatOverrides:   # set the file extension for different platforms
+  windows: zip
+  linux: tar.gz
