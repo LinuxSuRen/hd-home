@@ -27,7 +27,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 138
+The total number of tools is: 139
 | Name | Latest | Download | Edit |
 |---|---|---|---|
 | [act](https://github.com/nektos/act) | [![GitHub release](https://img.shields.io/github/release/nektos/act.svg?label=release)](https://github.com/nektos/act/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/nektos/act/total) | [Edit](config/nektos/act.yml) |
@@ -125,6 +125,7 @@ The total number of tools is: 138
 | [mani](https://github.com/alajmo/mani) | [![GitHub release](https://img.shields.io/github/release/alajmo/mani.svg?label=release)](https://github.com/alajmo/mani/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/alajmo/mani/total) | [Edit](config/alajmo/mani.yml) |
 | [marp-cli](https://github.com/marp-team/marp-cli) | [![GitHub release](https://img.shields.io/github/release/marp-team/marp-cli.svg?label=release)](https://github.com/marp-team/marp-cli/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/marp-team/marp-cli/total) | [Edit](config/marp-team/marp-cli.yml) |
 | [mc](https://github.com/minio/mc) | [![GitHub release](https://img.shields.io/github/release/minio/mc.svg?label=release)](https://github.com/minio/mc/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/minio/mc/total) | [Edit](config/minio/mc.yml) |
+| [md-exec](https://github.com/linuxsuren/md-exec) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/md-exec.svg?label=release)](https://github.com/linuxsuren/md-exec/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/md-exec/total) | [Edit](config/linuxsuren/md-exec.yml) |
 | [minikube](https://github.com/kubernetes/minikube) | [![GitHub release](https://img.shields.io/github/release/kubernetes/minikube.svg?label=release)](https://github.com/kubernetes/minikube/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/kubernetes/minikube/total) | [Edit](config/kubernetes/minikube.yml) |
 | [minio](https://github.com/minio/minio) | [![GitHub release](https://img.shields.io/github/release/minio/minio.svg?label=release)](https://github.com/minio/minio/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/minio/minio/total) | [Edit](config/minio/minio.yml) |
 | [mirrors](https://github.com/linuxsuren/mirrors) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/mirrors.svg?label=release)](https://github.com/linuxsuren/mirrors/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/mirrors/total) | [Edit](config/linuxsuren/mirrors.yml) |
