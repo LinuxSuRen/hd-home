@@ -1,1 +1,3 @@
 filename: "mde-{{.OS}}-{{.Arch}}"
+binary: mde
+targetBinary: mde
