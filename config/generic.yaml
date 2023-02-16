@@ -860,3 +860,6 @@ packages:
     args: 
     - '-c'
     - 'systemctl restart sshd.service'
+- name: zsh
+  packageManager: apt-get
+  
