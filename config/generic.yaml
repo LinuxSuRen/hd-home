@@ -862,4 +862,13 @@ packages:
     - 'systemctl restart sshd.service'
 - name: zsh
   packageManager: apt-get
-  
+- name: csh
+  packageManager: apt-get
+- name: tcsh
+  packageManager: apt-get
+- name: ksh
+  packageManager: apt-get
+- name: dash
+  packageManager: apt-get
+- name: fish
+  packageManager: apt-get
