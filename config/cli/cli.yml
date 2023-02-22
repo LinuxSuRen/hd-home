@@ -4,4 +4,4 @@ categories:
 - git
 replacements:
   darwin: macOS
-
+versionCmd: '--version'
