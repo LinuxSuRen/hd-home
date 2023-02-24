@@ -872,3 +872,5 @@ packages:
   packageManager: apt-get
 - name: fish
   packageManager: apt-get
+- name: groovy
+  packageManager: apt-get
