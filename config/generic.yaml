@@ -874,3 +874,5 @@ packages:
   packageManager: apt-get
 - name: groovy
   packageManager: apt-get
+- name: maven
+  packageManager: apt-get
