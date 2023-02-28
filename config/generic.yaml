@@ -215,6 +215,8 @@ packages:
     - '--classic'
 - name: ngrok
   packageManager: snap
+- name: microk8s
+  packageManager: snap
 - name: http-server
   packageManager: npm
 - name: snyk
