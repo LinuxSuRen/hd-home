@@ -888,3 +888,5 @@ packages:
   packageManager: winget
 - name: wingetui
   packageManager: scoop
+- name: maven
+  packageManager: scoop
