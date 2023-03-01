@@ -884,3 +884,7 @@ packages:
   packageManager: apt-get
 - name: maven
   packageManager: apt-get
+- name: wingetui
+  packageManager: winget
+- name: wingetui
+  packageManager: scoop
