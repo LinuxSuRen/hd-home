@@ -892,3 +892,7 @@ packages:
   packageManager: scoop
 - name: go
   packageManager: scoop
+- name: vim
+  packageManager: scoop
+- name: make
+  packageManager: scoop
