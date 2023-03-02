@@ -890,3 +890,5 @@ packages:
   packageManager: scoop
 - name: maven
   packageManager: scoop
+- name: go
+  packageManager: scoop
