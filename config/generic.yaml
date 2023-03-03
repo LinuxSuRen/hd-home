@@ -896,3 +896,11 @@ packages:
   packageManager: scoop
 - name: make
   packageManager: scoop
+- name: golang
+  packageManager: yum
+  preInstall:
+  - cmd:
+      cmd: yum
+      args: 
+      - install
+      - epel-release
