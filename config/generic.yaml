@@ -904,3 +904,45 @@ packages:
       args: 
       - install
       - epel-release
+- name: external-snapshotter
+  preInstall:
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'kubectl create -f https://github.com/kubernetes-csi/external-snapshotter/raw/master/client/config/crd/snapshot.storage.k8s.io_volumesnapshotclasses.yaml'
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'kubectl create -f https://github.com/kubernetes-csi/external-snapshotter/raw/master/client/config/crd/snapshot.storage.k8s.io_volumesnapshotcontents.yaml'
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'kubectl create -f https://github.com/kubernetes-csi/external-snapshotter/raw/master/client/config/crd/snapshot.storage.k8s.io_volumesnapshots.yaml'
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'kubectl create -f https://github.com/kubernetes-csi/external-snapshotter/raw/master/deploy/kubernetes/csi-snapshotter/rbac-csi-snapshotter.yaml'
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'kubectl create -f https://github.com/kubernetes-csi/external-snapshotter/raw/master/deploy/kubernetes/csi-snapshotter/rbac-external-provisioner.yaml'
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'kubectl create -f https://github.com/kubernetes-csi/external-snapshotter/raw/master/deploy/kubernetes/csi-snapshotter/setup-csi-snapshotter.yaml'
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'kubectl create -f https://github.com/kubernetes-csi/external-snapshotter/raw/master/deploy/kubernetes/snapshot-controller/rbac-snapshot-controller.yaml'
+  install:
+    cmd: bash
+    args: 
+    - '-c'
+    - 'kubectl create -f https://github.com/kubernetes-csi/external-snapshotter/raw/master/deploy/kubernetes/snapshot-controller/setup-snapshot-controller.yaml'
