@@ -946,3 +946,20 @@ packages:
     args: 
     - '-c'
     - 'kubectl create -f https://github.com/kubernetes-csi/external-snapshotter/raw/master/deploy/kubernetes/snapshot-controller/setup-snapshot-controller.yaml'
+- name: swapoff
+  preInstall:
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'swapoff -a'
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'sed -e '/swap/ s/^#*/#/' -i /etc/fstab'
+  install:
+    cmd: bash
+    args: 
+    - '-c'
+    - 'systemctl mask swap.target'
