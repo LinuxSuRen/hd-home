@@ -957,7 +957,7 @@ packages:
       cmd: bash
       args:
       - '-c'
-      - 'sed -e '/swap/ s/^#*/#/' -i /etc/fstab'
+      - sed -e '/swap/ s/^#*/#/' -i /etc/fstab
   install:
     cmd: bash
     args: 
