@@ -27,7 +27,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 139
+The total number of tools is: 140
 | Name | Latest | Download | Edit |
 |---|---|---|---|
 | [act](https://github.com/nektos/act) | [![GitHub release](https://img.shields.io/github/release/nektos/act.svg?label=release)](https://github.com/nektos/act/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/nektos/act/total) | [Edit](config/nektos/act.yml) |
@@ -70,6 +70,7 @@ The total number of tools is: 139
 | [etcd](https://github.com/etcd-io/etcd) | [![GitHub release](https://img.shields.io/github/release/etcd-io/etcd.svg?label=release)](https://github.com/etcd-io/etcd/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/etcd-io/etcd/total) | [Edit](config/etcd-io/etcd.yml) |
 | [flux](https://github.com/fluxcd/flux) | [![GitHub release](https://img.shields.io/github/release/fluxcd/flux.svg?label=release)](https://github.com/fluxcd/flux/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/fluxcd/flux/total) | [Edit](config/fluxcd/flux.yml) |
 | [flux2](https://github.com/fluxcd/flux2) | [![GitHub release](https://img.shields.io/github/release/fluxcd/flux2.svg?label=release)](https://github.com/fluxcd/flux2/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/fluxcd/flux2/total) | [Edit](config/fluxcd/flux2.yml) |
+| [gcloc](https://github.com/JoaoDanielRufino/gcloc) | [![GitHub release](https://img.shields.io/github/release/JoaoDanielRufino/gcloc.svg?label=release)](https://github.com/JoaoDanielRufino/gcloc/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/JoaoDanielRufino/gcloc/total) | [Edit](config/JoaoDanielRufino/gcloc.yml) |
 | [gdrive](https://github.com/prasmussen/gdrive) | [![GitHub release](https://img.shields.io/github/release/prasmussen/gdrive.svg?label=release)](https://github.com/prasmussen/gdrive/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/prasmussen/gdrive/total) | [Edit](config/prasmussen/gdrive.yml) |
 | [git-open](https://github.com/hellojukay/git-open) | [![GitHub release](https://img.shields.io/github/release/hellojukay/git-open.svg?label=release)](https://github.com/hellojukay/git-open/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/hellojukay/git-open/total) | [Edit](config/hellojukay/git-open.yml) |
 | [github-action-workflow](https://github.com/linuxsuren/github-action-workflow) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/github-action-workflow.svg?label=release)](https://github.com/linuxsuren/github-action-workflow/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/github-action-workflow/total) | [Edit](config/linuxsuren/github-action-workflow.yml) |
