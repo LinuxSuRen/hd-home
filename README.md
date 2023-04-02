@@ -27,7 +27,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 140
+The total number of tools is: 141
 | Name | Latest | Download | Edit |
 |---|---|---|---|
 | [act](https://github.com/nektos/act) | [![GitHub release](https://img.shields.io/github/release/nektos/act.svg?label=release)](https://github.com/nektos/act/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/nektos/act/total) | [Edit](config/nektos/act.yml) |
@@ -86,6 +86,7 @@ The total number of tools is: 140
 | [grmon](https://github.com/bcicen/grmon) | [![GitHub release](https://img.shields.io/github/release/bcicen/grmon.svg?label=release)](https://github.com/bcicen/grmon/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/bcicen/grmon/total) | [Edit](config/bcicen/grmon.yml) |
 | [helm](https://github.com/helm/helm) | [![GitHub release](https://img.shields.io/github/release/helm/helm.svg?label=release)](https://github.com/helm/helm/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/helm/helm/total) | [Edit](config/helm/helm.yml) |
 | [http-downloader](https://github.com/linuxsuren/http-downloader) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/http-downloader.svg?label=release)](https://github.com/linuxsuren/http-downloader/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/http-downloader/total) | [Edit](config/linuxsuren/http-downloader.yml) |
+| [httprunner](https://github.com/httprunner/httprunner) | [![GitHub release](https://img.shields.io/github/release/httprunner/httprunner.svg?label=release)](https://github.com/httprunner/httprunner/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/httprunner/httprunner/total) | [Edit](config/httprunner/httprunner.yml) |
 | [hub](https://github.com/github/hub) | [![GitHub release](https://img.shields.io/github/release/github/hub.svg?label=release)](https://github.com/github/hub/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/github/hub/total) | [Edit](config/github/hub.yml) |
 | [hugo](https://github.com/gohugoio/hugo) | [![GitHub release](https://img.shields.io/github/release/gohugoio/hugo.svg?label=release)](https://github.com/gohugoio/hugo/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/gohugoio/hugo/total) | [Edit](config/gohugoio/hugo.yml) |
 | [illa](https://github.com/illa-family/illa) | [![GitHub release](https://img.shields.io/github/release/illa-family/illa.svg?label=release)](https://github.com/illa-family/illa/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/illa-family/illa/total) | [Edit](config/illa-family/illa.yml) |
