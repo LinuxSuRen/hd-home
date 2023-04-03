@@ -1,0 +1,8 @@
+filename: "protoc-gen-grpc-web-{{.VersionNum}}-{{.OS}}-{{.Arch}}"
+binary: protoc-gen-grpc-web         # please provide a binary file name if the release filename is not the final one
+targetBinary: protoc-gen-grpc-web   # a desired target binary file name
+tar: false          # if this is a tar file
+replacements:      # the replacement of os, arch
+  amd64: x86_64
+categories:
+- rpc
