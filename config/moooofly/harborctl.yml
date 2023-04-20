@@ -6,5 +6,6 @@ formatOverrides:   # set the file extension for different platforms
 replacements:      # the replacement of os, arch
   darwin: Darwin
   linux: Linux
+  amd64: x86_64
 categories:
 - container
