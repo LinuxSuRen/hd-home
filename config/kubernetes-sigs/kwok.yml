@@ -1,0 +1,5 @@
+filename: "{{.Name}}-{{.OS}}-{{.Arch}}"
+targetBinary: kwok   # a desired target binary file name
+tar: false          # if this is a tar file
+categories:
+- k8s
