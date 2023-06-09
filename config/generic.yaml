@@ -884,6 +884,8 @@ packages:
   packageManager: apt-get
 - name: maven
   packageManager: apt-get
+- name: buildah
+  packageManager: apt-get
 - name: wingetui
   packageManager: winget
 - name: wingetui
@@ -896,6 +898,8 @@ packages:
   packageManager: scoop
 - name: make
   packageManager: scoop
+- name: buildah
+  packageManager: yum
 - name: golang
   packageManager: yum
   preInstall:
