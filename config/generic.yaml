@@ -98,6 +98,8 @@ packages:
       - virt-install
       - '-y'
 - name: podman
+  packageManager: yum
+- name: podman
   packageManager: apt-get
   preInstall:
   - issuePrefix: 'Ubuntu 18.04'
