@@ -28,7 +28,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 145
+The total number of tools is: 146
 
 
 | Name | Latest | Download | Edit |
@@ -71,6 +71,7 @@ The total number of tools is: 145
 | [dolt](https://github.com/dolthub/dolt) | [![GitHub release](https://img.shields.io/github/release/dolthub/dolt.svg?label=release)](https://github.com/dolthub/dolt/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/dolthub/dolt/total) | [Edit](config/dolthub/dolt.yml) |
 | [envsubst](https://github.com/a8m/envsubst) | [![GitHub release](https://img.shields.io/github/release/a8m/envsubst.svg?label=release)](https://github.com/a8m/envsubst/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/a8m/envsubst/total) | [Edit](config/a8m/envsubst.yml) |
 | [etcd](https://github.com/etcd-io/etcd) | [![GitHub release](https://img.shields.io/github/release/etcd-io/etcd.svg?label=release)](https://github.com/etcd-io/etcd/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/etcd-io/etcd/total) | [Edit](config/etcd-io/etcd.yml) |
+| [etcdkeeper](https://github.com/evildecay/etcdkeeper) | [![GitHub release](https://img.shields.io/github/release/evildecay/etcdkeeper.svg?label=release)](https://github.com/evildecay/etcdkeeper/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/evildecay/etcdkeeper/total) | [Edit](config/evildecay/etcdkeeper.yml) |
 | [flux](https://github.com/fluxcd/flux) | [![GitHub release](https://img.shields.io/github/release/fluxcd/flux.svg?label=release)](https://github.com/fluxcd/flux/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/fluxcd/flux/total) | [Edit](config/fluxcd/flux.yml) |
 | [flux2](https://github.com/fluxcd/flux2) | [![GitHub release](https://img.shields.io/github/release/fluxcd/flux2.svg?label=release)](https://github.com/fluxcd/flux2/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/fluxcd/flux2/total) | [Edit](config/fluxcd/flux2.yml) |
 | [gcloc](https://github.com/JoaoDanielRufino/gcloc) | [![GitHub release](https://img.shields.io/github/release/JoaoDanielRufino/gcloc.svg?label=release)](https://github.com/JoaoDanielRufino/gcloc/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/JoaoDanielRufino/gcloc/total) | [Edit](config/JoaoDanielRufino/gcloc.yml) |
