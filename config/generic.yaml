@@ -208,6 +208,8 @@ packages:
   packageManager: apk
 - name: openvpn
   packageManager: apt-get
+- name: chrony
+  packageManager: apt-get
 - name: npm
   packageManager: apt-get
 - name: graphviz
