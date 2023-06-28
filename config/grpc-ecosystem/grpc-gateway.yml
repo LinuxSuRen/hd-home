@@ -1,4 +1,4 @@
-filename: "protoc-gen-{{.Name}}-{{.Versioin}}-{{.OS}}-{{.Arch}}"
+filename: "protoc-gen-{{.Name}}-{{.Version}}-{{.OS}}-{{.Arch}}"
 binary: protoc-gen-grpc-gateway         # please provide a binary file name if the release filename is not the final one
 targetBinary: protoc-gen-grpc-gateway   # a desired target binary file name
 tar: false          # if this is a tar file
