@@ -309,6 +309,8 @@ packages:
   packageManager: apt-get
 - name: cloud-init
   packageManager: apt-get
+- name: sshpass
+  packageManager: apt-get
 - name: dnsmasq
   packageManager: yum
 - name: kubevirt
