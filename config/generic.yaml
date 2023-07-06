@@ -239,6 +239,14 @@ packages:
   packageManager: apt-get
 - name: protobuf-compiler
   packageManager: apt-get
+- name: skopeo
+  packageManager: apt-get
+- name: skopeo
+  packageManager: apk
+- name: skopeo
+  packageManager: yum
+- name: skopeo
+  packageManager: dnf
 - name: ifconfig
   install:
     cmd: bash
