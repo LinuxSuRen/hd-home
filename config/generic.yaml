@@ -1,5 +1,4 @@
 packages:
-packages:
 - name: ksv
   preInstall:
   - cmd:
