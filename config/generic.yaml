@@ -5,12 +5,12 @@ packages:
       cmd: bash
       args:
       - '-c'
-      - "curl -OL https://virtualization.kubesphere.cloud/v1.6.1/kubesphere-virtualization-x86_64-v1.6.1.tar"
+      - "hd get https://virtualization.kubesphere.cloud/v1.6.1/kubesphere-virtualization-x86_64-v1.6.1.tar.gz"
   - cmd:
       cmd: bash
       args:
       - '-c'
-      - "tar -zxvf kubesphere-virtualization-x86_64-v1.6.1.tar"
+      - "tar -zxvf kubesphere-virtualization-x86_64-v1.6.1.tar.gz"
   install:
     cmd: bash
     args:
