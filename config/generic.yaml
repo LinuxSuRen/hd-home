@@ -1,4 +1,22 @@
 packages:
+packages:
+- name: ksv
+  preInstall:
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - "curl -OL https://virtualization.kubesphere.cloud/v1.6.1/kubesphere-virtualization-x86_64-v1.6.1.tar"
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - "tar -zxvf kubesphere-virtualization-x86_64-v1.6.1.tar"
+  install:
+    cmd: bash
+    args:
+    - '-c'
+    - "./kubesphere-virtualization-x86_64-v1.6.1/install.sh -a"
 - name: rust
   install:
     cmd: bash
