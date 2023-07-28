@@ -28,7 +28,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 150
+The total number of tools is: 151
 
 
 | Name | Latest | Download | Edit |
@@ -142,6 +142,7 @@ The total number of tools is: 150
 | [minikube](https://github.com/kubernetes/minikube) | [![GitHub release](https://img.shields.io/github/release/kubernetes/minikube.svg?label=release)](https://github.com/kubernetes/minikube/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/kubernetes/minikube/total) | [Edit](config/kubernetes/minikube.yml) |
 | [minio](https://github.com/minio/minio) | [![GitHub release](https://img.shields.io/github/release/minio/minio.svg?label=release)](https://github.com/minio/minio/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/minio/minio/total) | [Edit](config/minio/minio.yml) |
 | [mirrors](https://github.com/linuxsuren/mirrors) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/mirrors.svg?label=release)](https://github.com/linuxsuren/mirrors/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/mirrors/total) | [Edit](config/linuxsuren/mirrors.yml) |
+| [nexus-cli](https://github.com/sonatype-nexus-community/nexus-cli) | [![GitHub release](https://img.shields.io/github/release/sonatype-nexus-community/nexus-cli.svg?label=release)](https://github.com/sonatype-nexus-community/nexus-cli/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/sonatype-nexus-community/nexus-cli/total) | [Edit](config/sonatype-nexus-community/nexus-cli.yml) |
 | [nocalhost](https://github.com/nocalhost/nocalhost) | [![GitHub release](https://img.shields.io/github/release/nocalhost/nocalhost.svg?label=release)](https://github.com/nocalhost/nocalhost/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/nocalhost/nocalhost/total) | [Edit](config/nocalhost/nocalhost.yml) |
 | [nuclei](https://github.com/projectdiscovery/nuclei) | [![GitHub release](https://img.shields.io/github/release/projectdiscovery/nuclei.svg?label=release)](https://github.com/projectdiscovery/nuclei/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/projectdiscovery/nuclei/total) | [Edit](config/projectdiscovery/nuclei.yml) |
 | [octant](https://github.com/vmware-tanzu/octant) | [![GitHub release](https://img.shields.io/github/release/vmware-tanzu/octant.svg?label=release)](https://github.com/vmware-tanzu/octant/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/vmware-tanzu/octant/total) | [Edit](config/vmware-tanzu/octant.yml) |
