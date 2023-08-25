@@ -28,7 +28,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 151
+The total number of tools is: 152
 
 
 | Name | Latest | Download | Edit |
@@ -49,6 +49,7 @@ The total number of tools is: 151
 | [brigade](https://github.com/brigadecore/brigade) | [![GitHub release](https://img.shields.io/github/release/brigadecore/brigade.svg?label=release)](https://github.com/brigadecore/brigade/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/brigadecore/brigade/total) | [Edit](config/brigadecore/brigade.yml) |
 | [buildkit](https://github.com/moby/buildkit) | [![GitHub release](https://img.shields.io/github/release/moby/buildkit.svg?label=release)](https://github.com/moby/buildkit/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/moby/buildkit/total) | [Edit](config/moby/buildkit.yml) |
 | [buildtools](https://github.com/bazelbuild/buildtools) | [![GitHub release](https://img.shields.io/github/release/bazelbuild/buildtools.svg?label=release)](https://github.com/bazelbuild/buildtools/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/bazelbuild/buildtools/total) | [Edit](config/bazelbuild/buildtools.yml) |
+| [caddy](https://github.com/caddyserver/caddy) | [![GitHub release](https://img.shields.io/github/release/caddyserver/caddy.svg?label=release)](https://github.com/caddyserver/caddy/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/caddyserver/caddy/total) | [Edit](config/caddyserver/caddy.yml) |
 | [cert-manager](https://github.com/jetstack/cert-manager) | [![GitHub release](https://img.shields.io/github/release/jetstack/cert-manager.svg?label=release)](https://github.com/jetstack/cert-manager/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/jetstack/cert-manager/total) | [Edit](config/jetstack/cert-manager.yml) |
 | [cgit](https://github.com/linuxsuren/cgit) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/cgit.svg?label=release)](https://github.com/linuxsuren/cgit/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/cgit/total) | [Edit](config/linuxsuren/cgit.yml) |
 | [chart-releaser](https://github.com/helm/chart-releaser) | [![GitHub release](https://img.shields.io/github/release/helm/chart-releaser.svg?label=release)](https://github.com/helm/chart-releaser/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/helm/chart-releaser/total) | [Edit](config/helm/chart-releaser.yml) |
