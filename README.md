@@ -28,7 +28,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 152
+The total number of tools is: 153
 
 
 | Name | Latest | Download | Edit |
@@ -98,6 +98,7 @@ The total number of tools is: 152
 | [http-downloader](https://github.com/linuxsuren/http-downloader) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/http-downloader.svg?label=release)](https://github.com/linuxsuren/http-downloader/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/http-downloader/total) | [Edit](config/linuxsuren/http-downloader.yml) |
 | [httprunner](https://github.com/httprunner/httprunner) | [![GitHub release](https://img.shields.io/github/release/httprunner/httprunner.svg?label=release)](https://github.com/httprunner/httprunner/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/httprunner/httprunner/total) | [Edit](config/httprunner/httprunner.yml) |
 | [hub](https://github.com/github/hub) | [![GitHub release](https://img.shields.io/github/release/github/hub.svg?label=release)](https://github.com/github/hub/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/github/hub/total) | [Edit](config/github/hub.yml) |
+| [hub-tool](https://github.com/docker/hub-tool) | [![GitHub release](https://img.shields.io/github/release/docker/hub-tool.svg?label=release)](https://github.com/docker/hub-tool/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/docker/hub-tool/total) | [Edit](config/docker/hub-tool.yml) |
 | [hugo](https://github.com/gohugoio/hugo) | [![GitHub release](https://img.shields.io/github/release/gohugoio/hugo.svg?label=release)](https://github.com/gohugoio/hugo/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/gohugoio/hugo/total) | [Edit](config/gohugoio/hugo.yml) |
 | [illa](https://github.com/illa-family/illa) | [![GitHub release](https://img.shields.io/github/release/illa-family/illa.svg?label=release)](https://github.com/illa-family/illa/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/illa-family/illa/total) | [Edit](config/illa-family/illa.yml) |
 | [img](https://github.com/genuinetools/img) | [![GitHub release](https://img.shields.io/github/release/genuinetools/img.svg?label=release)](https://github.com/genuinetools/img/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/genuinetools/img/total) | [Edit](config/genuinetools/img.yml) |
