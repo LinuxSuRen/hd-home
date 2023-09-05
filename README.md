@@ -28,7 +28,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 153
+The total number of tools is: 154
 
 
 | Name | Latest | Download | Edit |
@@ -88,6 +88,7 @@ The total number of tools is: 153
 | [gosec](https://github.com/securego/gosec) | [![GitHub release](https://img.shields.io/github/release/securego/gosec.svg?label=release)](https://github.com/securego/gosec/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/securego/gosec/total) | [Edit](config/securego/gosec.yml) |
 | [gospider](https://github.com/jaeles-project/gospider) | [![GitHub release](https://img.shields.io/github/release/jaeles-project/gospider.svg?label=release)](https://github.com/jaeles-project/gospider/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/jaeles-project/gospider/total) | [Edit](config/jaeles-project/gospider.yml) |
 | [gotorrent](https://github.com/linuxsuren/gotorrent) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/gotorrent.svg?label=release)](https://github.com/linuxsuren/gotorrent/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/gotorrent/total) | [Edit](config/linuxsuren/gotorrent.yml) |
+| [gows](https://github.com/linuxsuren/gows) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/gows.svg?label=release)](https://github.com/linuxsuren/gows/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/gows/total) | [Edit](config/linuxsuren/gows.yml) |
 | [grmon](https://github.com/bcicen/grmon) | [![GitHub release](https://img.shields.io/github/release/bcicen/grmon.svg?label=release)](https://github.com/bcicen/grmon/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/bcicen/grmon/total) | [Edit](config/bcicen/grmon.yml) |
 | [grpc-client-cli](https://github.com/vadimi/grpc-client-cli) | [![GitHub release](https://img.shields.io/github/release/vadimi/grpc-client-cli.svg?label=release)](https://github.com/vadimi/grpc-client-cli/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/vadimi/grpc-client-cli/total) | [Edit](config/vadimi/grpc-client-cli.yml) |
 | [grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | [![GitHub release](https://img.shields.io/github/release/grpc-ecosystem/grpc-gateway.svg?label=release)](https://github.com/grpc-ecosystem/grpc-gateway/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/grpc-ecosystem/grpc-gateway/total) | [Edit](config/grpc-ecosystem/grpc-gateway.yml) |
