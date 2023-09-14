@@ -929,6 +929,18 @@ packages:
   packageManager: scoop
 - name: make
   packageManager: scoop
+- name: keepalived
+  packageManager: yum
+- name: keepalived
+  packageManager: apt-get
+- name: haproxy
+  packageManager: yum
+- name: haproxy
+  packageManager: apt-get
+- name: psmisc
+  packageManager: yum
+- name: psmisc
+  packageManager: apt-get
 - name: buildah
   packageManager: yum
 - name: golang
