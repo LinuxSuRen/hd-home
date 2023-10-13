@@ -28,7 +28,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 154
+The total number of tools is: 155
 
 
 | Name | Latest | Download | Edit |
@@ -153,6 +153,7 @@ The total number of tools is: 154
 | [opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib) | [![GitHub release](https://img.shields.io/github/release/open-telemetry/opentelemetry-collector-contrib.svg?label=release)](https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/open-telemetry/opentelemetry-collector-contrib/total) | [Edit](config/open-telemetry/opentelemetry-collector-contrib.yml) |
 | [operator-registry](https://github.com/operator-framework/operator-registry) | [![GitHub release](https://img.shields.io/github/release/operator-framework/operator-registry.svg?label=release)](https://github.com/operator-framework/operator-registry/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/operator-framework/operator-registry/total) | [Edit](config/operator-framework/operator-registry.yml) |
 | [operator-sdk](https://github.com/operator-framework/operator-sdk) | [![GitHub release](https://img.shields.io/github/release/operator-framework/operator-sdk.svg?label=release)](https://github.com/operator-framework/operator-sdk/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/operator-framework/operator-sdk/total) | [Edit](config/operator-framework/operator-sdk.yml) |
+| [oras](https://github.com/oras-project/oras) | [![GitHub release](https://img.shields.io/github/release/oras-project/oras.svg?label=release)](https://github.com/oras-project/oras/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/oras-project/oras/total) | [Edit](config/oras-project/oras.yml) |
 | [pacproxy](https://github.com/williambailey/pacproxy) | [![GitHub release](https://img.shields.io/github/release/williambailey/pacproxy.svg?label=release)](https://github.com/williambailey/pacproxy/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/williambailey/pacproxy/total) | [Edit](config/williambailey/pacproxy.yml) |
 | [plugins](https://github.com/containernetworking/plugins) | [![GitHub release](https://img.shields.io/github/release/containernetworking/plugins.svg?label=release)](https://github.com/containernetworking/plugins/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/containernetworking/plugins/total) | [Edit](config/containernetworking/plugins.yml) |
 | [popeye](https://github.com/derailed/popeye) | [![GitHub release](https://img.shields.io/github/release/derailed/popeye.svg?label=release)](https://github.com/derailed/popeye/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/derailed/popeye/total) | [Edit](config/derailed/popeye.yml) |
