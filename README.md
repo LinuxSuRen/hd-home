@@ -28,7 +28,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 155
+The total number of tools is: 156
 
 
 | Name | Latest | Download | Edit |
@@ -179,6 +179,7 @@ The total number of tools is: 155
 | [transfer](https://github.com/Mikubill/transfer) | [![GitHub release](https://img.shields.io/github/release/Mikubill/transfer.svg?label=release)](https://github.com/Mikubill/transfer/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/Mikubill/transfer/total) | [Edit](config/Mikubill/transfer.yml) |
 | [transfer](https://github.com/linuxsuren/transfer) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/transfer.svg?label=release)](https://github.com/linuxsuren/transfer/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/transfer/total) | [Edit](config/linuxsuren/transfer.yml) |
 | [trivy](https://github.com/aquasecurity/trivy) | [![GitHub release](https://img.shields.io/github/release/aquasecurity/trivy.svg?label=release)](https://github.com/aquasecurity/trivy/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/aquasecurity/trivy/total) | [Edit](config/aquasecurity/trivy.yml) |
+| [trpc-cmdline](https://github.com/trpc-group/trpc-cmdline) | [![GitHub release](https://img.shields.io/github/release/trpc-group/trpc-cmdline.svg?label=release)](https://github.com/trpc-group/trpc-cmdline/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/trpc-group/trpc-cmdline/total) | [Edit](config/trpc-group/trpc-cmdline.yml) |
 | [uploader](https://github.com/codecov/uploader) | [![GitHub release](https://img.shields.io/github/release/codecov/uploader.svg?label=release)](https://github.com/codecov/uploader/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/codecov/uploader/total) | [Edit](config/codecov/uploader.yml) |
 | [upx](https://github.com/upx/upx) | [![GitHub release](https://img.shields.io/github/release/upx/upx.svg?label=release)](https://github.com/upx/upx/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/upx/upx/total) | [Edit](config/upx/upx.yml) |
 | [velero](https://github.com/vmware-tanzu/velero) | [![GitHub release](https://img.shields.io/github/release/vmware-tanzu/velero.svg?label=release)](https://github.com/vmware-tanzu/velero/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/vmware-tanzu/velero/total) | [Edit](config/vmware-tanzu/velero.yml) |
