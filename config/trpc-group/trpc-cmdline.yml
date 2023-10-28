@@ -1,4 +1,4 @@
-filename: "trpc_{{.OS}}-{{.Version}}-{{.Arch}}"
+filename: "trpc_{{.OS}}-{{.Version}}-{{.OS}}-{{.Arch}}"
 binary: trpc         # please provide a binary file name if the release filename is not the final one
 targetBinary: trpc   # a desired target binary file name
 tar: true          # if this is a tar file
