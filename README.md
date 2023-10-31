@@ -28,7 +28,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 156
+The total number of tools is: 157
 
 
 | Name | Latest | Download | Edit |
@@ -93,6 +93,7 @@ The total number of tools is: 156
 | [grpc-client-cli](https://github.com/vadimi/grpc-client-cli) | [![GitHub release](https://img.shields.io/github/release/vadimi/grpc-client-cli.svg?label=release)](https://github.com/vadimi/grpc-client-cli/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/vadimi/grpc-client-cli/total) | [Edit](config/vadimi/grpc-client-cli.yml) |
 | [grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | [![GitHub release](https://img.shields.io/github/release/grpc-ecosystem/grpc-gateway.svg?label=release)](https://github.com/grpc-ecosystem/grpc-gateway/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/grpc-ecosystem/grpc-gateway/total) | [Edit](config/grpc-ecosystem/grpc-gateway.yml) |
 | [grpc-web](https://github.com/grpc/grpc-web) | [![GitHub release](https://img.shields.io/github/release/grpc/grpc-web.svg?label=release)](https://github.com/grpc/grpc-web/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/grpc/grpc-web/total) | [Edit](config/grpc/grpc-web.yml) |
+| [grpcui](https://github.com/fullstorydev/grpcui) | [![GitHub release](https://img.shields.io/github/release/fullstorydev/grpcui.svg?label=release)](https://github.com/fullstorydev/grpcui/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/fullstorydev/grpcui/total) | [Edit](config/fullstorydev/grpcui.yml) |
 | [grpcurl](https://github.com/fullstorydev/grpcurl) | [![GitHub release](https://img.shields.io/github/release/fullstorydev/grpcurl.svg?label=release)](https://github.com/fullstorydev/grpcurl/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/fullstorydev/grpcurl/total) | [Edit](config/fullstorydev/grpcurl.yml) |
 | [harborctl](https://github.com/moooofly/harborctl) | [![GitHub release](https://img.shields.io/github/release/moooofly/harborctl.svg?label=release)](https://github.com/moooofly/harborctl/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/moooofly/harborctl/total) | [Edit](config/moooofly/harborctl.yml) |
 | [helm](https://github.com/helm/helm) | [![GitHub release](https://img.shields.io/github/release/helm/helm.svg?label=release)](https://github.com/helm/helm/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/helm/helm/total) | [Edit](config/helm/helm.yml) |
