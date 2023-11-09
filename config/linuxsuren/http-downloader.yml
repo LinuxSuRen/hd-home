@@ -7,3 +7,4 @@ postInstalls:
   - cmd: hd
     args:
       - completion
+versionCmd: 'version'
