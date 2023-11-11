@@ -1,0 +1,8 @@
+filename: "docker-compose-{{.OS}}-{{.Arch}}"
+binary: compose         # please provide a binary file name if the release filename is not the final one
+targetBinary: docker-compose   # a desired target binary file name
+tar: false          # if this is a tar file
+replacements:      # the replacement of os, arch
+  amd64: x86_64
+categories:
+- storage
