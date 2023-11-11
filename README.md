@@ -28,7 +28,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 157
+The total number of tools is: 158
 
 
 | Name | Latest | Download | Edit |
@@ -59,6 +59,7 @@ The total number of tools is: 157
 | [cli](https://github.com/semaphoreci/cli) | [![GitHub release](https://img.shields.io/github/release/semaphoreci/cli.svg?label=release)](https://github.com/semaphoreci/cli/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/semaphoreci/cli/total) | [Edit](config/semaphoreci/cli.yml) |
 | [cli](https://github.com/snyk/cli) | [![GitHub release](https://img.shields.io/github/release/snyk/cli.svg?label=release)](https://github.com/snyk/cli/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/snyk/cli/total) | [Edit](config/snyk/cli.yml) |
 | [cli](https://github.com/tektoncd/cli) | [![GitHub release](https://img.shields.io/github/release/tektoncd/cli.svg?label=release)](https://github.com/tektoncd/cli/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/tektoncd/cli/total) | [Edit](config/tektoncd/cli.yml) |
+| [compose](https://github.com/docker/compose) | [![GitHub release](https://img.shields.io/github/release/docker/compose.svg?label=release)](https://github.com/docker/compose/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/docker/compose/total) | [Edit](config/docker/compose.yml) |
 | [console](https://github.com/minio/console) | [![GitHub release](https://img.shields.io/github/release/minio/console.svg?label=release)](https://github.com/minio/console/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/minio/console/total) | [Edit](config/minio/console.yml) |
 | [containerd](https://github.com/containerd/containerd) | [![GitHub release](https://img.shields.io/github/release/containerd/containerd.svg?label=release)](https://github.com/containerd/containerd/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/containerd/containerd/total) | [Edit](config/containerd/containerd.yml) |
 | [cosign](https://github.com/sigstore/cosign) | [![GitHub release](https://img.shields.io/github/release/sigstore/cosign.svg?label=release)](https://github.com/sigstore/cosign/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/sigstore/cosign/total) | [Edit](config/sigstore/cosign.yml) |
