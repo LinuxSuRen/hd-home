@@ -2,6 +2,8 @@ filename: "gh_{{.VersionNum}}_{{.OS}}_{{.Arch}}.tar.gz"
 binary: gh
 categories:
 - git
+formatOverrides:   # set the file extension for different platforms
+  windows: zip
 replacements:
   darwin: macOS
 versionCmd: '--version'
