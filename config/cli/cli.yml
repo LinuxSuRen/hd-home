@@ -1,4 +1,4 @@
-filename: "gh_{{.VersionNum}}_{{.OS}}_{{.Arch}}.tar.gz"
+filename: "gh_{{.VersionNum}}_{{.OS}}_{{.Arch}}"
 binary: gh
 categories:
 - git
