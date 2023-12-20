@@ -28,7 +28,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 160
+The total number of tools is: 161
 
 
 | Name | Latest | Download | Edit |
@@ -71,6 +71,7 @@ The total number of tools is: 160
 | [diun](https://github.com/crazy-max/diun) | [![GitHub release](https://img.shields.io/github/release/crazy-max/diun.svg?label=release)](https://github.com/crazy-max/diun/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/crazy-max/diun/total) | [Edit](config/crazy-max/diun.yml) |
 | [docker-debug](https://github.com/zeromake/docker-debug) | [![GitHub release](https://img.shields.io/github/release/zeromake/docker-debug.svg?label=release)](https://github.com/zeromake/docker-debug/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/zeromake/docker-debug/total) | [Edit](config/zeromake/docker-debug.yml) |
 | [dolt](https://github.com/dolthub/dolt) | [![GitHub release](https://img.shields.io/github/release/dolthub/dolt.svg?label=release)](https://github.com/dolthub/dolt/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/dolthub/dolt/total) | [Edit](config/dolthub/dolt.yml) |
+| [environment-hub](https://github.com/linuxsuren/environment-hub) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/environment-hub.svg?label=release)](https://github.com/linuxsuren/environment-hub/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/environment-hub/total) | [Edit](config/linuxsuren/environment-hub.yml) |
 | [envsubst](https://github.com/a8m/envsubst) | [![GitHub release](https://img.shields.io/github/release/a8m/envsubst.svg?label=release)](https://github.com/a8m/envsubst/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/a8m/envsubst/total) | [Edit](config/a8m/envsubst.yml) |
 | [etcd](https://github.com/etcd-io/etcd) | [![GitHub release](https://img.shields.io/github/release/etcd-io/etcd.svg?label=release)](https://github.com/etcd-io/etcd/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/etcd-io/etcd/total) | [Edit](config/etcd-io/etcd.yml) |
 | [etcdkeeper](https://github.com/evildecay/etcdkeeper) | [![GitHub release](https://img.shields.io/github/release/evildecay/etcdkeeper.svg?label=release)](https://github.com/evildecay/etcdkeeper/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/evildecay/etcdkeeper/total) | [Edit](config/evildecay/etcdkeeper.yml) |
