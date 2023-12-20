@@ -1,0 +1,3 @@
+filename: "env-hub-{{.OS}}-{{.Arch}}"
+binary: env-hub
+tar: true          # if this is a tar file
