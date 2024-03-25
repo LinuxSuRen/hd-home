@@ -1,0 +1,15 @@
+filename: "{{.Name}}-static-{{.Version}}-{{.OS}}-{{.Arch}}"
+binary: nydusd
+targetBinary: nydusd
+additionBinaries:
+- nydus-overlayfs
+- nydus-image
+- nydusctl
+- nydusify
+- ctr-remote
+tar: true          # if this is a tar file
+formatOverrides:   # set the file extension for different platforms
+  windows: zip
+  linux: tgz
+categories:
+- container
