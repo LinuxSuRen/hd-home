@@ -1,4 +1,6 @@
 filename: "{{.Name}}-{{.Version}}-{{.OS}}-{{.Arch}}"
+binary: containerd-nydus-grpc
+targetBinary: containerd-nydus-grpc
 tar: true          # if this is a tar file
 formatOverrides:   # set the file extension for different platforms
   windows: zip
