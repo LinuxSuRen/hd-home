@@ -28,7 +28,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 161
+The total number of tools is: 162
 
 
 | Name | Latest | Download | Edit |
@@ -153,6 +153,7 @@ The total number of tools is: 161
 | [nexus-cli](https://github.com/sonatype-nexus-community/nexus-cli) | [![GitHub release](https://img.shields.io/github/release/sonatype-nexus-community/nexus-cli.svg?label=release)](https://github.com/sonatype-nexus-community/nexus-cli/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/sonatype-nexus-community/nexus-cli/total) | [Edit](config/sonatype-nexus-community/nexus-cli.yml) |
 | [nocalhost](https://github.com/nocalhost/nocalhost) | [![GitHub release](https://img.shields.io/github/release/nocalhost/nocalhost.svg?label=release)](https://github.com/nocalhost/nocalhost/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/nocalhost/nocalhost/total) | [Edit](config/nocalhost/nocalhost.yml) |
 | [nuclei](https://github.com/projectdiscovery/nuclei) | [![GitHub release](https://img.shields.io/github/release/projectdiscovery/nuclei.svg?label=release)](https://github.com/projectdiscovery/nuclei/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/projectdiscovery/nuclei/total) | [Edit](config/projectdiscovery/nuclei.yml) |
+| [nydus](https://github.com/dragonflyoss/nydus) | [![GitHub release](https://img.shields.io/github/release/dragonflyoss/nydus.svg?label=release)](https://github.com/dragonflyoss/nydus/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/dragonflyoss/nydus/total) | [Edit](config/dragonflyoss/nydus.yml) |
 | [octant](https://github.com/vmware-tanzu/octant) | [![GitHub release](https://img.shields.io/github/release/vmware-tanzu/octant.svg?label=release)](https://github.com/vmware-tanzu/octant/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/vmware-tanzu/octant/total) | [Edit](config/vmware-tanzu/octant.yml) |
 | [okd](https://github.com/openshift/okd) | [![GitHub release](https://img.shields.io/github/release/openshift/okd.svg?label=release)](https://github.com/openshift/okd/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/openshift/okd/total) | [Edit](config/openshift/okd.yml) |
 | [opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib) | [![GitHub release](https://img.shields.io/github/release/open-telemetry/opentelemetry-collector-contrib.svg?label=release)](https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/open-telemetry/opentelemetry-collector-contrib/total) | [Edit](config/open-telemetry/opentelemetry-collector-contrib.yml) |
