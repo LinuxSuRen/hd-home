@@ -1014,3 +1014,21 @@ packages:
     args: 
     - '-c'
     - 'systemctl mask swap.target'
+- name: nvidia-container-toolkit
+  packageManager: yum
+  preInstall:
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'curl -s -L https://nvidia.github.io/libnvidia-container/stable/rpm/nvidia-container-toolkit.repo | sudo tee /etc/yum.repos.d/nvidia-container-toolkit.repo'
+  - cmd:
+      cmd: bash
+      args:
+      - '-c'
+      - 'yum-config-manager --enable nvidia-container-toolkit-experimental'
+  install:
+    cmd: bash
+    args:
+    - '-c'
+    - 'yum install -y nvidia-container-toolkit'
