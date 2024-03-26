@@ -7,5 +7,6 @@ replacements:      # the replacement of os, arch
   windows: Windows
   darwin: Darwin
   linux: Linux
+  amd64: x86_64
 categories:
 - git
