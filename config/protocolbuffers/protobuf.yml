@@ -1,5 +1,5 @@
 filename: "protoc-{{.VersionNum}}-{{.OS}}-{{.Arch}}"
-binary: bin/protoc         # please provide a binary file name if the release filename is not the final one
+binary: protoc         # please provide a binary file name if the release filename is not the final one
 targetBinary: protoc   # a desired target binary file name
 tar: true          # if this is a tar file
 formatOverrides:   # set the file extension for different platforms
