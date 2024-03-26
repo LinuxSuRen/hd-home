@@ -28,7 +28,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 163
+The total number of tools is: 164
 
 
 | Name | Latest | Download | Edit |
@@ -141,6 +141,7 @@ The total number of tools is: 163
 | [kwok](https://github.com/kubernetes-sigs/kwok) | [![GitHub release](https://img.shields.io/github/release/kubernetes-sigs/kwok.svg?label=release)](https://github.com/kubernetes-sigs/kwok/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/kubernetes-sigs/kwok/total) | [Edit](config/kubernetes-sigs/kwok.yml) |
 | [kyverno](https://github.com/kyverno/kyverno) | [![GitHub release](https://img.shields.io/github/release/kyverno/kyverno.svg?label=release)](https://github.com/kyverno/kyverno/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/kyverno/kyverno/total) | [Edit](config/kyverno/kyverno.yml) |
 | [lazydocker](https://github.com/jesseduffield/lazydocker) | [![GitHub release](https://img.shields.io/github/release/jesseduffield/lazydocker.svg?label=release)](https://github.com/jesseduffield/lazydocker/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/jesseduffield/lazydocker/total) | [Edit](config/jesseduffield/lazydocker.yml) |
+| [lazygit](https://github.com/jesseduffield/lazygit) | [![GitHub release](https://img.shields.io/github/release/jesseduffield/lazygit.svg?label=release)](https://github.com/jesseduffield/lazygit/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/jesseduffield/lazygit/total) | [Edit](config/jesseduffield/lazygit.yml) |
 | [loft](https://github.com/loft-sh/loft) | [![GitHub release](https://img.shields.io/github/release/loft-sh/loft.svg?label=release)](https://github.com/loft-sh/loft/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/loft-sh/loft/total) | [Edit](config/loft-sh/loft.yml) |
 | [mani](https://github.com/alajmo/mani) | [![GitHub release](https://img.shields.io/github/release/alajmo/mani.svg?label=release)](https://github.com/alajmo/mani/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/alajmo/mani/total) | [Edit](config/alajmo/mani.yml) |
 | [marp-cli](https://github.com/marp-team/marp-cli) | [![GitHub release](https://img.shields.io/github/release/marp-team/marp-cli.svg?label=release)](https://github.com/marp-team/marp-cli/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/marp-team/marp-cli/total) | [Edit](config/marp-team/marp-cli.yml) |
