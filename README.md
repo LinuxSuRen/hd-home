@@ -28,7 +28,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 164
+The total number of tools is: 165
 
 
 | Name | Latest | Download | Edit |
@@ -99,6 +99,7 @@ The total number of tools is: 164
 | [grpcurl](https://github.com/fullstorydev/grpcurl) | [![GitHub release](https://img.shields.io/github/release/fullstorydev/grpcurl.svg?label=release)](https://github.com/fullstorydev/grpcurl/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/fullstorydev/grpcurl/total) | [Edit](config/fullstorydev/grpcurl.yml) |
 | [harborctl](https://github.com/moooofly/harborctl) | [![GitHub release](https://img.shields.io/github/release/moooofly/harborctl.svg?label=release)](https://github.com/moooofly/harborctl/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/moooofly/harborctl/total) | [Edit](config/moooofly/harborctl.yml) |
 | [helm](https://github.com/helm/helm) | [![GitHub release](https://img.shields.io/github/release/helm/helm.svg?label=release)](https://github.com/helm/helm/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/helm/helm/total) | [Edit](config/helm/helm.yml) |
+| [helm-docs](https://github.com/norwoodj/helm-docs) | [![GitHub release](https://img.shields.io/github/release/norwoodj/helm-docs.svg?label=release)](https://github.com/norwoodj/helm-docs/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/norwoodj/helm-docs/total) | [Edit](config/norwoodj/helm-docs.yml) |
 | [http-downloader](https://github.com/linuxsuren/http-downloader) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/http-downloader.svg?label=release)](https://github.com/linuxsuren/http-downloader/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/http-downloader/total) | [Edit](config/linuxsuren/http-downloader.yml) |
 | [httprunner](https://github.com/httprunner/httprunner) | [![GitHub release](https://img.shields.io/github/release/httprunner/httprunner.svg?label=release)](https://github.com/httprunner/httprunner/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/httprunner/httprunner/total) | [Edit](config/httprunner/httprunner.yml) |
 | [hub](https://github.com/github/hub) | [![GitHub release](https://img.shields.io/github/release/github/hub.svg?label=release)](https://github.com/github/hub/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/github/hub/total) | [Edit](config/github/hub.yml) |
