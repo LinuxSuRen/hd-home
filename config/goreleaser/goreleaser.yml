@@ -1,5 +1,8 @@
 filename: "{{.Name}}_{{.OS}}_{{.Arch}}.tar.gz"
 categories:
 - build
+formatOverrides:   # set the file extension for different platforms
+  windows: zip
+  linux: tar.gz
 replacements:
   amd64: x86_64
