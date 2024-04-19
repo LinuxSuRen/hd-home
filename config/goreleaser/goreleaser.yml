@@ -1,4 +1,4 @@
-filename: "{{.Name}}_{{.OS}}_{{.Arch}}.tar.gz"
+filename: "{{.Name}}_{{.OS}}_{{.Arch}}"
 categories:
 - build
 formatOverrides:   # set the file extension for different platforms
