@@ -3,7 +3,7 @@ binary: supabase         # please provide a binary file name if the release file
 targetBinary: supabase   # a desired target binary file name
 tar: true          # if this is a tar file
 formatOverrides:   # set the file extension for different platforms
-  windows: zip
+  windows: tar.gz
   linux: tar.gz
 categories:
 - storage
