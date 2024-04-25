@@ -1,0 +1,9 @@
+filename: "harbor_{{.VersionNum}}_{{.OS}}_{{.Arch}}"
+binary: harbor         # please provide a binary file name if the release filename is not the final one
+targetBinary: harbor   # a desired target binary file name
+tar: true          # if this is a tar file
+formatOverrides:   # set the file extension for different platforms
+  windows: zip
+  linux: tar.gz
+categories:
+- container
