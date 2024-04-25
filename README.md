@@ -28,7 +28,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 166
+The total number of tools is: 167
 
 
 | Name | Latest | Download | Edit |
@@ -98,6 +98,7 @@ The total number of tools is: 166
 | [grpc-web](https://github.com/grpc/grpc-web) | [![GitHub release](https://img.shields.io/github/release/grpc/grpc-web.svg?label=release)](https://github.com/grpc/grpc-web/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/grpc/grpc-web/total) | [Edit](config/grpc/grpc-web.yml) |
 | [grpcui](https://github.com/fullstorydev/grpcui) | [![GitHub release](https://img.shields.io/github/release/fullstorydev/grpcui.svg?label=release)](https://github.com/fullstorydev/grpcui/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/fullstorydev/grpcui/total) | [Edit](config/fullstorydev/grpcui.yml) |
 | [grpcurl](https://github.com/fullstorydev/grpcurl) | [![GitHub release](https://img.shields.io/github/release/fullstorydev/grpcurl.svg?label=release)](https://github.com/fullstorydev/grpcurl/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/fullstorydev/grpcurl/total) | [Edit](config/fullstorydev/grpcurl.yml) |
+| [harbor-cli](https://github.com/goharbor/harbor-cli) | [![GitHub release](https://img.shields.io/github/release/goharbor/harbor-cli.svg?label=release)](https://github.com/goharbor/harbor-cli/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/goharbor/harbor-cli/total) | [Edit](config/goharbor/harbor-cli.yml) |
 | [harborctl](https://github.com/moooofly/harborctl) | [![GitHub release](https://img.shields.io/github/release/moooofly/harborctl.svg?label=release)](https://github.com/moooofly/harborctl/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/moooofly/harborctl/total) | [Edit](config/moooofly/harborctl.yml) |
 | [helm](https://github.com/helm/helm) | [![GitHub release](https://img.shields.io/github/release/helm/helm.svg?label=release)](https://github.com/helm/helm/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/helm/helm/total) | [Edit](config/helm/helm.yml) |
 | [helm-docs](https://github.com/norwoodj/helm-docs) | [![GitHub release](https://img.shields.io/github/release/norwoodj/helm-docs.svg?label=release)](https://github.com/norwoodj/helm-docs/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/norwoodj/helm-docs/total) | [Edit](config/norwoodj/helm-docs.yml) |
