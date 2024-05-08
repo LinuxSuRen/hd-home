@@ -28,7 +28,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 167
+The total number of tools is: 168
 
 
 | Name | Latest | Download | Edit |
@@ -156,6 +156,7 @@ The total number of tools is: 167
 | [mirrors](https://github.com/linuxsuren/mirrors) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/mirrors.svg?label=release)](https://github.com/linuxsuren/mirrors/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/mirrors/total) | [Edit](config/linuxsuren/mirrors.yml) |
 | [nexus-cli](https://github.com/sonatype-nexus-community/nexus-cli) | [![GitHub release](https://img.shields.io/github/release/sonatype-nexus-community/nexus-cli.svg?label=release)](https://github.com/sonatype-nexus-community/nexus-cli/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/sonatype-nexus-community/nexus-cli/total) | [Edit](config/sonatype-nexus-community/nexus-cli.yml) |
 | [nocalhost](https://github.com/nocalhost/nocalhost) | [![GitHub release](https://img.shields.io/github/release/nocalhost/nocalhost.svg?label=release)](https://github.com/nocalhost/nocalhost/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/nocalhost/nocalhost/total) | [Edit](config/nocalhost/nocalhost.yml) |
+| [node_exporter](https://github.com/prometheus/node_exporter) | [![GitHub release](https://img.shields.io/github/release/prometheus/node_exporter.svg?label=release)](https://github.com/prometheus/node_exporter/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/prometheus/node_exporter/total) | [Edit](config/prometheus/node_exporter.yml) |
 | [nuclei](https://github.com/projectdiscovery/nuclei) | [![GitHub release](https://img.shields.io/github/release/projectdiscovery/nuclei.svg?label=release)](https://github.com/projectdiscovery/nuclei/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/projectdiscovery/nuclei/total) | [Edit](config/projectdiscovery/nuclei.yml) |
 | [nydus](https://github.com/dragonflyoss/nydus) | [![GitHub release](https://img.shields.io/github/release/dragonflyoss/nydus.svg?label=release)](https://github.com/dragonflyoss/nydus/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/dragonflyoss/nydus/total) | [Edit](config/dragonflyoss/nydus.yml) |
 | [nydus-snapshotter](https://github.com/containerd/nydus-snapshotter) | [![GitHub release](https://img.shields.io/github/release/containerd/nydus-snapshotter.svg?label=release)](https://github.com/containerd/nydus-snapshotter/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/containerd/nydus-snapshotter/total) | [Edit](config/containerd/nydus-snapshotter.yml) |
