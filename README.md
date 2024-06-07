@@ -28,7 +28,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 171
+The total number of tools is: 172
 
 
 | Name | Latest | Download | Edit |
@@ -108,6 +108,7 @@ The total number of tools is: 171
 | [hub-tool](https://github.com/docker/hub-tool) | [![GitHub release](https://img.shields.io/github/release/docker/hub-tool.svg?label=release)](https://github.com/docker/hub-tool/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/docker/hub-tool/total) | [Edit](config/docker/hub-tool.yml) |
 | [hugo](https://github.com/gohugoio/hugo) | [![GitHub release](https://img.shields.io/github/release/gohugoio/hugo.svg?label=release)](https://github.com/gohugoio/hugo/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/gohugoio/hugo/total) | [Edit](config/gohugoio/hugo.yml) |
 | [illa](https://github.com/illa-family/illa) | [![GitHub release](https://img.shields.io/github/release/illa-family/illa.svg?label=release)](https://github.com/illa-family/illa/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/illa-family/illa/total) | [Edit](config/illa-family/illa.yml) |
+| [image-syncer](https://github.com/AliyunContainerService/image-syncer) | [![GitHub release](https://img.shields.io/github/release/AliyunContainerService/image-syncer.svg?label=release)](https://github.com/AliyunContainerService/image-syncer/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/AliyunContainerService/image-syncer/total) | [Edit](config/AliyunContainerService/image-syncer.yml) |
 | [img](https://github.com/genuinetools/img) | [![GitHub release](https://img.shields.io/github/release/genuinetools/img.svg?label=release)](https://github.com/genuinetools/img/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/genuinetools/img/total) | [Edit](config/genuinetools/img.yml) |
 | [istio](https://github.com/istio/istio) | [![GitHub release](https://img.shields.io/github/release/istio/istio.svg?label=release)](https://github.com/istio/istio/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/istio/istio/total) | [Edit](config/istio/istio.yml) |
 | [jaeger](https://github.com/jaegertracing/jaeger) | [![GitHub release](https://img.shields.io/github/release/jaegertracing/jaeger.svg?label=release)](https://github.com/jaegertracing/jaeger/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/jaegertracing/jaeger/total) | [Edit](config/jaegertracing/jaeger.yml) |
