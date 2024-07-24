@@ -28,7 +28,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 172
+The total number of tools is: 173
 
 
 | Name | Latest | Download | Edit |
@@ -187,6 +187,7 @@ The total number of tools is: 172
 | [spin](https://github.com/spinnaker/spin) | [![GitHub release](https://img.shields.io/github/release/spinnaker/spin.svg?label=release)](https://github.com/spinnaker/spin/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/spinnaker/spin/total) | [Edit](config/spinnaker/spin.yml) |
 | [starboard](https://github.com/aquasecurity/starboard) | [![GitHub release](https://img.shields.io/github/release/aquasecurity/starboard.svg?label=release)](https://github.com/aquasecurity/starboard/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/aquasecurity/starboard/total) | [Edit](config/aquasecurity/starboard.yml) |
 | [stream](https://github.com/devstream-io/stream) | [![GitHub release](https://img.shields.io/github/release/devstream-io/stream.svg?label=release)](https://github.com/devstream-io/stream/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/devstream-io/stream/total) | [Edit](config/devstream-io/stream.yml) |
+| [swag](https://github.com/swaggo/swag) | [![GitHub release](https://img.shields.io/github/release/swaggo/swag.svg?label=release)](https://github.com/swaggo/swag/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/swaggo/swag/total) | [Edit](config/swaggo/swag.yml) |
 | [tanka](https://github.com/grafana/tanka) | [![GitHub release](https://img.shields.io/github/release/grafana/tanka.svg?label=release)](https://github.com/grafana/tanka/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/grafana/tanka/total) | [Edit](config/grafana/tanka.yml) |
 | [task](https://github.com/go-task/task) | [![GitHub release](https://img.shields.io/github/release/go-task/task.svg?label=release)](https://github.com/go-task/task/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/go-task/task/total) | [Edit](config/go-task/task.yml) |
 | [tcli](https://github.com/linuxsuren/tcli) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/tcli.svg?label=release)](https://github.com/linuxsuren/tcli/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/tcli/total) | [Edit](config/linuxsuren/tcli.yml) |
