@@ -28,7 +28,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 173
+The total number of tools is: 174
 
 
 | Name | Latest | Download | Edit |
@@ -166,6 +166,7 @@ The total number of tools is: 173
 | [octant](https://github.com/vmware-tanzu/octant) | [![GitHub release](https://img.shields.io/github/release/vmware-tanzu/octant.svg?label=release)](https://github.com/vmware-tanzu/octant/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/vmware-tanzu/octant/total) | [Edit](config/vmware-tanzu/octant.yml) |
 | [okd](https://github.com/openshift/okd) | [![GitHub release](https://img.shields.io/github/release/openshift/okd.svg?label=release)](https://github.com/openshift/okd/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/openshift/okd/total) | [Edit](config/openshift/okd.yml) |
 | [ollama](https://github.com/ollama/ollama) | [![GitHub release](https://img.shields.io/github/release/ollama/ollama.svg?label=release)](https://github.com/ollama/ollama/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/ollama/ollama/total) | [Edit](config/ollama/ollama.yml) |
+| [openbao](https://github.com/openbao/openbao) | [![GitHub release](https://img.shields.io/github/release/openbao/openbao.svg?label=release)](https://github.com/openbao/openbao/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/openbao/openbao/total) | [Edit](config/openbao/openbao.yml) |
 | [opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib) | [![GitHub release](https://img.shields.io/github/release/open-telemetry/opentelemetry-collector-contrib.svg?label=release)](https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/open-telemetry/opentelemetry-collector-contrib/total) | [Edit](config/open-telemetry/opentelemetry-collector-contrib.yml) |
 | [operator-registry](https://github.com/operator-framework/operator-registry) | [![GitHub release](https://img.shields.io/github/release/operator-framework/operator-registry.svg?label=release)](https://github.com/operator-framework/operator-registry/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/operator-framework/operator-registry/total) | [Edit](config/operator-framework/operator-registry.yml) |
 | [operator-sdk](https://github.com/operator-framework/operator-sdk) | [![GitHub release](https://img.shields.io/github/release/operator-framework/operator-sdk.svg?label=release)](https://github.com/operator-framework/operator-sdk/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/operator-framework/operator-sdk/total) | [Edit](config/operator-framework/operator-sdk.yml) |
