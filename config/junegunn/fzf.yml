@@ -1,0 +1,5 @@
+filename: "{{.Name}}-{{.VersionNum}}-{{.OS}}_{{.Arch}}"
+tar: true          # if this is a tar file
+formatOverrides:   # set the file extension for different platforms
+  windows: zip
+  linux: tar.gz
