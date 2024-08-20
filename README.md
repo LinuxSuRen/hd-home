@@ -28,7 +28,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 175
+The total number of tools is: 176
 
 
 | Name | Latest | Download | Edit |
@@ -202,6 +202,7 @@ The total number of tools is: 175
 | [uploader](https://github.com/codecov/uploader) | [![GitHub release](https://img.shields.io/github/release/codecov/uploader.svg?label=release)](https://github.com/codecov/uploader/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/codecov/uploader/total) | [Edit](config/codecov/uploader.yml) |
 | [upx](https://github.com/upx/upx) | [![GitHub release](https://img.shields.io/github/release/upx/upx.svg?label=release)](https://github.com/upx/upx/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/upx/upx/total) | [Edit](config/upx/upx.yml) |
 | [velero](https://github.com/vmware-tanzu/velero) | [![GitHub release](https://img.shields.io/github/release/vmware-tanzu/velero.svg?label=release)](https://github.com/vmware-tanzu/velero/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/vmware-tanzu/velero/total) | [Edit](config/vmware-tanzu/velero.yml) |
+| [wasmtime](https://github.com/bytecodealliance/wasmtime) | [![GitHub release](https://img.shields.io/github/release/bytecodealliance/wasmtime.svg?label=release)](https://github.com/bytecodealliance/wasmtime/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/bytecodealliance/wasmtime/total) | [Edit](config/bytecodealliance/wasmtime.yml) |
 | [webui](https://github.com/fluxcd/webui) | [![GitHub release](https://img.shields.io/github/release/fluxcd/webui.svg?label=release)](https://github.com/fluxcd/webui/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/fluxcd/webui/total) | [Edit](config/fluxcd/webui.yml) |
 | [wuzz](https://github.com/asciimoo/wuzz) | [![GitHub release](https://img.shields.io/github/release/asciimoo/wuzz.svg?label=release)](https://github.com/asciimoo/wuzz/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/asciimoo/wuzz/total) | [Edit](config/asciimoo/wuzz.yml) |
 | [yaml-readme](https://github.com/linuxsuren/yaml-readme) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/yaml-readme.svg?label=release)](https://github.com/linuxsuren/yaml-readme/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/yaml-readme/total) | [Edit](config/linuxsuren/yaml-readme.yml) |
