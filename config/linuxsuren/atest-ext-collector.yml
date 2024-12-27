@@ -1,4 +1,4 @@
-filename: "{{.Name}}-{{.OS}}-{{.Arch}}"
+filename: "atest-collector-{{.OS}}-{{.Arch}}"
 binary: atest-collector
 targetBinary: atest-collector
 tar: true          # if this is a tar file
