@@ -1,0 +1,7 @@
+filename: "atest-collector-{{.OS}}-{{.Arch}}"
+binary: atest-collector
+targetBinary: atest-collector
+tar: true          # if this is a tar file
+formatOverrides:   # set the file extension for different platforms
+  windows: zip
+  linux: tar.gz
