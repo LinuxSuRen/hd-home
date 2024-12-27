@@ -28,7 +28,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 176
+The total number of tools is: 177
 
 
 | Name | Latest | Download | Edit |
@@ -43,6 +43,7 @@ The total number of tools is: 176
 | [argocd-autopilot](https://github.com/argoproj-labs/argocd-autopilot) | [![GitHub release](https://img.shields.io/github/release/argoproj-labs/argocd-autopilot.svg?label=release)](https://github.com/argoproj-labs/argocd-autopilot/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/argoproj-labs/argocd-autopilot/total) | [Edit](config/argoproj-labs/argocd-autopilot.yml) |
 | [argocd-image-updater](https://github.com/argoproj-labs/argocd-image-updater) | [![GitHub release](https://img.shields.io/github/release/argoproj-labs/argocd-image-updater.svg?label=release)](https://github.com/argoproj-labs/argocd-image-updater/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/argoproj-labs/argocd-image-updater/total) | [Edit](config/argoproj-labs/argocd-image-updater.yml) |
 | [argocd-vault-plugin](https://github.com/argoproj-labs/argocd-vault-plugin) | [![GitHub release](https://img.shields.io/github/release/argoproj-labs/argocd-vault-plugin.svg?label=release)](https://github.com/argoproj-labs/argocd-vault-plugin/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/argoproj-labs/argocd-vault-plugin/total) | [Edit](config/argoproj-labs/argocd-vault-plugin.yml) |
+| [atest-ext-collector](https://github.com/linuxsuren/atest-ext-collector) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/atest-ext-collector.svg?label=release)](https://github.com/linuxsuren/atest-ext-collector/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/atest-ext-collector/total) | [Edit](config/linuxsuren/atest-ext-collector.yml) |
 | [audacity-label-plugin](https://github.com/linuxsuren/audacity-label-plugin) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/audacity-label-plugin.svg?label=release)](https://github.com/linuxsuren/audacity-label-plugin/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/audacity-label-plugin/total) | [Edit](config/linuxsuren/audacity-label-plugin.yml) |
 | [autok3s](https://github.com/cnrancher/autok3s) | [![GitHub release](https://img.shields.io/github/release/cnrancher/autok3s.svg?label=release)](https://github.com/cnrancher/autok3s/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/cnrancher/autok3s/total) | [Edit](config/cnrancher/autok3s.yml) |
 | [azbrowse](https://github.com/lawrencegripper/azbrowse) | [![GitHub release](https://img.shields.io/github/release/lawrencegripper/azbrowse.svg?label=release)](https://github.com/lawrencegripper/azbrowse/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/lawrencegripper/azbrowse/total) | [Edit](config/lawrencegripper/azbrowse.yml) |
