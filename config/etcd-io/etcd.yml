@@ -1,3 +1,8 @@
-filename: "{{.Name}}-{{.Version}}-{{.OS}}-{{.Arch}}.tar.gz"
+filename: "{{.Name}}-{{.Version}}-{{.OS}}-{{.Arch}}"
+tar: true          # if this is a tar file
+formatOverrides:   # set the file extension for different platforms
+  windows: zip
+  linux: tar.gz
+  darwin: zip
 additionBinaries:
   - "etcdctl"
