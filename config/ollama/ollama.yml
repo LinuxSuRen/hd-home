@@ -1,4 +1,8 @@
-filename: "{{.Name}}-{{.OS}}-{{.Arch}}"
-tar: false          # if this is a tar file
+filename: "{{.Name}}-{{.OS}}"
+tar: true          # if this is a tar file
+formatOverrides:   # set the file extension for different platforms
+  windows: zip
+  darwin: tgz
+  linux: tgz
 categories:
 - ai
