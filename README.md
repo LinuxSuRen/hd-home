@@ -28,7 +28,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 177
+The total number of tools is: 178
 
 
 | Name | Latest | Download | Edit |
@@ -70,6 +70,7 @@ The total number of tools is: 177
 | [dagger](https://github.com/dagger/dagger) | [![GitHub release](https://img.shields.io/github/release/dagger/dagger.svg?label=release)](https://github.com/dagger/dagger/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/dagger/dagger/total) | [Edit](config/dagger/dagger.yml) |
 | [dapper](https://github.com/rancher/dapper) | [![GitHub release](https://img.shields.io/github/release/rancher/dapper.svg?label=release)](https://github.com/rancher/dapper/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/rancher/dapper/total) | [Edit](config/rancher/dapper.yml) |
 | [deck](https://github.com/Kong/deck) | [![GitHub release](https://img.shields.io/github/release/Kong/deck.svg?label=release)](https://github.com/Kong/deck/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/Kong/deck/total) | [Edit](config/Kong/deck.yml) |
+| [dify-plugin-daemon](https://github.com/langgenius/dify-plugin-daemon) | [![GitHub release](https://img.shields.io/github/release/langgenius/dify-plugin-daemon.svg?label=release)](https://github.com/langgenius/dify-plugin-daemon/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/langgenius/dify-plugin-daemon/total) | [Edit](config/langgenius/dify-plugin-daemon.yml) |
 | [diun](https://github.com/crazy-max/diun) | [![GitHub release](https://img.shields.io/github/release/crazy-max/diun.svg?label=release)](https://github.com/crazy-max/diun/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/crazy-max/diun/total) | [Edit](config/crazy-max/diun.yml) |
 | [docker-debug](https://github.com/zeromake/docker-debug) | [![GitHub release](https://img.shields.io/github/release/zeromake/docker-debug.svg?label=release)](https://github.com/zeromake/docker-debug/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/zeromake/docker-debug/total) | [Edit](config/zeromake/docker-debug.yml) |
 | [dolt](https://github.com/dolthub/dolt) | [![GitHub release](https://img.shields.io/github/release/dolthub/dolt.svg?label=release)](https://github.com/dolthub/dolt/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/dolthub/dolt/total) | [Edit](config/dolthub/dolt.yml) |
