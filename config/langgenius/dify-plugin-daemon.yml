@@ -1,0 +1,4 @@
+filename: "dify-plugin-{{.OS}}-{{.Arch}}"
+binary: dify
+targetBinary: dify
+tar: false
