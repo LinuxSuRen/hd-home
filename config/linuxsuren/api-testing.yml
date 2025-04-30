@@ -6,3 +6,4 @@ formatOverrides:   # set the file extension for different platforms
   linux: tar.gz
 categories:
 - test
+versionCmd: '--version'
