@@ -1,6 +1,4 @@
-filename: "{{.Name}}-{{.OS}}"
+filename: "{{.Name}}-{{.OS}}-{{.Arch}}"
 tar: false
 replacements:
-  linux: linux64
-  macos: osx-amd64
   windows: win64
