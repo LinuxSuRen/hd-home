@@ -10,7 +10,7 @@ jobs:
   BackupGit:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
     - name: backup
       uses: jenkins-zh/git-backup-actions@v0.0.8
       env:
@@ -21,7 +21,7 @@ jobs:
   UpdateReadme:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
     - name: Update readme
       uses: linuxsuren/yaml-readme@v0.0.17
       env:
