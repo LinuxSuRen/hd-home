@@ -1,2 +1,4 @@
-filename: "{{.Name}}-{{.OS}}-{{.Arch}}"
+filename: "atest-store-mcp-{{.OS}}-{{.Arch}}"
+binary: atest-store-mcp
+targetBinary: atest-store-mcp
 tar: true          # if this is a tar file
