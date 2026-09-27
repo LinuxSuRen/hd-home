@@ -1,0 +1,9 @@
+filename: "tofu_{{.VersionNum}}_{{.OS}}_{{.Arch}}.tar.gz"
+binary: tofu         # please provide a binary file name if the release filename is not the final one
+targetBinary: tofu   # a desired target binary file name
+tar: true            # if this is a tar file
+formatOverrides:     # set the file extension for different platforms
+  windows: zip
+categories:
+- iac
+- security
