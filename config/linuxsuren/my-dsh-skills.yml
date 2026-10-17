@@ -1,0 +1,4 @@
+filename: "askills-{{.OS}}-{{.Arch}}"
+binary: askills
+targetBinary: askills
+tar: false
