@@ -1,0 +1,5 @@
+filename: "local-onvif-adapter_{{.OS}}_{{.Arch}}"
+binary: local-onvif-adapter
+tar: true
+formatOverrides:
+  windows: zip
