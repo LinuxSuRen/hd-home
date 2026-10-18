@@ -23,8 +23,12 @@ jobs:
           hd version
 
           # it'll run hd as sudo, so we just use the absolute path
+          # NOTE: .git must be excluded. hd treats its config dir as a git repo
+          # and syncs it back to the origin state on install, which would wipe
+          # the config files coming from this PR (only merged ones survive).
           sudo mkdir -p /root/.config/hd-home
-          sudo cp -r . /root/.config/hd-home
+          sudo rm -rf /root/.config/hd-home/.git
+          sudo find . -mindepth 1 -maxdepth 1 ! -name .git -exec cp -r {} /root/.config/hd-home \;
       - name: Check basic installation
         run: |
           URL="https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files"
