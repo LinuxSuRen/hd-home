@@ -28,7 +28,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 185
+The total number of tools is: 186
 
 
 | Name | Latest | Download | Edit |
@@ -89,6 +89,7 @@ The total number of tools is: 185
 | [git-open](https://github.com/hellojukay/git-open) | [![GitHub release](https://img.shields.io/github/release/hellojukay/git-open.svg?label=release)](https://github.com/hellojukay/git-open/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/hellojukay/git-open/total) | [Edit](config/hellojukay/git-open.yml) |
 | [github-action-workflow](https://github.com/linuxsuren/github-action-workflow) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/github-action-workflow.svg?label=release)](https://github.com/linuxsuren/github-action-workflow/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/github-action-workflow/total) | [Edit](config/linuxsuren/github-action-workflow.yml) |
 | [go-containerregistry](https://github.com/google/go-containerregistry) | [![GitHub release](https://img.shields.io/github/release/google/go-containerregistry.svg?label=release)](https://github.com/google/go-containerregistry/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/google/go-containerregistry/total) | [Edit](config/google/go-containerregistry.yml) |
+| [go2rtc](https://github.com/AlexxIT/go2rtc) | [![GitHub release](https://img.shields.io/github/release/AlexxIT/go2rtc.svg?label=release)](https://github.com/AlexxIT/go2rtc/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/AlexxIT/go2rtc/total) | [Edit](config/AlexxIT/go2rtc.yml) |
 | [goget](https://github.com/linuxsuren/goget) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/goget.svg?label=release)](https://github.com/linuxsuren/goget/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/goget/total) | [Edit](config/linuxsuren/goget.yml) |
 | [gogit](https://github.com/linuxsuren/gogit) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/gogit.svg?label=release)](https://github.com/linuxsuren/gogit/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/gogit/total) | [Edit](config/linuxsuren/gogit.yml) |
 | [golangci-lint](https://github.com/golangci/golangci-lint) | [![GitHub release](https://img.shields.io/github/release/golangci/golangci-lint.svg?label=release)](https://github.com/golangci/golangci-lint/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/golangci/golangci-lint/total) | [Edit](config/golangci/golangci-lint.yml) |
