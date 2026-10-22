@@ -25,7 +25,7 @@ jobs:
       - name: Pack config
         run: tar czf config.tar.gz config
       - name: Set up oras
-        uses: oras-project/oras-setup-action@v1
+        uses: oras-project/setup-oras@v1
       - name: Login to GHCR
         run: echo "${{ secrets.GITHUB_TOKEN }}" | oras login "${{ env.REGISTRY }}" -u "${{ github.actor }}" --password-stdin
       - name: Push artifact
