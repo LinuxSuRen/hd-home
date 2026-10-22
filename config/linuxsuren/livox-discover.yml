@@ -1,0 +1,4 @@
+filename: "livox-discover-{{.Version}}-{{.OS}}-{{.Arch}}"
+binary: livox-discover
+fromSource: true
+tar: true
