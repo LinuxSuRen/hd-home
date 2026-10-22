@@ -1,0 +1,38 @@
+name: Publish OCI Artifact
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - config/**
+
+permissions:
+  contents: read
+  packages: write
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE: ghcr.io/${{ github.repository_owner }}/hd-home-config
+
+jobs:
+  publish:
+    name: Publish config as OCI artifact
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v6
+      - name: Pack config
+        run: tar czf config.tar.gz config
+      - name: Set up oras
+        uses: oras-project/oras-setup-action@v1
+      - name: Login to GHCR
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | oras login "${{ env.REGISTRY }}" -u "${{ github.actor }}" --password-stdin
+      - name: Push artifact
+        run: |
+          SHA_TAG="${GITHUB_SHA::7}"
+          for TAG in latest master "${SHA_TAG}"; do
+            oras push "${IMAGE}:${TAG}" \
+              --artifact-type application/vnd.linuxsuren.hd.config.v1 \
+              config.tar.gz:application/vnd.oci.image.layer.v1.tar+gzip
+          done
