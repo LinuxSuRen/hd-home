@@ -28,7 +28,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 186
+The total number of tools is: 187
 
 
 | Name | Latest | Download | Edit |
@@ -166,6 +166,7 @@ The total number of tools is: 186
 | [mirrors](https://github.com/linuxsuren/mirrors) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/mirrors.svg?label=release)](https://github.com/linuxsuren/mirrors/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/mirrors/total) | [Edit](config/linuxsuren/mirrors.yml) |
 | [my-dsh-skills](https://github.com/linuxsuren/my-dsh-skills) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/my-dsh-skills.svg?label=release)](https://github.com/linuxsuren/my-dsh-skills/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/my-dsh-skills/total) | [Edit](config/linuxsuren/my-dsh-skills.yml) |
 | [nerdctl](https://github.com/containerd/nerdctl) | [![GitHub release](https://img.shields.io/github/release/containerd/nerdctl.svg?label=release)](https://github.com/containerd/nerdctl/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/containerd/nerdctl/total) | [Edit](config/containerd/nerdctl.yml) |
+| [netcfg](https://github.com/linuxsuren/netcfg) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/netcfg.svg?label=release)](https://github.com/linuxsuren/netcfg/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/netcfg/total) | [Edit](config/linuxsuren/netcfg.yml) |
 | [new-dockerfile](https://github.com/flexstack/new-dockerfile) | [![GitHub release](https://img.shields.io/github/release/flexstack/new-dockerfile.svg?label=release)](https://github.com/flexstack/new-dockerfile/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/flexstack/new-dockerfile/total) | [Edit](config/flexstack/new-dockerfile.yml) |
 | [nexus-cli](https://github.com/sonatype-nexus-community/nexus-cli) | [![GitHub release](https://img.shields.io/github/release/sonatype-nexus-community/nexus-cli.svg?label=release)](https://github.com/sonatype-nexus-community/nexus-cli/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/sonatype-nexus-community/nexus-cli/total) | [Edit](config/sonatype-nexus-community/nexus-cli.yml) |
 | [nocalhost](https://github.com/nocalhost/nocalhost) | [![GitHub release](https://img.shields.io/github/release/nocalhost/nocalhost.svg?label=release)](https://github.com/nocalhost/nocalhost/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/nocalhost/nocalhost/total) | [Edit](config/nocalhost/nocalhost.yml) |
