@@ -1,0 +1,10 @@
+filename: "{{.Name}}-{{.VersionNum}}-{{.OS}}-{{.Arch}}"
+binary: netcfg
+tar: true
+formatOverrides:
+  windows: zip
+  linux: tar.gz
+  darwin: tar.gz
+categories:
+- network
+versionCmd: '--version'
