@@ -1,0 +1,9 @@
+filename: "{{.Name}}_{{.OS}}_{{.Arch}}_v{{.VersionNum}}"
+binary: modbus-hub  # please provide a binary file name if the release filename is not the final one
+tar: true          # if this is a tar file
+formatOverrides:   # set the file extension for different platforms
+  windows: zip
+  linux: tar.gz
+  darwin: tar.gz
+categories:
+- network
