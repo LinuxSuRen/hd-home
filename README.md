@@ -28,7 +28,7 @@ Consider the naming of asset files are not all the same, we collect the projects
 
 ## Available tools
 
-The total number of tools is: 187
+The total number of tools is: 188
 
 
 | Name | Latest | Download | Edit |
@@ -164,6 +164,7 @@ The total number of tools is: 187
 | [minikube](https://github.com/kubernetes/minikube) | [![GitHub release](https://img.shields.io/github/release/kubernetes/minikube.svg?label=release)](https://github.com/kubernetes/minikube/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/kubernetes/minikube/total) | [Edit](config/kubernetes/minikube.yml) |
 | [minio](https://github.com/minio/minio) | [![GitHub release](https://img.shields.io/github/release/minio/minio.svg?label=release)](https://github.com/minio/minio/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/minio/minio/total) | [Edit](config/minio/minio.yml) |
 | [mirrors](https://github.com/linuxsuren/mirrors) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/mirrors.svg?label=release)](https://github.com/linuxsuren/mirrors/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/mirrors/total) | [Edit](config/linuxsuren/mirrors.yml) |
+| [modbus-hub](https://github.com/linuxsuren/modbus-hub) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/modbus-hub.svg?label=release)](https://github.com/linuxsuren/modbus-hub/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/modbus-hub/total) | [Edit](config/linuxsuren/modbus-hub.yml) |
 | [my-dsh-skills](https://github.com/linuxsuren/my-dsh-skills) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/my-dsh-skills.svg?label=release)](https://github.com/linuxsuren/my-dsh-skills/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/my-dsh-skills/total) | [Edit](config/linuxsuren/my-dsh-skills.yml) |
 | [nerdctl](https://github.com/containerd/nerdctl) | [![GitHub release](https://img.shields.io/github/release/containerd/nerdctl.svg?label=release)](https://github.com/containerd/nerdctl/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/containerd/nerdctl/total) | [Edit](config/containerd/nerdctl.yml) |
 | [netcfg](https://github.com/linuxsuren/netcfg) | [![GitHub release](https://img.shields.io/github/release/linuxsuren/netcfg.svg?label=release)](https://github.com/linuxsuren/netcfg/releases/latest) | ![GitHub All Releases](https://img.shields.io/github/downloads/linuxsuren/netcfg/total) | [Edit](config/linuxsuren/netcfg.yml) |
