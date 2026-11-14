@@ -4,6 +4,8 @@ categories:
 - git
 formatOverrides:   # set the file extension for different platforms
   windows: zip
+  darwin: zip
+  linux: tar.gz
 replacements:
   darwin: macOS
 versionCmd: '--version'
