@@ -1,0 +1,10 @@
+filename: "{{.Name}}_{{.OS}}_{{.Arch}}"
+tar: true
+formatOverrides:
+  windows: zip
+  darwin: tar.gz
+  linux: tar.gz
+categories:
+- devops
+- clean
+versionCmd: version
