@@ -1,0 +1,4 @@
+# The official Homebrew formula API, the kind serves darwin by default
+name: homebrew
+kind: brew-api
+apiURL: https://formulae.brew.sh/api

@@ -1,0 +1,8 @@
+# The stable suite of the official Debian mirror, hd consumes the same
+# Packages indexes apt uses
+name: debian-stable
+kind: apt-index
+mirror: https://deb.debian.org/debian
+suite: stable
+components:
+  - main

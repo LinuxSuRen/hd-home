@@ -1,0 +1,4 @@
+# The official Chocolatey community feed, the kind serves windows by default
+name: chocolatey
+kind: choco-api
+apiURL: https://community.chocolatey.org/api/v2
