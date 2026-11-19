@@ -1,5 +1,5 @@
 filename: "{{.Name}}-{{.VersionNum}}-{{.OS}}-{{.Arch}}"
-binary: netcfg
+binary: net-tool
 tar: true
 formatOverrides:
   windows: zip
