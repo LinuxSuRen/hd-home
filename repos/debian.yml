@@ -1,0 +1,9 @@
+# Debian stable archive. hd downloads the same Packages indexes apt
+# reads, verifies the package checksums and installs through dpkg, so
+# the source only serves the linux platform
+name: debian-stable
+kind: apt-index
+mirror: https://deb.debian.org/debian
+suite: stable
+components:
+  - main

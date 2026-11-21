@@ -1,0 +1,6 @@
+# Chocolatey community feed of Windows. hd searches its OData API the
+# same way choco does and installs through the choco CLI, so the source
+# only serves the windows platform
+name: chocolatey
+kind: choco-api
+apiURL: https://community.chocolatey.org/api/v2
